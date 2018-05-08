@@ -1,1 +1,0 @@
-document.querySelector('.but a').onclick = ev => ev.preventDefault();
