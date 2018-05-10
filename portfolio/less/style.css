@@ -40,7 +40,7 @@ a:hover{
 }
 
 .wrap{
-	max-width: 1600px;
+	/* max-width: 1600px; */
 	margin: 0 auto;
 /*
 	border: 1px solid red;*/
@@ -79,7 +79,6 @@ a:hover{
 	display: inline-block;
 	color: white;
 	font-size: 60px;
-	margin: auto;
 	transform: rotate(90deg);
 	border: 1px solid white;
 	border-right: 1px solid red;
@@ -92,7 +91,7 @@ a:hover{
 	animation: paused;
 }
 
-.blackPage{
+.skillsPage{
 	height: 140vh;
 	background: url('../img/yellow.png');
 	position: relative;
@@ -312,7 +311,127 @@ a:hover{
 	background-repeat: no-repeat;
 }
 
+.fifth {
+	background: url('../img/Agency.png');
+	background-position: 50% 50%;
+	background-size: 160%;
+	background-repeat: no-repeat;
+}
+
 .mePage {
 	height: 100vh;
-	background: #999;
+	background: white;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.middleBlock {
+	width: 100%;
+	height: 100%;
+	background: rgba(19, 19, 180);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.middleLeftBlock {
+	height: 80%;
+	width: 520px;
+	background: white;
+	text-align: center
+}
+
+.middleRightBlock {
+	height: 80%;
+	width: 520px;
+	background: white;
+	text-align: center
+}
+
+.leftBlock {
+	background: rgba(19, 19, 180);
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	z-index: 3;
+	left: -46.3%;
+	transition: 1s;
+}
+
+.leftBlock .openLeft {
+	width: 50px;
+	height: 75px;
+	background: transparent;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 45%;
+	color: whitesmoke;
+	border-left: 3px solid whitesmoke;
+	border-top: 3px solid whitesmoke;
+	border-bottom: 3px solid whitesmoke;
+	font-size: 3em;
+	user-select: none;
+}
+
+.leftBlock .infoLeft {
+	background: transparent;
+	border: 2px solid whitesmoke;
+	width: 540px;
+	height: 550px;
+	margin: 40px 40px 40px 40px;
+}
+
+.rightBlock {
+	background: rgba(19, 19, 180);
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: -56.2%;
+	transition: 1s;
+}
+
+.rightBlock .openRight {
+	width: 50px;
+	height: 75px;
+	background: transparent;
+	cursor: pointer;
+	position: absolute;
+	top: 45%;
+	color: whitesmoke;
+	border-left: 3px solid whitesmoke;
+	border-top: 3px solid whitesmoke;
+	border-bottom: 3px solid whitesmoke;
+	font-size: 3em;
+	transform: rotate(180deg);
+	user-select: none;
+}
+
+.rightBlock .infoRightOne {
+	background: transparent;
+	border: 2px solid whitesmoke;
+	width: 560px;
+	height: 270px;
+	margin: 40px 90px 10px;
+}
+
+.rightBlock .infoRightTwo {
+	background: transparent;
+	border: 2px solid whitesmoke;
+	width: 560px;
+	height: 260px;
+	margin: 20px 90px;
+}
+
+.clickedLeft {
+	transform: translateX(90.9%);
+	transition: 1.2s;
+}
+
+.clickedRight {
+	right: 0;
+	transform: translateX(15%);
+	transition: 1.2s;
 }
