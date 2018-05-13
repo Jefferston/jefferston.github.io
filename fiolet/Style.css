@@ -1,0 +1,594 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto","Hammersmith One",sans-serif;
+}
+html,body{
+	width: auto;
+}
+a{
+	color: inherit;
+	transition: 0.3s;
+}
+a:hover{
+	opacity: 0.6;
+}
+@font-face{
+	font-family: "Hammersmith One";
+	font-style: normal;
+	font-weight: 400;
+}
+/*.poxel-perfect {
+position: absolute;
+top:0;
+left:50%;
+margin-left:-800px;
+opacity: 0.2;
+z-index:999;
+}*/
+.part1{
+	background: url(img/overlay.png);
+	background-position: 0 50%;
+	width: auto;
+	margin-bottom: 50px;
+	border: 1px solid transparent;
+	text-align: center;
+}
+.wrap{
+	max-width: 1600px;
+	margin: 0 auto;
+
+	/* border: 1px solid red; */
+} 
+.header{
+	z-index: 2;
+	background: #666;
+	max-width: 960px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: fixed;
+	background: rgba(51,51,102,0.3) /*transparent*/;
+	border-radius: 14px;
+
+	/*border: 1px solid red;*/
+}
+.header ul{
+	margin: -52px 0 30px 382px;
+}
+.header li{
+	display: inline-block;
+	font-size: 11px;
+	padding-left: 30px;
+	text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.header li a{
+	color: rgb(255, 255, 255);
+}
+.header ul span{
+	color: rgb(0, 224, 208);
+}
+.word{
+	margin: 15px 0 15px 10px;
+	color: rgb(64, 162, 197);
+	text-align: left;
+	background: url(Logo/tajam.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 50px;
+}
+.article{
+	/*border: 1px solid red;*/
+
+	color: rgb(255,255,255);
+	z-index: 2;
+	max-width: 772px;
+	margin: 223px auto 0;
+	text-align: center;
+}
+.article h1{
+	font-family: "PlayfairDisplay";
+	font-size: 34px;
+}
+.article h1:after{
+	content: "";
+	display: block;
+	background: rgb(126, 223, 207);
+	width: 50px;
+	height: 1px;
+	margin: 14px auto -3px;
+}
+.article p{
+	margin-bottom: 30px;
+	line-height: 1.8;
+	word-spacing: 2px;
+	font-size: 14px;
+}
+.but{
+	border: 1px solid rgb(0, 224, 208);
+	border-radius: 2px;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	font-size: 0.66rem;
+	border-radius: 3px;
+	margin-top: 16px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+.but{
+	color: rgb(0, 224, 208);
+	font-family: "Hammersmith One";
+	font-size: 15px;
+}
+.dots{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: transparent;
+	border-radius: 50%;
+	margin: 122px 1px 65px;
+	border: 1px solid white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.dots:hover{
+	background: rgb(0, 224, 208);
+}
+
+.part2{
+	background: white;
+}
+.banner{
+	/*border: 1px solid red;*/
+
+	text-align: center;
+	padding-top: 22px;
+}
+.subbanner{
+	max-width: 600px;
+	margin: 1px auto 40px;
+	text-align: center;
+
+	/*border: 1px solid black;*/
+}
+.subbanner h2{
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	font-family: "PlayfairDisplay";
+	color: rgb(66, 63, 76);
+}
+.subbanner p{
+	margin-bottom: 7px;
+	font-family: "PlayfairDisplay";
+	color: rgba(50, 49, 56, 0.749);
+	word-spacing: 5px;
+}
+.subbanner:after{
+	content: "";
+	background: rgb(198, 197, 201);
+	width: 50px;
+	height: 2px;
+	display: inline-block;
+}
+.adds{
+	/*border: 1px solid black;*/
+
+	max-width: 960px;
+	margin: 0 auto;
+}
+.add{
+	box-sizing: border-box;
+	display: inline-block;
+	border-top: 1px solid rgb(198, 197, 201);
+	border-right: 1px solid rgb(198, 197, 201);
+	max-width: 320px;
+	text-align: center;
+	padding: 34px 40px 20px;
+	margin-right: -3px;
+	min-height: 250px;
+
+	vertical-align: top;
+}
+.add:nth-child(1),
+.add:nth-child(2),
+.add:nth-child(3){
+	border-top: 0;
+}
+.add:nth-child(3n){
+	border-right: 0;
+	padding-left: 60px;
+}
+.add h4:nth-child(1),
+.add h4:nth-child(2),
+.add h4:nth-child(3){
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+.sprite {
+    background-image: url(icons/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sprite-icon1 {
+    width: 150px;
+    height: 50px;
+    background-position: -20px -100px;
+}
+
+.sprite-icon2 {
+    width: 150px;
+    height: 50px;
+    background-position: -265px -100px;
+}
+
+.sprite-icon3 {
+    width: 150px;
+    height: 50px;
+    background-position: -509px -100px;
+}
+
+.sprite-icon4 {
+    width: 150px;
+    height: 50px;
+    background-position: -747px -100px;
+}
+
+.sprite-icon5 {
+    width: 150px;
+    height: 50px;
+    background-position: -990px -100px;
+}
+
+.sprite-icon6 {
+    width: 150px;
+    height: 50px;
+    background-position: -1238px -100px;
+}
+
+.add h4{
+	font-family: "Roboto";
+	color: rgb(66, 63, 76);
+	font-size: 15px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+.add p{
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgba(54, 54, 54, 0.749);
+	line-height: 1.5;
+	padding-top: 10px;
+}
+
+.part3{
+	background: url(img/overlay2.png);
+	text-align: center;
+}
+.banner2{
+	/*border: 1px solid red;*/
+
+	text-align: center;
+	margin-top: 62px;
+	padding-top: 70px;
+	margin-bottom: 30px;
+}
+.subbanner2{
+	max-width: 620px;
+	margin: 0px auto 0px;
+	text-align: center;
+
+	/*border: 1px solid black;*/
+}
+.subbanner2:after{
+	background: rgb(155, 155, 155);
+	width: 50px;
+	height: 2px;
+	display: inline-block;
+	content: "";
+}
+.subbanner2 h2{
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-family: "PlayfairDisplay";
+	color: rgb(255, 255, 255);
+	font-size: 22px;
+}
+.subbanner2 p{
+	margin-bottom: 0px;
+	font-family: "PlayfairDisplay";
+	color: rgb(249, 249, 249);
+	word-spacing: 2;
+	font-size: 17px;
+	word-spacing: 3px;
+}
+.team{
+	/*border: 1px solid red;*/
+
+	max-width: 960px;
+	margin: 45px auto 0px;
+	/*padding: 0 -10%;*/
+}
+.employ{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 226px;
+	height: 308px;
+	margin: 0 0.5%;
+	text-align: center;
+	line-height: 1.7;
+
+	border: 1px solid rgba(224, 224, 224, 0.5);
+}
+.employ h4{
+	font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    padding-top: 18px;
+    font-size: 13px;
+    word-spacing: 8px;
+}
+.employ p{
+	font-family: "Roboto";
+    color: rgba(250, 250, 250, 0.702);
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.bg{
+	background: white;
+	height: 75%;
+}
+.joinUs{
+	padding-top: 70px;
+	font-family: "Roboto";
+    color: rgb(203, 203, 203);
+    font-size: 14px;
+    word-spacing: 3px;
+}
+.but2{
+	border: 1px solid rgb(0, 224, 208);
+	border-radius: 2px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+	font-size: 0.66rem;
+	border-radius: 3px;
+	margin-top: 28px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 120px;
+	display: inline-block;
+	margin-bottom: 68px;
+}
+.but2{
+	color: rgb(0, 224, 208);
+	font-family: "Hammersmith One";
+	font-size: 15px;
+}
+
+.part4{
+	background: white;
+	text-align: center;
+}
+.text{
+	/*border: 1px solid red;*/
+
+	margin-top: 65px;
+}
+.our{
+	text-transform: uppercase;
+	font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(66, 63, 76);
+    font-weight: bold;
+}
+.see{
+	margin-left: 605px;
+	font-family: "Roboto";
+    color: rgb(66, 63, 76);
+    cursor: pointer;
+    font-size: 15px;
+}
+.see:after{
+	content: url(Logo/needle.png);
+	margin-left: 8px;
+}
+.wrapper{
+	/*border: 1px solid black;*/
+	
+	box-sizing: border-box;
+	margin-top: 70px;
+	margin-left: -5px;
+	overflow: hidden;
+}
+.works{
+	/*border: 1px solid pink;*/
+
+	display: block;
+	width: auto;
+	max-width: 1600px;
+	box-sizing: border-box;
+}
+.emg{
+	width: 16.666666%;
+	margin: -3px;
+	display: inline-block;
+}
+.projects{
+	/*border: 1px solid pink;*/
+	
+	display: block;
+	width: auto;
+	max-width: 1600px;
+	box-sizing: border-box;	
+}
+.but3{
+	border: 1px solid rgb(126, 223, 207);
+	border-radius: 2px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+	font-size: 0.66rem;
+	border-radius: 3px;
+	margin-top: 20px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 115px;
+	display: inline-block;
+	margin-top: 65px;
+	margin-bottom: 70px;
+}
+.but3{
+	color: rgb(126, 223, 207);
+	font-family: "Hammersmith One";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.part5{
+	background: url(img/overlay3.png);
+	background-position: 0% 100%;
+}
+.footer{
+	/*border: 1px solid red;*/
+
+	max-width: 962px;
+	margin: 0 auto;
+	padding-top: 76px;
+	line-height: 1.8;
+	padding-bottom: 30px;
+}
+.footer h4{
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: -13px;
+}
+.footer p{
+	font-family: "Roboto";
+    color: rgb(205, 205, 205);
+    font-size: 15px;
+}
+.footer ul{
+	margin-top: 30px;
+}
+.footer li{
+	display: inline-block;
+	font-family: "Roboto";
+    color: rgb(205, 205, 205);
+    font-size: 14px;
+    margin-right: 36px;
+    margin-bottom: 32px;
+}
+.footer li:nth-child(4){
+	margin-left: 380px;
+	margin-right: 0;
+}
+.footer p img{
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.footer p:nth-child(3){
+	margin-left: 25px;
+}
+.footer p:nth-child(4){
+	margin-left: 25px;
+	margin-bottom: 8px;
+}
+.block{
+	/*border: 1px solid red;*/
+
+	display: inline-block;
+	max-width: 295px;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding-top: 26px;
+	padding-left: 4px;
+	margin-right: 55px;
+
+}
+.block:first-child{
+	margin-right: 19px;
+}
+.block:nth-child(3){
+	margin-right: 0;
+}
+.tajam2{
+	margin: -21px 0 15px 0px;
+	background: url(Logo/tajam.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 50px;
+}
+.input{
+	text-align: center;
+	height: 38px;
+	width: 210px;
+	vertical-align: top;
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.8);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.button{
+	margin-top: 8px;
+	cursor: pointer;
+	transition: 0.3s;
+	width: 68px;
+	height: 42px;
+	background: url(Logo/send.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid rgba(255, 255, 255,0.5);
+	background: rgba(255, 255, 255,0.8) 
+				url(Logo/send.png) 
+				no-repeat center;
+}
+.button:hover{
+	background: rgba(255, 255, 255,0.5) 
+				url(Logo/send.png) 
+				no-repeat center;
+}
+.logo{
+	border: 1px solid white;
+	background: transparent;
+	margin: 23px 3px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	transition: 0.3s;
+}
+.logo1{
+	background: url(Logo/fb.png) no-repeat center;
+	border-radius: 50%
+}
+.logo2{
+	background: url(Logo/tw.png) no-repeat center;
+	border-radius: 50%
+}
+.logo3{
+	background: url(Logo/db.png) no-repeat center;
+	border-radius: 50%
+}
+.logo4{
+	background: url(Logo/inst.png) no-repeat center;
+	border-radius: 50%
+}
+.logo5{
+	background: url(Logo/gl.png) no-repeat center;
+	border-radius: 50%
+}
+.logo6{
+	background: url(Logo/you.png) no-repeat center;
+	border-radius: 50%
+}
