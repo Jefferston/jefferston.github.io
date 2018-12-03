@@ -10,7 +10,7 @@ const gulp = require('gulp'),
 
 // задачи, после которых обработанный файл попадает в папку с проектом
 gulp.task('build', function(){
-	return gulp.src('./less/*.less') 
+	return gulp.src('./less/*.css') 
 		.pipe(sourcemap.init())
 		.pipe(less())
 		.pipe(autoprefixer({
@@ -19,7 +19,7 @@ gulp.task('build', function(){
         }))
         .pipe(cleanCSS())
         .pipe(sourcemap.write('./maps'))
-		.pipe(gulp.dest('css')) 
+		.pipe(gulp.dest('./css')) 
 		.pipe(browserSync.reload({
 			stream: true
 		}));

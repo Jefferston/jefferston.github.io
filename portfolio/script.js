@@ -1,14 +1,17 @@
-document.querySelector('.but a').onclick = ev => ev.preventDefault();
+let descs = document.querySelectorAll('.description');
+let closeButs = document.querySelectorAll('.descBlock button');
 
-let leftBlock = document.querySelector('.leftBlock');
-let rightBlock = document.querySelector('.rightBlock');
-let openLeftBlock = document.querySelector('.openLeft');
-let openRightBlock = document.querySelector('.openRight');
+for (let desc of descs) {
+    desc.addEventListener('click', (e) => {
+        e.preventDefault();
+    
+        desc.nextElementSibling.style.visibility = 'visible';
+    });
+}
 
-openLeftBlock.addEventListener('click', ev => {
-    leftBlock.classList.toggle('clickedLeft');
-});
+for (let closeBut of closeButs) {
+    closeBut.addEventListener('click', (e) => {
 
-openRightBlock.addEventListener('click', ev => {
-    rightBlock.classList.toggle('clickedRight');
-})
+        closeBut.parentElement.style.visibility = 'hidden';
+    });
+}
