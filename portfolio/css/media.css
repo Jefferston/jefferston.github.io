@@ -1,20 +1,41 @@
 @media screen and (min-width: 1600px) {
-    .welcome p:nth-child(3){
-        margin-top: 300px;
-        margin-bottom: 70px;
-    }
 
     .catalotItems {
         margin: 150px 20%;
     }
 
     .subskills {
-        left: 70%;
+        left: 60%;
         top: 120px;
     }
 
     .skills {
-        left: 71%;
+        left: 61%;
         top: 120px
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .catalog {
+        height: 800px;
+    }
+
+    .catalotItems h1 {
+        display: none;
+    }
+
+    .techs {
+        display: none;
+    }
+
+    .subskills {
+        left: 26%;
+        top: 180px;
+    }
+
+    .skills {
+        left: 29%;
+        top: 180px
     }
 }
