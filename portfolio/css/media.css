@@ -20,3 +20,18 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .cvEdu {
+        display: block;
+        margin-bottom: -100px;
+    }
+    .cvEdu div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* .cvEdu div:nth-child(2){
+        display: none;
+    } */
+}
