@@ -342,6 +342,7 @@ a:hover{
 	font-family: 'Ranga', cursive;
 	font-size: 28px;
 	width: 100%;
+	border-radius: 0;
 }
 
 .descBlock p {
