@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  /* background: #0079BF; */
+  /* background: rgb(0, 144, 192); */
+  background: url('./images/fon.jpg');
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 10px auto;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  /* background: #0079BF; */
+  /* background: rgb(0, 144, 192); */
+  background: transparent;
+  border-radius: 3px;
+  /* border-left: 1px solid antiquewhite;
+  border-right: 1px solid antiquewhite; */
+}
+
+.container {
+  width: 250px;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  margin: 20px 0;
+
+}
+
+.container img {
+  border-radius: 20%;
+  border: 2px solid black;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Helvetica Neue";
+  color: black;
+}
+
+form input{
+  height: 80px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 3px;
+  background: transparent;
+  border: 3px solid #0079BF;
+  color: white;
+}
+
+form .add-button{
+  height: 60px;
+  width: 100%;
+  border-radius: 2px;
+  background: #0079BF;
+  border: 1px solid #0079BF;
+  cursor: pointer;
+  color: white;
+}
+
+.listItem {
+  border: 1px solid grey;
+  background:  #0079BF;
+  margin: 10px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+  height: 60px;
+  border-radius: 3px;
+  font-family: "Helvetica Neue";
+  font-size: 1.1rem;
+  color: black;
+}
+
+.listItem img {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.listItem:active {
+  background: lightgreen;
+}
+
+.delete-button {
+  width: 20px;
+  height: 20px;
+}
+
+/* .first .listItem::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url('./images/jake.png');
+  background-size: cover;
+  border-radius: 50%;
+} */
+
+/* .first img {
+  background-image: url('./images/jake.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 128px;
+}
+
+.chat img {
+  background-image: url('./images/buble.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 10%;
+  height: 128px;
+  width: 50%;
+}
+
+.last img {
+  background-image: url('./images/finn.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10% 30%;
+  height: 128px;
+} */
+
+.chat {
+  width: 380px;
+  align-items: center;
+}
+
+.chat .listItem {
+  width: 360px;
+  height: 80px;
+}
+
+.chat .listItem img{
+  display: inline-block;
+}
+
+.chat form {
+  display: none;
+}
