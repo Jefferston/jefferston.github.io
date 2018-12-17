@@ -320,6 +320,13 @@ a:hover{
 	background-repeat: no-repeat;
 }
 
+.fourth {
+	background: url('../img/Adventure.png');
+	background-position: 50% 70%;
+	background-size: 160%;
+	background-repeat: no-repeat;
+}
+
 .descBlock {
 	background: rgb(228, 228, 228);
 	width: 80%;
