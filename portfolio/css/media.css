@@ -51,6 +51,14 @@
     .fourth {
         transform: rotateY(0);
     }
+
+    footer {
+        margin: 0;
+    }
+
+    footer a {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 900px) {
