@@ -330,13 +330,13 @@ a:hover{
 	margin-bottom: 30px;
 	border-radius: 30px;
 	border-bottom: 3px solid #000;
-	border-top: 3px solid transparent;
+	border-top: 3px solid #000;
 	z-index: 3;
 }
 
 .product:hover {
 	opacity: 1;
-	border-top: 3px solid #000;
+	border-top: 3px solid transparent;
 }
 
 .first {
@@ -384,14 +384,14 @@ a:hover{
 	background-size: 170%;
 	background-repeat: no-repeat;
 	border-top: 3px solid #000;
-	border-bottom: 3px solid transparent;
 	transform: rotateY(20deg);
 }
 
 .fourth:hover {
 	transform: rotateY(0);
 	background-position: 50% 50%;
-	border-bottom: 3px solid #000;
+	border-bottom: 3px solid transparent;
+	border-top: 3px solid #000;
 }
 
 .descBlock {
