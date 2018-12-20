@@ -19,6 +19,38 @@
     .skillsPage {
         display: none;
     }
+
+    .description {
+        opacity: 1;
+    }
+
+    .first {
+        background-position: 50% 50%;
+    }
+    .second {
+        background-position: 20% 50%;
+    }
+    .third {
+        background-position: 0% 60%;
+    }
+    .fourth {
+        background-position: 50% 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .first {
+        transform: rotateY(0);
+    }
+    .second {
+        transform: rotateX(0);
+    }
+    .third {
+        transform: rotateY(0);
+    }
+    .fourth {
+        transform: rotateY(0);
+    }
 }
 
 @media screen and (max-width: 900px) {

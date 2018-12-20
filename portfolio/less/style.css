@@ -4,6 +4,22 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+	width: 12px;
+	background: #eee;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #aaa;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
 body{
 	/* background: #02918c; */
 	font-family: 'Merriweather Sans', sans-serif;
@@ -130,7 +146,6 @@ a:hover{
 	background: white;
 	border-radius: 100px;
 	margin: 10px;
-	cursor: pointer;
 }
 
 .tech:first-child {
@@ -274,63 +289,116 @@ a:hover{
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 1100px;
+	max-width: 1000px;
 	/* border: 3px solid black; */
 	border-radius: 20px;
 }
 
 .projectPage .container .wrapper {
-	width: 230px;
-	height: 250px;
-	/* background: #eee; */
-	margin: 30px;
+	width: 280px;
+	height: 280px;
+	margin: 20px;
+	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	perspective: 500px;
+	position: relative;
+	/* border: 3px solid black; */
+}
+
+.projectPage .container .wrapper::before {
+	content: 'Take a look';
+	color: wheat;
+	position: absolute;
+	top: 30%;
+	font-family: 'Ranga', cursive;
+	font-size: 1.7rem;
+}
+
+.projectPage .container .wrapper:hover .description {
+	opacity: 1;
+	transition: 1s;
 }
 
 .product {
-	width: 220px;
-	height: 220px;
+	width: 250px;
+	height: 250px;
 	background: url('../img/coming.png');
 	background-position: 50% 50%;
-	background-size: 110%;
+	background-size: 130%;
 	margin-bottom: 30px;
 	border-radius: 30px;
+	border-bottom: 3px solid #000;
+	border-top: 3px solid transparent;
+	z-index: 3;
+}
+
+.product:hover {
+	opacity: 1;
+	border-top: 3px solid #000;
 }
 
 .first {
 	background: url('../img/Agency.png');
-	background-position: 50% 50%;
-	background-size: 160%;
+	background-position: 50% -500%;
+	background-size: 180%;
 	background-repeat: no-repeat;
+	transform: rotateY(20deg);
+}
+
+.first:hover {
+	transform: rotateY(0);
+	background-position: 50% 50%;
 }
 
 .second {
 	background: url('../img/Сервер.png');
-	background-position: 20% 50%;
-	background-size: 200%;
+	background-position: 20% -750%;
+	background-size: 210%;
 	background-repeat: no-repeat;
+	transform: rotateX(-20deg);
+}
+
+.second:hover {
+	transform: rotateX(-5deg);
+	background-position: 20% 50%;
 }
 
 .third {
 	background: url('../img/Blog.png');
-	background-position: 0% 60%;
-	background-size: 220%;
+	background-position: 0% -2800%;
+	background-size: 230%;
 	background-repeat: no-repeat;
+	transform: rotateY(-20deg);
+}
+
+.third:hover {
+	transform: rotateY(0);
+	background-position: 0% 0%;
 }
 
 .fourth {
 	background: url('../img/Adventure.png');
-	background-position: 50% 70%;
-	background-size: 160%;
+	background-position: 50% 1150%;
+	background-size: 170%;
 	background-repeat: no-repeat;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid transparent;
+	transform: rotateY(20deg);
+}
+
+.fourth:hover {
+	transform: rotateY(0);
+	background-position: 50% 50%;
+	border-bottom: 3px solid #000;
 }
 
 .descBlock {
 	background: rgb(228, 228, 228);
 	width: 80%;
 	height: 80%;
+	z-index: 20;
 	border-radius: 5px;
 	z-index: 5;
 	position: fixed;
@@ -340,6 +408,7 @@ a:hover{
 	font-family: 'Ranga', cursive;
 	font-size: 28px;
 	text-align: center;
+	perspective-origin: 00px;
 }
 
 .descBlock button {
@@ -360,6 +429,9 @@ a:hover{
 
 .description {
 	color: wheat;
+	z-index: 5;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 .see {
