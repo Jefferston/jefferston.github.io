@@ -21,9 +21,8 @@
 }
 
 body{
-	/* background: #02918c; */
 	font-family: 'Merriweather Sans', sans-serif;
-	background: url('../img/yellow.png');
+	background: url(../img/yellow.png);
 }
 
 a{
@@ -37,15 +36,20 @@ a:hover{
 	opacity: .5;
 }
 
-.mainPage{
+.wrapPage {
 	background: url(../img/space.png);
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mainPage{
+	/* background: url(../img/space.png); */
+	background-repeat: no-repeat;
 	margin: 0 auto;
-	height: 100vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	/* color: rgba(204, 205, 51, 0.9); */
 	color: wheat;
 	align-items: center;
 	justify-content: center;
@@ -54,7 +58,7 @@ a:hover{
 .welcome{
 	text-align: center;
 	max-width: 70%;
-	margin-top: -50px;
+	margin-top: 200px;
 }
 
 .welcome h1 span{
@@ -92,33 +96,23 @@ a:hover{
 	100% {opacity: 1;}
 }
 
-
-
-
-
-.spanPage {
-	background: url('../img/yellow.png');
-	border-bottom: 1px solid #000;
-	color: rgb(71, 64, 64);
-}
-
 .spanContent {
-	margin: 30px auto;
+	color: wheat;
+	min-height: 100vh;
+	margin: 300px auto 0;
 	max-width: 1200px;
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: center;	
 	/* border: 1px solid #000; */
 }
 
 .contentCenter {
-	border: 1px solid #000;
+	/* border-bottom: 1px solid #F0650D; */
 	padding: 20px;
-	margin: 10px;
-	background: pink;
-	border-radius: 10px;
+	/* background: #173F5F; */
 	position: relative;
 }
 
@@ -131,15 +125,11 @@ a:hover{
 	font-size: 2.5rem;
 }
 
-.contentCenter p{
-	font-size: 1.5rem;
-}
-
 .contentBlock {
-	border: 1px solid #000;
+	/* border-bottom: 1px solid #F0650D; */
 	width: 280px;
 	height: 420px;
-	background: cyan;
+	/* background: #173F5F; */
 	border-radius: 10px;
 	position: relative;
 	margin-bottom: 20px;
@@ -441,7 +431,7 @@ a:hover{
 	border-radius: 20px;
 }
 
-.projectPage .container .wrapper {
+.wrapper {
 	width: 280px;
 	height: 280px;
 	margin: 20px;
@@ -454,7 +444,7 @@ a:hover{
 	/* border: 3px solid black; */
 }
 
-.projectPage .container .wrapper::before {
+.wrapper::before {
 	content: 'Take a look';
 	color: wheat;
 	position: absolute;
@@ -463,7 +453,7 @@ a:hover{
 	font-size: 1.7rem;
 }
 
-.projectPage .container .wrapper:hover .description {
+.wrapper:hover .description {
 	opacity: 1;
 	transition: 1s;
 }

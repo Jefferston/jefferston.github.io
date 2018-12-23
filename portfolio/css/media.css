@@ -37,9 +37,16 @@
         background-position: 50% 70%;
     }
 
+    .mainPage {
+        height: 100vh;
+    }
+
+    .welcome {
+        margin-top: -50px;
+    }
 
     .contentCenter{
-        margin: 20px 150px;
+        margin: 0px 150px;
     }
 
     .contentFirst {
@@ -48,7 +55,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-
+    .spanContent {
+        margin: 0;
+    }
+    
     .first {
         transform: rotateY(0);
     }
@@ -73,6 +83,7 @@
 
 
 @media screen and (max-width: 730px) {
+
     .cvEdu {
         display: block;
         margin-bottom: -100px;
@@ -83,6 +94,6 @@
     }
 
     .contentCenter{
-        margin: 20px 0px;
+        margin: 0px 0px;
     }
 }
