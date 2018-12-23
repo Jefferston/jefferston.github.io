@@ -37,36 +37,14 @@ a:hover{
 	opacity: .5;
 }
 
-.portfolio{
-	height: 62px;
-	background: #444753;
-	display: flex;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: center;
-	color: #FE6F61;
-}
-
-.logo{
-	text-transform: uppercase;
-	font-size: 1.8em;
-	margin-left: 40px;
-}
-
-.logo span{
-	color: #ccff33;
-}
-
-.wrap{
-	margin: 0 auto;
-} 
-
-.main{
+.mainPage{
 	background: url(../img/space.png);
 	background-repeat: no-repeat;
-	height: 95vh;
+	margin: 0 auto;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 	/* color: rgba(204, 205, 51, 0.9); */
 	color: wheat;
 	align-items: center;
@@ -76,23 +54,23 @@ a:hover{
 .welcome{
 	text-align: center;
 	max-width: 70%;
-	margin-top: -100px;
+	margin-top: -50px;
 }
 
 .welcome h1 span{
-	animation: greeting 2s linear;
+	animation: greeting 1.5s linear;
 	font-size: 50px;
 }
 
 .welcome h1 span span{
-	animation: greeting 4s linear;
+	animation: greeting 3.5s linear;
 	font-size: 50px;
 }
 
 .welcome h1 p{
 	font-size: 50px;
 	display: inline-block;
-	animation: greeting 4s linear;
+	animation: greeting 3.5s linear;
 }
 
 .welcome h1{
@@ -103,7 +81,7 @@ a:hover{
 .welcome p{
 	font-size: 1.2em;
 	margin-bottom: 5px;
-	animation: greeting 6s linear;
+	animation: greeting 5s linear;
 }
 
 @keyframes greeting {
@@ -116,11 +94,129 @@ a:hover{
 
 
 
-.skillsPage{
+
+
+.spanPage {
 	background: url('../img/yellow.png');
+	border-bottom: 1px solid #000;
+	color: rgb(71, 64, 64);
+}
+
+.spanContent {
+	margin: 30px auto;
+	max-width: 1200px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	/* border: 1px solid #000; */
+}
+
+.contentCenter {
+	border: 1px solid #000;
+	padding: 20px;
+	margin: 10px;
+	background: pink;
+	border-radius: 10px;
+	position: relative;
+}
+
+.contentCenter img {
+	/* border: 1px solid #000; */
+	opacity: 1;
+}
+
+.contentCenter h1{
+	font-size: 2.5rem;
+}
+
+.contentCenter p{
+	font-size: 1.5rem;
+}
+
+.contentBlock {
+	border: 1px solid #000;
+	width: 280px;
+	height: 420px;
+	background: cyan;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.contentBlock h2 {
+	margin-top: 20px;
+}
+
+.contentBlock img {
+	width: 160px;
+}
+
+.contentFirst img {
+	width: 270px;
+}
+
+.contentFirst::before {
+	content: 'Knows how to entertain you';
+	width: 150px;
+	height: 50px;
+	/* background: blueviolet; */
+	position: absolute;
+	top: 120px;
+	right: 10px;
+}
+
+.contentLast::before {
+	content: 'Knows how to entertain you';
+	width: 150px;
+	height: 50px;
+	/* background: blueviolet; */
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}
+
+.contentLast::after {
+	content: 'Knows how to entertain you';
+	width: 150px;
+	height: 50px;
+	/* background: blueviolet; */
+	position: absolute;
+	bottom: 40px;
+	right: -10px;
+}
+
+.contentCenter::before {
+	content: 'Knows how to entertain you';
+	width: 150px;
+	height: 50px;
+	/* background: blueviolet; */
+	position: absolute;
+	top: 250px;
+	right: 20px;
+	font-size: 1.1rem;
+	transform: rotate(10deg)
+}
+
+.contentCenter::after {
+	content: 'Knows how to entertain you';
+	width: 150px;
+	height: 50px;
+	/* background: blueviolet; */
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	font-size: 1.1rem;
+	transform: rotate(-20deg)
+}
+
+
+
+.skillsPage{
 	position: relative;
 	overflow: hidden;
-	margin: auto;
+	margin: -60px auto;
 }
 
 .catalog {
@@ -240,7 +336,7 @@ a:hover{
 	height: 700px;
 	width: 500px;
 	position: absolute;
-	top: 30px;
+	top: 100px;
 	left: 60%;
 	border-radius: 10px;
 	box-shadow: 0 14px 35px 0 rgba(0,0,0,.28);
@@ -253,7 +349,7 @@ a:hover{
 	height: 700px;
 	width: 500px;
 	position: absolute;
-	top: 30px;
+	top: 100px;
 	left: 62%;
 	border-radius: 10px;
 	box-shadow: 0 12px 9px 0 rgba(0,0,0,.2);
