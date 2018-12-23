@@ -79,8 +79,23 @@ a:hover{
 	margin-top: -100px;
 }
 
+.welcome h1 span{
+	animation: greeting 2s linear;
+	font-size: 50px;
+}
+
+.welcome h1 span span{
+	animation: greeting 4s linear;
+	font-size: 50px;
+}
+
+.welcome h1 p{
+	font-size: 50px;
+	display: inline-block;
+	animation: greeting 4s linear;
+}
+
 .welcome h1{
-	font-size: 45px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -88,8 +103,16 @@ a:hover{
 .welcome p{
 	font-size: 1.2em;
 	margin-bottom: 5px;
+	animation: greeting 6s linear;
 }
 
+@keyframes greeting {
+	0% {opacity: 0;}
+	25% {opacity: 0;}
+	50% {opacity: 0;}
+	75% {opacity: 0;}
+	100% {opacity: 1;}
+}
 
 
 
@@ -153,6 +176,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 2s infinite ease-in;
 }
 
 .tech:nth-child(2) {
@@ -160,6 +184,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 3s infinite ease-in;
 }
 
 .tech:nth-child(3) {
@@ -167,6 +192,7 @@ a:hover{
 	background-size: 170%;
 	background-position: 90% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 3.5s infinite ease;
 }
 
 .tech:nth-child(4) {
@@ -174,6 +200,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 1s infinite ease-in;
 }
 
 .tech:nth-child(5) {
@@ -181,6 +208,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 2s infinite linear;
 }
 
 .tech:nth-child(6) {
@@ -188,6 +216,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 2.5s infinite linear;
 }
 
 .tech:nth-child(7) {
@@ -195,6 +224,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 2s infinite ease-in;
 }
 
 .tech:nth-child(8) {
@@ -202,6 +232,7 @@ a:hover{
 	background-size: 60%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: skillsMove 3s infinite ease-in;
 }
 
 .subskills {
@@ -214,6 +245,7 @@ a:hover{
 	border-radius: 10px;
 	box-shadow: 0 14px 35px 0 rgba(0,0,0,.28);
 	z-index: 1;
+	animation: skillsMove 4s infinite linear;
 }
 
 .skills {
@@ -226,6 +258,11 @@ a:hover{
 	border-radius: 10px;
 	box-shadow: 0 12px 9px 0 rgba(0,0,0,.2);
 	z-index: 3;
+	animation: skillsMove 2s infinite linear;
+}
+
+.skills:hover {
+	animation: none;
 }
 
 .skills h1 {
@@ -265,6 +302,20 @@ a:hover{
 
 .skills .lang li {
 	margin: 30px 0;
+}
+
+@keyframes skillsMove {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
 }
 
 
@@ -400,7 +451,7 @@ a:hover{
 	height: 80%;
 	z-index: 20;
 	border-radius: 5px;
-	z-index: 5;
+	z-index: 15;
 	position: fixed;
 	left: 9%;
 	top: 10%;
