@@ -53,6 +53,7 @@ a:hover{
 	color: wheat;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 .welcome{
@@ -62,19 +63,21 @@ a:hover{
 }
 
 .welcome h1 span{
-	animation: greeting 1.5s linear;
+	animation: fromLeft 1.5s linear;
 	font-size: 50px;
+	position: relative;
 }
 
 .welcome h1 span span{
-	animation: greeting 3.5s linear;
+	animation: greeting 2s linear;
 	font-size: 50px;
 }
 
 .welcome h1 p{
 	font-size: 50px;
 	display: inline-block;
-	animation: greeting 3.5s linear;
+	animation: fromRight 2.5s linear;
+	position: relative;
 }
 
 .welcome h1{
@@ -85,15 +88,25 @@ a:hover{
 .welcome p{
 	font-size: 1.2em;
 	margin-bottom: 5px;
-	animation: greeting 5s linear;
+	animation: greeting 4s linear;
 }
 
 @keyframes greeting {
-	0% {opacity: 0;}
-	25% {opacity: 0;}
-	50% {opacity: 0;}
-	75% {opacity: 0;}
-	100% {opacity: 1;}
+	0% { opacity: 0; }
+	25% { opacity: 0; }
+	50% { opacity: 0; }
+	75% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes fromLeft {
+	0% { left: -2000px; }
+	100% { left: 0; }
+}
+
+@keyframes fromRight {
+	0% { right: -3000px; }
+	100% { right: 0; }
 }
 
 .spanContent {
@@ -106,18 +119,14 @@ a:hover{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;	
-	/* border: 1px solid #000; */
 }
 
 .contentCenter {
-	/* border-bottom: 1px solid #F0650D; */
 	padding: 20px;
-	/* background: #173F5F; */
 	position: relative;
 }
 
 .contentCenter img {
-	/* border: 1px solid #000; */
 	opacity: 1;
 }
 
@@ -126,10 +135,8 @@ a:hover{
 }
 
 .contentBlock {
-	/* border-bottom: 1px solid #F0650D; */
 	width: 280px;
 	height: 420px;
-	/* background: #173F5F; */
 	border-radius: 10px;
 	position: relative;
 	margin-bottom: 20px;
