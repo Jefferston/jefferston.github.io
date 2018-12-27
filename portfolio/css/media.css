@@ -36,22 +36,6 @@
     .fourth {
         background-position: 50% 70%;
     }
-
-    .mainPage {
-        height: 100vh;
-    }
-
-    .welcome {
-        margin-top: -50px;
-    }
-
-    .contentCenter{
-        margin: 0px 150px;
-    }
-
-    .contentFirst {
-        order: 2;
-    }
 }
 
 @media screen and (max-width: 1000px) {

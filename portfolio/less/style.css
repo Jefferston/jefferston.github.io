@@ -36,17 +36,12 @@ a:hover{
 	opacity: .5;
 }
 
-.wrapPage {
+.mainPage{
 	background: url(../img/space.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.mainPage{
-	/* background: url(../img/space.png); */
-	background-repeat: no-repeat;
 	margin: 0 auto;
-	height: 70vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -59,7 +54,7 @@ a:hover{
 .welcome{
 	text-align: center;
 	max-width: 70%;
-	margin-top: 200px;
+	margin-top: -50px;
 }
 
 .welcome h1 span{
@@ -107,105 +102,6 @@ a:hover{
 @keyframes fromRight {
 	0% { right: -3000px; }
 	100% { right: 0; }
-}
-
-.spanContent {
-	color: wheat;
-	min-height: 100vh;
-	margin: 300px auto 0;
-	max-width: 1200px;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;	
-}
-
-.contentCenter {
-	padding: 20px;
-	position: relative;
-}
-
-.contentCenter img {
-	opacity: 1;
-}
-
-.contentCenter h1{
-	font-size: 2.5rem;
-}
-
-.contentBlock {
-	width: 280px;
-	height: 420px;
-	border-radius: 10px;
-	position: relative;
-	margin-bottom: 20px;
-}
-
-.contentBlock h2 {
-	margin-top: 20px;
-}
-
-.contentBlock img {
-	width: 160px;
-}
-
-.contentFirst img {
-	width: 270px;
-}
-
-.contentFirst::before {
-	content: 'Knows how to entertain you';
-	width: 150px;
-	height: 50px;
-	/* background: blueviolet; */
-	position: absolute;
-	top: 120px;
-	right: 10px;
-}
-
-.contentLast::before {
-	content: 'Knows how to entertain you';
-	width: 150px;
-	height: 50px;
-	/* background: blueviolet; */
-	position: absolute;
-	top: 80px;
-	left: 10px;
-}
-
-.contentLast::after {
-	content: 'Knows how to entertain you';
-	width: 150px;
-	height: 50px;
-	/* background: blueviolet; */
-	position: absolute;
-	bottom: 40px;
-	right: -10px;
-}
-
-.contentCenter::before {
-	content: 'Knows how to entertain you';
-	width: 150px;
-	height: 50px;
-	/* background: blueviolet; */
-	position: absolute;
-	top: 250px;
-	right: 20px;
-	font-size: 1.1rem;
-	transform: rotate(10deg)
-}
-
-.contentCenter::after {
-	content: 'Knows how to entertain you';
-	width: 150px;
-	height: 50px;
-	/* background: blueviolet; */
-	position: absolute;
-	top: 160px;
-	left: 10px;
-	font-size: 1.1rem;
-	transform: rotate(-20deg)
 }
 
 
