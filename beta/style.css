@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+main {
+    background: #eee;
+    display: flex;
+    width: 110vw;
+    position: absolute;
+    left: -5%;
+}
+
+.halfs {
+    width: 50%;
+    height: 101vh;
+    transform: matrix(1, 0, -0.08715, 0.99619, 0, 0);
+    cursor: pointer;
+    position: relative;
+}
+
+.first {
+    background: #DDDDDD;
+    display: flex;
+    align-items: center;
+}
+
+.projPage {
+    width: 100vw;
+    height: 95vh;
+    background: #111111;
+    border-radius: 10px;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+
+.proj {
+    width: 13%;
+    height: 26%;
+    background: url('./img/coming.png');
+    background-position: 50% 50%;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.proj:hover {
+    opacity: 0.7;
+}
+
+.proj:first-child {
+    background: url('./img/Agency.png');
+    background-position: 40% 20%;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 52%;
+}
+
+.proj:nth-child(2) {
+    background: url('./img/Сервер.png');
+    background-position: 40% 20%;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 42%;
+}
+
+.proj:nth-child(5) {
+    background: url('./img/Blog.png');
+    background-position: 0% 0%;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    width: 46%;
+    height: 32%;
+}
+
+.proj:nth-child(6) {
+    background: url('./img/Adventure.png');
+    background-position: 40% 0%;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 42%;
+    position: relative;
+    top: -40px;
+}
+
+.closeProj {
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 2.5em;
+    color: #eee;
+}
+
+.projects {
+    left: 25%;
+}
+
+.second {
+    background: #111111;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio {
+    right: 25%;
+    color: #DDDDDD;
+}
+
+.words {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 50%;
+    cursor: pointer;
+}
+
+
+
+.cv {
+    color: black;
+    background: #eee;
+    width: 100vw;
+    margin: 30px auto;
+    border: 1px solid #DDDDDD;
+    opacity: 0;
+    display: flex;
+    transition: 1s;
+    animation: ease-out;
+}
+
+.cvContent {
+    margin: 50px auto;
+    max-width: 1100px;
+	border-left: 2px solid rgba(0, 0, 0, 0.1);
+	border-right: 2px solid rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.cvContent h2 {
+    font-size: 4.5em;   
+}
+
+.cvContent p {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.cvEdu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.cvEdu div {
+	border-top: 2px solid rgba(0, 0, 0, 0.2);
+	width: 49%;
+	text-align: left;
+}
+
+.cvEdu div h3{
+	font-size: 1.8em;
+}
+
+.cvEdu div ul li {
+	list-style-position: inside;
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-weight: 800;
+}
+
+.cvEdu div ul li::before {
+	width: 20px;
+	height: 20px;
+	content: '';
+	background: #000 ;
+	margin-right: 10px;
+	border: 1px solid #000;
+	margin-top: 2px;
+	margin-left: -40px;
+	position: absolute;
+}
+
+small {
+	margin-left: 5px;
+	font-weight: normal;
+}
+
+
+
+@keyframes expansion {
+    0% { width: 50%; }
+    100% { width: 70%; }
+}
+
+@keyframes shrink {
+    0% { width: 70%; }
+    100% { width: 50%; }
+}
+
+@keyframes fullization1 {
+    0% { width: 70%; }
+    100% { width: 600%; }
+}
+
+@keyframes fullization2 {
+    0% { width: 70%; }
+    100% { width: 1800%; }
+}
+
+.extended {
+    animation: expansion 0.35s ease-out;
+}
+
+.shrink {
+    animation: shrink 0.35s ease-out;
+}
+
+
+
+.rightFull {
+    right: 4%;
+    transform: none;
+    animation: fullization1 1s ease-in-out;
+}
+
+.firstFull {
+    left: 4%;
+    transform: none;
+    animation: fullization2 1s ease-in-out;
+}
