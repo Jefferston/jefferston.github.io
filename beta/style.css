@@ -136,9 +136,10 @@ main {
     width: 100vw;
     margin: 30px auto;
     border: 1px solid #DDDDDD;
-    opacity: 0;
+    /* opacity: 0; */
+    visibility: hidden;
     display: flex;
-    transition: 1s;
+    /* transition: 1s; */
     animation: ease-out;
 }
 
@@ -153,7 +154,7 @@ main {
 }
 
 .cvContent h2 {
-    font-size: 4.5em;   
+    font-size: 4em;   
 }
 
 .cvContent p {

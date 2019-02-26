@@ -30,6 +30,7 @@ for (let half of halfs) {
             setTimeout(() => {
                 half.style.width = '50%';
             }, ms);
+            
         }
     })
     
@@ -83,13 +84,15 @@ rightPart.addEventListener('click', () => {
         portfolio.style.display = 'none';
         rightPart.classList.add('rightFull');
         rightPart.classList.remove('extended');
-        cv.style.opacity = '1';
+        cv.style.visibility = 'visible';
+        // cv.style.opacity = '1';
     } else {
         rightPart.style.width = '50%';
         portfolio.style.display = 'block';
         rightPart.classList.remove('rightFull');
         rightPart.classList.remove('extended');
-        cv.style.opacity = '0';
+        cv.style.visibility = 'hidden';
+        // cv.style.opacity = '0';
     }
 })
 
