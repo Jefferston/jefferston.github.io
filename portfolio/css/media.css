@@ -40,6 +40,10 @@
     .fifth {
         background-position: 40% 50%;
     }
+
+    .sixth {
+        background-position: 15% 50%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -62,6 +66,10 @@
 
     .fifth {
         transform: rotateX(0);
+    }
+
+    .sixth {
+        transform: rotateY(0);
     }
 
     footer {
