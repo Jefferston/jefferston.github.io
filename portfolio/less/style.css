@@ -450,6 +450,19 @@ a:hover{
 	border-top: 3px solid #000;
 }
 
+.sixth {
+	background: url('../img/Redux.png');
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 15% 2300%;
+	transform: rotateY(-20deg);
+}
+
+.sixth:hover {
+	background-position: 15% 50%;
+	transform: rotateY(0);
+}
+
 .descBlock {
 	background: rgb(228, 228, 228);
 	width: 80%;
@@ -542,7 +555,6 @@ a:hover{
 }
 
 .cvEdu div ul li {
-	/* list-style-type: circle ; */
 	list-style-position: inside;
 	list-style: none;
 	margin-top: 10px;
