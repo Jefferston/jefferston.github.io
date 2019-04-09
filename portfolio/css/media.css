@@ -96,4 +96,16 @@
     .contentCenter{
         margin: 0px 0px;
     }
+
+    .upload button {
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-top: -50px;
+    }
+
+    footer .f1 {
+        margin-left: 20px;
+    }
 }
