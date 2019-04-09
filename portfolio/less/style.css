@@ -36,7 +36,7 @@ a:hover{
 }
 
 .mainPage{
-	background: url(../img/space.png);
+	background: url(../img/space.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
@@ -109,7 +109,7 @@ a:hover{
 	position: relative;
 	overflow: hidden;
 	margin: -60px auto;
-	background: url(../img/yellow.png);
+	background: url(../img/yellow.jpg);
 }
 
 .catalog {
@@ -380,7 +380,7 @@ a:hover{
 }
 
 .first {
-	background: url('../img/Agency.png');
+	background: url('../img/Agency.jpg');
 	background-position: 50% -500%;
 	background-size: 180%;
 	background-repeat: no-repeat;
@@ -393,7 +393,7 @@ a:hover{
 }
 
 .second {
-	background: url('../img/Сервер.png');
+	background: url('../img/Сервер.jpg');
 	background-position: 20% -750%;
 	background-size: 210%;
 	background-repeat: no-repeat;
@@ -406,7 +406,7 @@ a:hover{
 }
 
 .third {
-	background: url('../img/Blog.png');
+	background: url('../img/Blog.jpg');
 	background-position: 0% -2800%;
 	background-size: 230%;
 	background-repeat: no-repeat;
@@ -419,7 +419,7 @@ a:hover{
 }
 
 .fourth {
-	background: url('../img/Adventure.png');
+	background: url('../img/Adventure.jpg');
 	background-position: 50% 1150%;
 	background-size: 170%;
 	background-repeat: no-repeat;
@@ -435,7 +435,7 @@ a:hover{
 }
 
 .fifth {
-	background: url('../img/Beta.png');
+	background: url('../img/Beta.jpg');
 	background-repeat: no-repeat;
 	background-size: 200%;
 	background-position: 40% 7000%;
@@ -451,7 +451,7 @@ a:hover{
 }
 
 .sixth {
-	background: url('../img/Redux.png');
+	background: url('../img/Redux.jpg');
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: 15% 2300%;
