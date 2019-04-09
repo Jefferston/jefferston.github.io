@@ -310,7 +310,7 @@ a:hover{
 
 
 .projectPage{
-	background: url(../img/try.png);
+	background: url(../img/try.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -330,7 +330,6 @@ a:hover{
 	justify-content: space-around;
 	flex-wrap: wrap;
 	max-width: 1000px;
-	/* border: 3px solid black; */
 	border-radius: 20px;
 }
 
@@ -344,7 +343,6 @@ a:hover{
 	flex-direction: column;
 	perspective: 500px;
 	position: relative;
-	/* border: 3px solid black; */
 }
 
 .wrapper::before {
@@ -481,7 +479,6 @@ a:hover{
 }
 
 .descBlock button {
-	/* color: black; */
 	width: 50px;
 	height: 100px;
 	font-family: 'Ranga', cursive;
@@ -513,7 +510,6 @@ a:hover{
 	display: flex;
 	justify-content: center;
 	font-family: 'Open Sans', sans-serif;
-	/* border-bottom: 1px solid black; */
 }
 
 .cvInfo {
