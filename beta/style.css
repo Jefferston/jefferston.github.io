@@ -56,7 +56,7 @@ main {
 }
 
 .proj:first-child {
-    background: url('./img/Agency.png');
+    background: url('./img/Agency.jpg');
     background-position: 40% 20%;
     background-size: 120%;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ main {
 }
 
 .proj:nth-child(2) {
-    background: url('./img/Сервер.png');
+    background: url('./img/Сервер.jpg');
     background-position: 40% 20%;
     background-size: 140%;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ main {
 }
 
 .proj:nth-child(5) {
-    background: url('./img/Blog.png');
+    background: url('./img/Blog.jpg');
     background-position: 0% 0%;
     background-size: 140%;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ main {
 }
 
 .proj:nth-child(6) {
-    background: url('./img/Adventure.png');
+    background: url('./img/Adventure.jpg');
     background-position: 40% 0%;
     background-size: 120%;
     background-repeat: no-repeat;
