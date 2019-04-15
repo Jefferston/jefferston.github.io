@@ -44,6 +44,10 @@
     .sixth {
         background-position: 15% 50%;
     }
+
+    .spacialColumns .column {
+        width: 450px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -70,6 +74,10 @@
 
     .sixth {
         transform: rotateY(0);
+    }
+
+    .spacialColumns .column {
+        width: 340px;
     }
 
     footer {
