@@ -35,72 +35,83 @@ a:hover{
 	opacity: .5;
 }
 
-.mainPage{
-	background: url(../img/space.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0 auto;
-	height: 110vh;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	color: wheat;
-	align-items: center;
-	justify-content: center;
+.mainPage {
+	background: url(../img/yellow.jpg);
 	overflow: hidden;
 }
 
-.welcome{
-	text-align: center;
-	max-width: 70%;
-	margin-top: -50px;
+.mainContent {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	justify-content: center;
+	height: 800px;
+	padding: 0 20px;
 }
 
-.welcome h1 span{
-	animation: fromLeft 1.3s linear;
-	font-size: 50px;
-	position: relative;
+.welcome-brand {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: -200px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
 }
 
-.welcome h1 span span{
-	animation: greeting 1.8s linear;
-	font-size: 50px;
+.welcome-brand p {
+	font-size: 22px;
 }
 
-.welcome h1 p{
-	font-size: 50px;
-	display: inline-block;
-	animation: fromRight 2.3s linear;
-	position: relative;
+.welcome-brand a {
+	color: #304ffe;
+	/* color: #B82020; */
+	font-weight: 900;
 }
 
-.welcome h1{
-	text-transform: uppercase;
-	margin-bottom: 20px;
+.welcome {
+	display: flex;
+	flex-direction: row;
+	margin-top: -60px;
+	justify-self: center;
+	flex-wrap: wrap;
 }
 
-.welcome p{
-	font-size: 1.2em;
-	margin-bottom: 5px;
-	animation: greeting 3.8s linear;
+.welcome-greeting {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-self: flex-start;
 }
 
-@keyframes greeting {
-	0% { opacity: 0; }
-	25% { opacity: 0; }
-	50% { opacity: 0; }
-	75% { opacity: 0; }
-	100% { opacity: 1; }
+.greeting-avatar {
+	height: 240px;
+	width: 240px;
+	background: url('../img/profile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 10px;
 }
 
-@keyframes fromLeft {
-	0% { left: -2000px; }
-	100% { left: 0; }
+.greeting-text {
+	margin-left: 20px;
 }
 
-@keyframes fromRight {
-	0% { right: -3000px; }
-	100% { right: 0; }
+.greeting-text h1 {
+	font-size: 2.2em;
+}
+
+.greeting-text span {
+	color: blue;
+}
+
+.welcome-description {
+	max-width: 400px;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	align-self: flex-end;
 }
 
 
@@ -110,6 +121,7 @@ a:hover{
 	overflow: hidden;
 	margin: -60px auto;
 	background: url(../img/yellow.jpg);
+	/* background: #20639B; */
 }
 
 .catalog {

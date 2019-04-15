@@ -16,6 +16,7 @@
 }
 
 @media screen and (max-width: 1200px) {
+
     .skillsPage {
         display: none;
     }
@@ -51,6 +52,15 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .welcome-brand {
+        margin-top: -160px;
+        width: 90%;
+    }
+
+    .welcome-description {
+        max-width: 600px;
+    }
+
     .spanContent {
         margin: 0;
     }
@@ -96,6 +106,17 @@
 
 
 @media screen and (max-width: 730px) {
+    .welcome-brand a { 
+        display: none;
+    }
+
+    .greeting-avatar {
+       display: none;
+    }
+
+    .greeting-text {
+        margin: 0;
+     }
 
     .cvEdu {
         display: block;
