@@ -15,6 +15,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="shortcut icon" href="./favicon.ico">
+
+	<link rel="stylesheet" href="animation/animate.min.css">
+	<script src="animation/wow.min.js"></script>
+	<script>
+        new WOW().init();
+    </script>
 	<base target="_blank">
 </head>
 
@@ -42,7 +48,7 @@
 
 	<div class="skillsPage">
 		<div class="catalog">
-			<div class="catalotItems">
+			<div class="catalotItems wow bounceInLeft" data-wow-offset="50">
 				<h1>Technologies I use</h1>
 				<div class="techs">
 					<div class="tech"></div>
@@ -200,17 +206,31 @@
 
 
 	<div class="cvPage">
-		<div class="cvInfo">
-			<h2>About me</h2>
-			<p>I'm a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
-				I was working for 6 months in medical company before I changed the country of living.
-			</p>
-			<p>Mainly focusing on react-applications and javascript-animation.</p>
-			<p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.
-			</p>
+		<div class="cvInfo wow fadeIn" data-wow-duration="2s" data-wow-offset="150">
+			<div class="cvText">
+				<h2>About me</h2>
+				<p>I'm a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
+					I was working for 6 months in medical company before I changed the country of living.
+				</p>
+				<p>Mainly focusing on react-applications and javascript-animation.</p>
+				<p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
+			</div>
+
+			<div class="spacialColumns">
+				<div class="column">
+					<h4>User Experience</h4>
+					<div class="dumb"></div>
+					<p>As digital technology and our expectations about digital interactions has grown, we’ve begun focusing more and more on “the feel” part of a design; so there’s no denial that UX pays a very important role in a product’s development, which is why I try to pay special attention when it comes to the design process.</p>
+				</div>
+				<div class="column">
+					<h4>Code Efficiency</h4>
+					<div class="dumb"></div>
+					<p>Code efficiency plays a significant role in applications in a high-execution-speed environment where performance and scalability are paramount. One of the recommended best practices in coding is to ensure good code efficiency. Well-developed programming codes should be able to handle complex algorithms.
+				</div>
+			</div>
 
 			<div class="cvEdu">
-				<div>
+				<div class="wow fadeInLeftBig" data-wow-delay="0.2s">
 					<h3>Education</h3>
 					<ul>
 						<li>Deggendorf Institute of Technology
@@ -230,7 +250,7 @@
 						</li>
 					</ul>
 				</div>
-				<div>
+				<div class="wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.1s">
 					<h3>Areas of knowledge</h3>
 					<ul>
 						<li>[HTML, CSS]: Less/Sass, Styled Components, Twig</li>
@@ -250,7 +270,10 @@
 
 	<footer>
 		<div class="f1">
-			Want to start a project? <span>Just write me ;)</span>
+			Want to start a project? 
+			<a class="talk" href="mailto:dima.dima.989@gmail.com">
+				Just write me ;)
+			</a>
 		</div>
 		<div class="f2">
 			<a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>

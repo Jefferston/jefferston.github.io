@@ -57,20 +57,20 @@ a:hover{
 }
 
 .welcome h1 span{
-	animation: fromLeft 1.5s linear;
+	animation: fromLeft 1.3s linear;
 	font-size: 50px;
 	position: relative;
 }
 
 .welcome h1 span span{
-	animation: greeting 2s linear;
+	animation: greeting 1.8s linear;
 	font-size: 50px;
 }
 
 .welcome h1 p{
 	font-size: 50px;
 	display: inline-block;
-	animation: fromRight 2.5s linear;
+	animation: fromRight 2.3s linear;
 	position: relative;
 }
 
@@ -82,7 +82,7 @@ a:hover{
 .welcome p{
 	font-size: 1.2em;
 	margin-bottom: 5px;
-	animation: greeting 4s linear;
+	animation: greeting 3.8s linear;
 }
 
 @keyframes greeting {
@@ -362,7 +362,6 @@ a:hover{
 .product {
 	width: 250px;
 	height: 250px;
-	background: url('../img/coming.png');
 	background-position: 50% 50%;
 	background-size: 130%;
 	margin-bottom: 30px;
@@ -506,10 +505,11 @@ a:hover{
 
 
 .cvPage {
-	background: #eee;
+	background: #F7F9FF;
 	display: flex;
 	justify-content: center;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 .cvInfo {
@@ -520,17 +520,50 @@ a:hover{
 	padding: 20px;
 	text-align: center;
 	line-height: 1.5;
+	font-size: 15px;
 }
 
-.cvInfo h2 {
+.cvText h2 {
 	font-size: 4.5em;
 	font-weight: 300;
 	margin-bottom: 40px;
 }
 
-.cvInfo p {
+.cvText p {
 	text-align: left;
 	margin-bottom: 10px;
+}
+
+.spacialColumns {
+	display: flex;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+
+.spacialColumns .column {
+	margin-right: 30px;
+	max-width: 500px;
+	text-align: left;
+	padding-right: 10px;
+	word-spacing: 10px; 
+}
+
+.spacialColumns .column h4 {
+	font-size: 32px;
+	font-family: 'Google Sans';
+	font-weight: 300;
+}
+
+.spacialColumns .column .dumb {
+	width: 90px;
+	height: 4px;
+	background: #000;
+	margin-bottom: 20px;
+}
+
+.spacialColumns .column:last-child {
+	margin-right: 0;
+	border-right: none;
 }
 
 .cvEdu {
@@ -599,12 +632,12 @@ small {
 
 
 footer {
+	margin-top: -40px;
 	display: flex;
-	/* align-content: center; */
 	justify-content: center;
 	flex-direction: column;
 	height: 200px;
-	background: #eee;
+	background: #F7F9FF;
 }
 
 footer .f1{
@@ -635,7 +668,7 @@ footer .f2 a {
 	content: "\f09b"
 }
 
-footer span {
+footer .talk {
 	color: #304ffe;
 	cursor: pointer;
 }
