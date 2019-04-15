@@ -119,7 +119,7 @@ a:hover{
 .skillsPage{
 	position: relative;
 	overflow: hidden;
-	margin: -60px auto;
+	margin: -140px auto;
 	background: url(../img/yellow.jpg);
 	/* background: #20639B; */
 }
@@ -134,7 +134,6 @@ a:hover{
 .catalotItems {
 	height: 80%;
 	max-width: 650px;
-	background: transparent;
 	/* border: 1px solid aqua; */
 	margin: 50px;
 	padding: 10px;
