@@ -31,7 +31,12 @@
     .welcome-greeting::before {
         display: none;
     }
-    
+    .greeting-text {
+        color: black;
+    }
+    .welcome-description {
+        color: black;
+    }
 
     .skillsPage {
         display: none;
