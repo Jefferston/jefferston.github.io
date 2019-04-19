@@ -37,6 +37,9 @@
     .welcome-description {
         color: black;
     }
+    .welcome-brand a {
+        transform: none;
+    }
 
     .skillsPage {
         display: none;
