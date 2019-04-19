@@ -116,15 +116,31 @@
 
     .greeting-text {
         margin: 0;
-     }
+    }
+
+    .cvText {
+        padding: 20px;
+    }
 
     .cvEdu {
         display: block;
         margin-bottom: -100px;
     }
+
+    .cvEdu div h3 {
+        margin-left: 34px;
+        /* font-size: 24px; */
+    }
+
     .cvEdu div{
         width: 100%;
         margin-bottom: 20px;
+        margin-left: -20px;
+        /* font-size: 14px; */
+    }
+
+    .cvEdu div ul li::before {
+        display: none;
     }
 
     .contentCenter{
@@ -139,11 +155,57 @@
         margin-right: 30px;
     }
 
+    .spacialColumns {
+        margin-left: 20px;
+        /* font-size: 14px */
+    }
+
+    /* .spacialColumns h4 {
+        font-size: 24px;
+    } */
+
     footer {
         margin-top: -50px;
     }
 
     footer .f1 {
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .cvText {
+        padding: 0 60px;
+    }
+
+    .cvText h2 {
+        font-size: 3.4em;
+        margin-bottom: 20px;
+    }
+
+    .spacialColumns {
+        margin-left: 60px;
+        font-size: 14px
+    }
+
+    .spacialColumns h4 {
+        font-size: 24px;
+    }
+
+    .cvEdu div h3 {
+        margin-left: 34px;
+        font-size: 24px;
+    }
+
+    .cvEdu div{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 26px;
+        font-size: 14px;
+    }
+
+    .cvEdu div ul li::before {
+        display: none;
     }
 }
