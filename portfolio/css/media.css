@@ -110,6 +110,10 @@
         display: none;
     }
 
+    .mainContent {
+        height: 600px;
+    }
+
     .greeting-avatar {
        display: none;
     }
@@ -119,7 +123,12 @@
     }
 
     .cvText {
-        padding: 20px;
+       padding: 10px;
+       margin-bottom: -40px;
+    }
+
+    .cvInfo {
+        padding: 0;
     }
 
     .cvEdu {
@@ -128,41 +137,28 @@
     }
 
     .cvEdu div h3 {
-        margin-left: 34px;
-        /* font-size: 24px; */
+        margin-left: 10px;
     }
 
     .cvEdu div{
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
-        margin-left: -20px;
-        /* font-size: 14px; */
+        margin-left: 0px;
+        border: none;
     }
 
     .cvEdu div ul li::before {
         display: none;
     }
 
-    .contentCenter{
-        margin: 0px 0px;
-    }
-
     .upload button {
         margin-top: 100px;
-    }
-
-    .spacialColumns .column:last-child {
-        margin-right: 30px;
+        margin-bottom: 20px;
     }
 
     .spacialColumns {
-        margin-left: 20px;
-        /* font-size: 14px */
+        display: none;
     }
-
-    /* .spacialColumns h4 {
-        font-size: 24px;
-    } */
 
     footer {
         margin-top: -50px;
@@ -201,7 +197,7 @@
     .cvEdu div{
         width: 100%;
         margin-bottom: 20px;
-        margin-left: 26px;
+        margin-left: 22px;
         font-size: 14px;
     }
 
