@@ -65,8 +65,8 @@ a:hover{
 
 .welcome-brand a {
 	color: #304ffe;
-	/* color: #B82020; */
 	font-weight: 900;
+	transform: rotate(-4deg)
 }
 
 .welcome {
@@ -82,6 +82,20 @@ a:hover{
 	flex-direction: row;
 	align-items: center;
 	align-self: flex-start;
+	position: relative;
+}
+
+.welcome-greeting::before {
+	content: '';
+	width: 1100px;
+	height: 500px;
+	clip-path: polygon(8% 20%, 100% 0, 93% 85%, 0 100%);
+	position: absolute;
+	left: -80px;
+	bottom: -80px;
+	background: #051B29;
+	/* background: url('../img/space.jpg'); */
+	backface-visibility: visible;
 }
 
 .greeting-avatar {
@@ -91,10 +105,13 @@ a:hover{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	border-radius: 10px;
+	z-index: 3;
 }
 
 .greeting-text {
 	margin-left: 20px;
+	z-index: 3;
+	color: white;
 }
 
 .greeting-text h1 {
@@ -103,6 +120,7 @@ a:hover{
 
 .greeting-text span {
 	color: blue;
+	font-size: 18px;
 }
 
 .welcome-description {
@@ -112,6 +130,8 @@ a:hover{
 	font-weight: 900;
 	font-size: 20px;
 	align-self: flex-end;
+	z-index: 3;
+	color: white;
 }
 
 
@@ -121,7 +141,6 @@ a:hover{
 	overflow: hidden;
 	margin: -140px auto;
 	background: url(../img/yellow.jpg);
-	/* background: #20639B; */
 }
 
 .catalog {
