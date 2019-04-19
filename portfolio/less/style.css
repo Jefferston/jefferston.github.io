@@ -94,17 +94,16 @@ a:hover{
 	left: -80px;
 	bottom: -80px;
 	background: #051B29;
-	/* background: url('../img/space.jpg'); */
 	backface-visibility: visible;
 }
 
 .greeting-avatar {
 	height: 240px;
 	width: 240px;
-	background: url('../img/profile.jpg');
+	background: url('../img/ava.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	border-radius: 10px;
+	border-radius: 100%;
 	z-index: 3;
 }
 
