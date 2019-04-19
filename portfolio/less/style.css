@@ -114,7 +114,8 @@ a:hover{
 }
 
 .greeting-text h1 {
-	font-size: 2.2em;
+	font-size: 3.2em;
+	font-family: 'Cute Font', cursive;
 }
 
 .greeting-text span {
@@ -127,10 +128,11 @@ a:hover{
 	margin-top: 30px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 24px;
 	align-self: flex-end;
 	z-index: 3;
 	color: white;
+	font-family: 'Cute Font', cursive;
 }
 
 
