@@ -2,6 +2,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	-moz-user-select: none;
+	user-select: none;   
 }
 
 ::-webkit-scrollbar {
@@ -115,9 +117,7 @@ a:hover{
 
 .greeting-text h1 {
 	font-size: 3.4em;
-	font-family: 'Cute Font', cursive;
-	-moz-user-select: none;
-	user-select: none;    
+	font-family: 'Cute Font', cursive; 
 }
 
 .greeting-text span.hi {
@@ -226,9 +226,7 @@ a:hover{
 	align-self: flex-end;
 	z-index: 3;
 	color: white;
-	font-family: 'Cute Font', cursive;
-	-moz-user-select: none;
-	user-select: none;    
+	font-family: 'Cute Font', cursive; 
 }
 
 .welcome-description p {
