@@ -24,3 +24,17 @@ for (let closeBut of closeButs) {
 }
 
 document.querySelector('.projectPage h1').textContent = '< My Projects />'
+
+////////// Name
+
+let bouncedLetters = document.querySelectorAll('.greeting-text h1 p');
+
+for (let letter of bouncedLetters) {
+    letter.addEventListener('mouseover', (ev) => {
+        if (ev.target.classList.contains('bouncedSpan')) {
+            ev.target.classList.remove('bouncedSpan');
+        } else {
+            ev.target.classList.add('bouncedSpan');
+        }
+    })
+}

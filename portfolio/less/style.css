@@ -66,7 +66,7 @@ a:hover{
 .welcome-brand a {
 	color: #304ffe;
 	font-weight: 900;
-	transform: rotate(-4deg)
+	transform: rotate(-4deg);
 }
 
 .welcome {
@@ -114,19 +114,75 @@ a:hover{
 }
 
 .greeting-text h1 {
-	font-size: 3.2em;
+	font-size: 3.4em;
 	font-family: 'Cute Font', cursive;
 }
 
-.greeting-text span {
+.greeting-text span.hi {
 	color: blue;
 	font-size: 18px;
 }
 
+.greeting-text h1 p {
+	cursor: pointer;
+	display: inline-block;
+	transition: 0.7s;
+	margin-left: -10px;
+}
+
+.greeting-text h1 p:first-child {
+	margin-left: 0;
+}
+
+.greeting-text h1 p:nth-child(8n) {
+	margin-left: 0;
+}
+
+.bouncedSpan {
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-name: bounced;
+}
+
+.greeting-text h1 p:hover {
+	color: cyan;
+}
+
+@keyframes bounced {
+	from {
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	30% {
+	  transform: scale3d(1, 0.75, 1);
+	}
+  
+	40% {
+	  transform: scale3d(1, 1.25, 1);
+	}
+  
+	50% {
+	  transform: scale3d(1, 0.85, 1);
+	}
+  
+	65% {
+	  transform: scale3d(1, 1.05, 1);
+	}
+  
+	75% {
+	  transform: scale3d(1, .95, 1);
+	}
+  
+	to {
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+
+
 .welcome-description {
 	max-width: 400px;
 	margin-top: 30px;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	font-size: 24px;
 	align-self: flex-end;
@@ -349,13 +405,13 @@ a:hover{
 }
 
 .projectPage h1 {
-	margin-top: 100px;	
+	margin-top: 200px;	
 	margin-bottom: 30px;
 	color: #02918c;
 }
 
 .projectPage .container {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -630,6 +686,7 @@ a:hover{
 	background: #000 ;
 	margin-right: 10px;
 	border: 1px solid #000;
+	border-radius: 2px;
 	margin-top: 2px;
 	margin-left: -40px;
 	position: absolute;
@@ -649,11 +706,11 @@ a:hover{
 	font-weight: 900;
 	cursor: pointer;
 	color: white;
-	transition: .3s;
+	transition: .5s;
 }
 
 .upload button:hover {
-	opacity: 0.9;
+	box-shadow: 0 0 6px 0 black;
 }
 
 small {
