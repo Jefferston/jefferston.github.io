@@ -28,13 +28,24 @@ document.querySelector('.projectPage h1').textContent = '< My Projects />'
 ////////// Name
 
 let bouncedLetters = document.querySelectorAll('.greeting-text h1 p');
+let bouncedWords = document.querySelectorAll('.welcome-description p');
 
 for (let letter of bouncedLetters) {
     letter.addEventListener('mouseover', (ev) => {
-        if (ev.target.classList.contains('bouncedSpan')) {
-            ev.target.classList.remove('bouncedSpan');
-        } else {
-            ev.target.classList.add('bouncedSpan');
-        }
+        ev.target.classList.add('bouncedSpan');
+    })
+
+    letter.addEventListener('mouseleave', (ev) => {
+        ev.target.classList.remove('bouncedSpan');
+    })
+}
+
+for (let word of bouncedWords) {
+    word.addEventListener('mouseover', (ev) => {
+        ev.target.classList.add('bouncedP');
+    })
+
+    word.addEventListener('mouseleave', (ev) => {
+        ev.target.classList.remove('bouncedP');
     })
 }
