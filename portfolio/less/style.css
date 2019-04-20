@@ -84,6 +84,7 @@ a:hover{
 	flex-direction: row;
 	align-items: center;
 	align-self: flex-start;
+	flex-wrap: nowrap;
 	position: relative;
 }
 
@@ -116,7 +117,7 @@ a:hover{
 }
 
 .greeting-text h1 {
-	font-size: 3em;
+	font-size: 3.2em;
 	font-family: 'Cute Font', cursive; 
 }
 
@@ -222,7 +223,7 @@ a:hover{
 	max-width: 400px;
 	margin-top: 30px;
 	font-weight: 900;
-	font-size: 24px;
+	font-size: 26px;
 	align-self: flex-end;
 	z-index: 3;
 	color: white;
