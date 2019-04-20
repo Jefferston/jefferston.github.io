@@ -77,6 +77,10 @@
 
 @media screen and (max-width: 1000px) {
 
+    .greeting-text h1 p {
+        margin-left: -12px;
+    }
+
     .welcome-brand {
         margin-top: -160px;
         width: 90%;
