@@ -12,7 +12,7 @@ class App extends Component {
       <main>
         <Sidebar/>
           <Switch>
-            <Route exact path="/" component={Greeting}/>
+            <Route exact path="/sokolov" component={Greeting}/>
             <Route path="/about" component={About}/>
             <Route path="/skills"  component={Skills}/>
             <Route path="/projects"/>

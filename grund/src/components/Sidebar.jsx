@@ -19,7 +19,7 @@ export default function Sidebar() {
         <div className="sidebar">
                 <div className="sidebar-logo"></div>
                 <ul>
-                    <li><Link to='/' data-class="home" data-name="home"
+                    <li><Link exact to='/sokolov' data-class="home" data-name="home"
                             onMouseOver={deleteIcon}
                             onMouseLeave={returnIcon}>
                         <i className="fa fa-home"></i></Link>
