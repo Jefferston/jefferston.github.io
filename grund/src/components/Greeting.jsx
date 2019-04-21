@@ -12,7 +12,7 @@ export default function Greeting() {
                     <h1>web developer</h1>            
                 </div>
 
-                <h2>Front End developer / React / Three.js</h2>
+                <h2>Javascript / React / Three.js</h2>
 
                 <div className="contactMe">Contact me</div>
             </div>

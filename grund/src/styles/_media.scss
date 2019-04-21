@@ -1,5 +1,11 @@
 @media screen and (max-width: 1200px) {
+    .about {
+        margin-left: 140px;
+    }
 
+    .about div {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -17,18 +23,35 @@
     }
 
     .sidebar-logo {
-        width: 20%;
+        width: 60px;
         height: 100%;
     }
 
     .sidebar ul {
         flex-direction: row;
         height: 100%;
-        width: 80%;
+        width: calc(90% - 60px);
         justify-content: space-around;
         top: 0;
         left: 20%;
     }
+
+    .about {
+        margin: 0;
+    }
+
+    .about-text {
+        margin-left: 134px;
+    }
+
+    .about div {
+        width: 600px;
+    }
+
+    .about-edu, .about-exp {
+        margin: 10px auto;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -37,16 +60,24 @@
         display: none;
     }
 
+    .about-text {
+        margin: 0 auto;
+    }
+
     .about {
         left: 0;
         margin: 0 16px;
     }
 
-    .about h1 {
+    .about div {
+        width: 300px;
+    }
+
+    .about-text h1 {
         font-size: 3em;
     }
 
-    .about p {
+    .about-text p {
         font-size: 14px;
     }
 

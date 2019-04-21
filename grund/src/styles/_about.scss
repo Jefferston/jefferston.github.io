@@ -1,19 +1,83 @@
 .about {
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    max-width: 600px;
-  }
+  margin: 0px auto;
+  // border: 3px solid white;
+  padding: 100px 0;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
   
-  .about h1 {
-    font-size: 4em;
-    color: cyan;
-    margin-bottom: 50px;
-    font-family: 'Titillium Web', sans-serif;
-  }
+}
+
+.about-text {
+  max-width: 550px;
+}
   
-  .about p {
-    color: white;
-    margin-bottom: 10px;
-    font-family: 'Titillium Web', sans-serif;
-  }
+.about-text h1 {
+  font-size: 4em;
+  color: cyan;
+  margin-bottom: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.about-text p {
+  color: #eee;
+  margin-bottom: 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.about-edu {
+  max-width: 500px;
+  margin-top: 340px;
+}
+
+.about-edu h2 {
+  font-size: 3em;
+  color: wheat;
+  margin-bottom: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.about-edu h3 {
+  color: wheat;
+  margin-bottom: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 10px 0 0;
+}
+
+.about-edu small {
+  color: #eee;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.about-exp {
+  max-width: 500px;
+}
+
+.about-exp h2 {
+  font-size: 3em;
+  color: #BF223C;
+  margin-bottom: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.about-exp p {
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.about-exp h3 {
+  color: #BF223C;
+  margin-bottom: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 10px 0 0;
+}
+
+.about-exp small {
+  color: #eee;
+  font-family: 'Titillium Web', sans-serif;
+}

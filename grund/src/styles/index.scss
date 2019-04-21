@@ -12,6 +12,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
@@ -20,7 +21,7 @@ code {
 }
 
 body {
-  overflow: hidden;
+  background: #181818;
 }
 
 a {
@@ -29,9 +30,9 @@ a {
 }
 
 main {
-  background: #252627;
-  /* background: #051B29; */
+  // background: #252627;
+  background: #181818;
+  // background: #051B29; 
   height: 100vh;
-  width: 100vw;
   position: relative;
 }
