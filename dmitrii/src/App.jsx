@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import Sidebar from './components/Sidebar';
+import Greeting from './components/Greeting';
+import About from './components/About';
+import Skills from './components/Skills';
+
+class App extends Component {
+  render() {
+    return (
+      <main>
+        <Sidebar/>
+          <Switch>
+            <Route exact path="/" component={Greeting}/>
+            <Route path="/about" component={About}/>
+            <Route path="/skills"  component={Skills}/>
+            <Route path="/projects"/>
+            <Route path="/contacts"/>
+          </Switch>
+      </main>   
+    );
+  }
+}
+
+export default App;

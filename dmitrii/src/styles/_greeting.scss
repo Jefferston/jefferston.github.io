@@ -1,0 +1,49 @@
+.greeting {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: flex;
+    /* border: 1px solid white; */
+  }
+  
+.greeting-hi div:first-child h1 {
+  font-size: 3em;
+  color: white;
+  margin-top: -6px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.greeting-hi div:first-child h1:first-child {
+  margin-top: 20px;
+}
+
+.greeting-hi h2 {
+  color: #8d8d8d;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactMe {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  color: cyan;
+  text-align: center;
+  padding: 4px 2px 2px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid cyan;
+}
+
+.greeting-ava {
+  background: url('../ava.jpg');
+  height: 300px;
+  width: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  margin-right: 50px;
+}
