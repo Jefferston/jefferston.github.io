@@ -7,7 +7,6 @@ export default function Sidebar() {
         ev.target.textContent = ev.currentTarget.getAttribute('data-name');
         ev.target.className = '';
 
-        console.log(ev.target)
     }
 
     let returnIcon = (ev) => {
