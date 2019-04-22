@@ -6,6 +6,8 @@ import Sidebar from './components/Sidebar';
 import Greeting from './components/Greeting';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
 
 class App extends Component {
   componentDidMount() {
@@ -20,8 +22,8 @@ class App extends Component {
             <Route exact path="/sokolov" component={Greeting}/>
             <Route path="/about" component={About}/>
             <Route path="/skills"  component={Skills}/>
-            <Route path="/projects"/>
-            <Route path="/contacts"/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contacts" component={Contacts}/>
           </Switch>
       </main>   
     );

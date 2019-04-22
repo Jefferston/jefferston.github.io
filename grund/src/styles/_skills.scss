@@ -2,23 +2,28 @@
     position: absolute;
     left: 10%;
     top: 20%;
-  }
+    // display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    // max-width: 1100px;
+    // border: 3px solid white;
+}
   
-  .skills h1 {
-    font-size: 4em;
-    color: cyan;
-    margin-bottom: 20px;
-    font-family: 'Titillium Web', sans-serif;
-  }
-  
-  .skills p {
-    color: white;
-    margin-bottom: 12px;
-    font-size: 16px;
-    font-family: 'Titillium Web', sans-serif;
-  }
-  
-  .skills p span {
-    color: cyan;
-    font-size: 18px;
-  }
+.skills-description h1 {
+  font-size: 4em;
+  color: cyan;
+  margin-bottom: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.skills-description p {
+  color: white;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.skills-description p span {
+  color: cyan;
+  font-size: 18px;
+}

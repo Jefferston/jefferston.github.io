@@ -11,6 +11,16 @@
     .about-text::after, .about-edu::before, .about-exp::after {
         display: none;
     }
+
+    .projects {
+        margin-left: 140px;
+    }
+
+    .projects-container div {
+        height: 200px;
+        width: 360px;
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -35,10 +45,10 @@
     .sidebar ul {
         flex-direction: row;
         height: 100%;
-        width: calc(90% - 60px);
+        width: calc(86% - 60px);
         justify-content: space-around;
         top: 0;
-        left: 20%;
+        left: 18%;
     }
 
     .about {
@@ -57,6 +67,15 @@
         margin: 10px auto;
     }
 
+    .projects-container div {
+        height: 150px;
+        width: 260px;
+    }
+
+    .projects {
+        margin-left: 100px;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -67,11 +86,6 @@
 
     .about-text {
         margin: 0 auto;
-    }
-
-    .about {
-        left: 0;
-        margin: 0 16px;
     }
 
     .about div {
@@ -91,7 +105,20 @@
         padding: 0 16px;
     }
 
-    .skills h1{
+    .skills-description h1{
         font-size: 3em;
+    }
+
+    .projects h1 {
+        font-size: 3em;
+    }
+
+    .projects-container {
+        margin-left: -60px;
+    }
+
+    .projects-container div {
+        height: 180px;
+        width: 300px;
     }
 }
