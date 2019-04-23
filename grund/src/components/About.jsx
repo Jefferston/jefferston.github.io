@@ -16,12 +16,15 @@ export default function About() {
 
                 <h3>Bachelor in Civil Engineering</h3>
                 <small>Moscow state university of civil engineering – 2016-2018 (unfinished)</small>
+                <p>Bachelor of civil engineering</p>
 
                 <h3>Courses of Frontend development</h3>
                 <small>Netology University - 2016</small>
+                <p>Courses of React.js</p>
 
                 <h3>Bachelor in Industrial Engineering</h3>
                 <small>Technische Hochschule Deggendorf – currently</small>
+                <p>Bachelor of Industrial engineering and Maintainance Operations</p>
             </div>
 
             <div className="about-exp">

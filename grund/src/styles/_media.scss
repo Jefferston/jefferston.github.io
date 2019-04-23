@@ -18,7 +18,7 @@
 
     .projects-container div {
         height: 200px;
-        width: 360px;
+        width: 44%;
         margin-left: 0;
     }
 }
@@ -67,13 +67,12 @@
         margin: 10px auto;
     }
 
-    .projects-container div {
-        height: 150px;
-        width: 260px;
-    }
-
     .projects {
         margin-left: 100px;
+    }
+
+    .projects-container div {
+        height: 160px;
     }
 
 }
@@ -109,16 +108,24 @@
         font-size: 3em;
     }
 
+    .projects {
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+    }
+
     .projects h1 {
         font-size: 3em;
+        margin: 100px auto 30px;
     }
 
     .projects-container {
-        margin-left: -60px;
+        width: 100%;
     }
 
     .projects-container div {
-        height: 180px;
-        width: 300px;
+        height: 190px;
+        width: 100%;
+        margin: 20px 0;
     }
 }
