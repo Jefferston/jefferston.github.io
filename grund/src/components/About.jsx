@@ -7,7 +7,7 @@ export default function About() {
                 <h1>About me</h1>
                 <p>I'm a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
                         I was working for 6 months in medical company before I changed the country of living.</p>
-                <p>Mainly focusing on react-applications and javascript-animation.</p>
+                <p>Mainly focusing on react applications and javascript animation.</p>
                 <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
             </div>
 
@@ -15,15 +15,15 @@ export default function About() {
                 <h2>Education</h2>
 
                 <h3>Bachelor in Civil Engineering</h3>
-                <small>Moscow state university of civil engineering – 2016-2018 (unfinished)</small>
+                <small>Moscow State University of Civil Engineering (unfinished)</small>
                 <p>Bachelor of civil engineering</p>
 
                 <h3>Courses of Frontend development</h3>
-                <small>Netology University - 2016</small>
+                <small>Netology University</small>
                 <p>Courses of React.js</p>
 
                 <h3>Bachelor in Industrial Engineering</h3>
-                <small>Technische Hochschule Deggendorf – currently</small>
+                <small>Technische Hochschule Deggendorf</small>
                 <p>Bachelor of Industrial engineering and Maintainance Operations</p>
             </div>
 

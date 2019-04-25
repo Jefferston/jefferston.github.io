@@ -8,6 +8,10 @@
         width: 400px;
     }
 
+    .about-edu {
+        margin-top: 380px;
+    }
+
     .about-text::after, .about-edu::before, .about-exp::after {
         display: none;
     }
@@ -16,7 +20,7 @@
         margin-left: 140px;
     }
 
-    .projects-container div {
+    .projects-container a {
         height: 200px;
         width: 44%;
         margin-left: 0;
@@ -45,7 +49,7 @@
     .sidebar ul {
         flex-direction: row;
         height: 100%;
-        width: calc(86% - 60px);
+        width: calc(90% - 60px);
         justify-content: space-around;
         top: 0;
         left: 18%;
@@ -53,10 +57,11 @@
 
     .about {
         margin: 0;
+        margin-left: -60px;
     }
 
     .about-text {
-        margin-left: 134px;
+        margin-left: 164px;
     }
 
     .about div {
@@ -71,7 +76,7 @@
         margin-left: 100px;
     }
 
-    .projects-container div {
+    .projects-container a {
         height: 160px;
     }
 
@@ -81,6 +86,10 @@
 
     .greeting-ava {
         display: none;
+    }
+
+    .about {
+        margin: 0;
     }
 
     .about-text {
@@ -111,7 +120,7 @@
     .projects {
         width: 100%;
         margin: 0;
-        padding: 16px;
+        padding: 20px;
     }
 
     .projects h1 {
@@ -123,7 +132,7 @@
         width: 100%;
     }
 
-    .projects-container div {
+    .projects-container a {
         height: 190px;
         width: 100%;
         margin: 20px 0;

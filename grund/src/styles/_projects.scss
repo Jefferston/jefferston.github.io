@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-.projects-container div {
+.projects-container a {
     height: 270px;
     width: 500px;
     border-radius: 20px;
@@ -28,25 +28,31 @@
     border: 1px solid white;
 }
 
-.projects-container div:first-child {
+// .projects-container div a {
+//     height: 170px;
+//     width: 400px;
+//     border: 1px solid white;
+// }
+
+.projects-container a:first-child {
     background: url('../img/Agency.jpg');
     background-size: 110%;
     background-repeat: no-repeat;
 }
 
-.projects-container div:nth-child(2) {
+.projects-container a:nth-child(2) {
     background: url('../img/Сервер.jpg');
     background-size: 120%;
     background-repeat: no-repeat;
 }
 
-.projects-container div:nth-child(3) {
+.projects-container a:nth-child(3) {
     background: url('../img/Adventure.jpg');
     background-size: 110%;
     background-repeat: no-repeat;
 }
 
-.projects-container div:last-child {
+.projects-container a:last-child {
     background: url('../img/Redux.jpg');
     background-size: 100%;
     background-repeat: no-repeat;

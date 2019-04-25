@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Greeting(){
     return (
@@ -43,7 +44,9 @@ export default function Greeting(){
 
                 <h2 className="wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">Javascript / React / Three.js</h2>
 
-                <div className="contactMe wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">Contact me</div>
+                <div className="contactMe wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">
+                    <Link to='/contacts'>Contact me</Link>
+                </div>
             </div>
         </div>
     )

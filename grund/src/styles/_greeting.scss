@@ -38,7 +38,7 @@
 
 }
 
-.contactMe {
+.contactMe a{
   display: inline-block;
   width: 140px;
   height: 30px;
@@ -56,7 +56,7 @@
   transition: .3s;
 }
 
-.contactMe:hover {
+.contactMe a:hover {
   background: cyan;
   color: black;
 }
