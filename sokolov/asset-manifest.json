@@ -1,5 +1,5 @@
 {
-  "main.css": "/static/css/main.9a34cb8a.chunk.css",
+  "main.css": "/static/css/main.cb519c56.chunk.css",
   "main.js": "/static/js/main.f9ceccda.chunk.js",
   "main.js.map": "/static/js/main.f9ceccda.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -7,8 +7,8 @@
   "static/js/2.987acb5c.chunk.js": "/static/js/2.987acb5c.chunk.js",
   "static/js/2.987acb5c.chunk.js.map": "/static/js/2.987acb5c.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.f8fda0b473b9de7650b6e8f6f5b45db2.js": "/precache-manifest.f8fda0b473b9de7650b6e8f6f5b45db2.js",
+  "precache-manifest.c64096863c00ca663cfdb7325358dc34.js": "/precache-manifest.c64096863c00ca663cfdb7325358dc34.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.9a34cb8a.chunk.css.map": "/static/css/main.9a34cb8a.chunk.css.map",
+  "static/css/main.cb519c56.chunk.css.map": "/static/css/main.cb519c56.chunk.css.map",
   "static/media/index.scss": "/static/media/Сервер.898858b8.jpg"
 }

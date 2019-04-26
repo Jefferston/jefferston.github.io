@@ -175,11 +175,21 @@
 
     .projects h1 {
         font-size: 3em;
-        margin: 100px auto 30px;
+        margin: 100px 0 30px;
     }
 
     .projects-container {
         width: 100%;
+    }
+
+    .project {
+        width: 300px;
+        height: 160px;
+    }
+
+    .project-wrapper p {
+        max-width: 300px;
+        font-size: 16px;
     }
 
 }
