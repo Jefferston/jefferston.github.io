@@ -1,29 +1,270 @@
 .skills {
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    // display: flex;
-    // justify-content: space-between;
-    // flex-wrap: wrap;
-    // max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    max-width: 1100px;
     // border: 3px solid white;
 }
   
-.skills-description h1 {
+.skills h1 {
   font-size: 4em;
   color: cyan;
+  margin-bottom: 40px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.skills-description {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.skills-description h2 {
   margin-bottom: 20px;
-  font-family: 'Titillium Web', sans-serif;
+  font-size: 2em;
+  color: #174B54;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.skills-description p {
-  color: white;
-  margin-bottom: 12px;
-  font-size: 16px;
-  font-family: 'Titillium Web', sans-serif;
+.skills-description ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.skills-description p span {
-  color: cyan;
-  font-size: 18px;
+.skills-description ul li {
+  width: 120px;
+  height: 120px;
+  background: black;
+  margin: 0 40px 0 0;
+  position: relative;
+}
+
+
+.html-css ul li:first-child {
+  background: url('../icons/sass.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'Sass';
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.html-css ul li:nth-child(2) {
+  background: url('../icons/styled.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'Libraries';
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.html-css ul li:nth-child(3) {
+  background: url('../icons/pug.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'Pug';
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+
+.js {
+  margin-top: 50px;
+}
+
+.js ul li:first-child {
+  background: url('../icons/es.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'ES6 / ES7';
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.js ul li:nth-child(2) {
+  background: url('../icons/babel.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  &::after {
+    content: 'Babel';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.js ul li:nth-child(3) {
+  background: url('../icons/jquery.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+
+  &::after {
+    content: 'jQuery';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.js ul li:nth-child(4) {
+  background: url('../icons/webpack.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'Webpack';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+.react {
+  margin-top: 50px;
+}
+
+.react ul li:first-child {
+  background: url('../icons/react-router.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+
+  &::after {
+    content: 'Router';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.react ul li:last-child {
+  background: url('../icons/redux.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: 'Redux';
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+
+.backend {
+  margin-top: 50px;
+}
+
+.backend ul li:first-child {
+  background: url('../icons/nodejs.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  &::after {
+    content: 'Node.js';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.backend ul li:nth-child(2) {
+  background: url('../icons/express.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+
+  &::after {
+    content: 'Express.js';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.backend ul li:nth-child(3) {
+  background: url('../icons/mongodb.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+
+  &::after {
+    content: 'MongoDB';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+.other {
+  margin-top: 50px;
+}
+
+.other ul li:first-child {
+  background: url('../icons/ts.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  margin-bottom: 30px;
+
+  &::after {
+    content: 'TypeScript';
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
 }

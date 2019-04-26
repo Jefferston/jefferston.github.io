@@ -22,8 +22,6 @@
 
 .project-wrapper {
     max-width: 1000px;
-    border-bottom: 5px solid black;
-    border-radius: 20px;
     margin-bottom: 50px;
 }
 
@@ -34,6 +32,8 @@
     color: #eee;
     text-align: center;
     padding: 20px;
+    border-bottom: 5px solid black;
+    border-radius: 20px;
 }
 
 .project {
@@ -44,6 +44,10 @@
     border-radius: 20px;
     transition: .5s;
     cursor: -webkit-grab;
+
+    &:hover {
+        transform: scale(1.08)
+    }
 }
 
 .first {
