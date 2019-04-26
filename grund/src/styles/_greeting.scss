@@ -1,10 +1,14 @@
-.greeting {
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    display: flex;
+.home {
     // border: 1px solid white; 
-  }
+    display: flex;
+    flex-direction: column;
+    margin: 13% auto;
+    max-width: 1100px;
+}
+
+.greeting {
+    display: flex;
+}
   
 .greeting-hi div:first-child h1 {
   font-size: 3em;
@@ -35,7 +39,6 @@
   font-size: 14px;
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .contactMe a{
@@ -62,11 +65,42 @@
 }
 
 .greeting-ava {
-  background: url('../ava.jpg');
+  background: url('../img/ava.jpg');
   height: 300px;
   width: 300px;
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 100%;
   margin-right: 50px;
+}
+
+.cutePart {
+  margin-top: 130px;
+  position: relative;
+  left: 580px;
+  background: #eee;
+  border-radius: 10px;
+  max-width: 460px;
+  padding: 60px 30px;
+}
+
+.cutePart div {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 60px 20px;
+}
+
+.cutePart div h2 {
+  color: black;
+  font-size: 3.4em;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cutePart div p {
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
 }
