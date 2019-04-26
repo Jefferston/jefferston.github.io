@@ -12,7 +12,7 @@
   
 .greeting-hi div:first-child h1 {
   font-size: 3em;
-  color: white;
+  color: wheat;
   margin-top: -10px;
   font-family: 'Montserrat', sans-serif;
   cursor: default;
@@ -23,11 +23,11 @@
 }
 
 .greeting-hi div:first-child h1 p:hover {
-  animation-duration: .8s;
+  animation-duration: 1s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;
   animation-name: bounced;
-  color: cyan;
+  animation-timing-function: ease;
 }
 
 .greeting-hi div:first-child h1:first-child {

@@ -12,6 +12,10 @@ export default function Skills() {
 
             <ul>
                 <li>
+                    <i className="fa fa-envelope contacts-mail"></i>                   
+                </li>
+
+                <li>
                     <a href="https://www.instagram.com/sokololoev/" 
                         target="_blank" rel="noopener noreferrer" className="contacts-inst">
                         <i className="fab fa-instagram"></i>

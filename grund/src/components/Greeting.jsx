@@ -56,10 +56,10 @@ export default function Greeting(){
 
             </div>
         
-            <div className="cutePart">
+            <div className="cutePart wow fadeIn" data-wow-delay="1.4s">
                 <div>
                     <h2>Schön dich kennen zu lernen.</h2>
-                    <p>I am a young Junior Frontend Developer from Moscow, now locaten in Essen, Germany. And this is my portfolio, where I tried to contain all information about me that I can give. I do not consider myself as a designer, no, I don't like to work with CSS a lot, my passion is coding. But I like making peculiar interfacies for my projects and this portfolio might be an example of my style.</p>
+                    <p>I am a young Junior Frontend Developer from Moscow, now located in Essen, Germany. And this is my portfolio, where I tried to contain all information about me that I can give. I do not consider myself as a designer, no, I don't like to work with CSS a lot, my passion is coding. But I like making peculiar interfacies for my projects and this portfolio might be an example of my style.</p>
                 </div>
             </div>
 

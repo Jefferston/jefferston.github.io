@@ -1,15 +1,8 @@
-@media screen and (min-width: 2000px) {
-    .project div p {
-        font-size: 3em;
-    }
+// @media screen and (min-width: 2000px) {
 
-    .project-check {
-        font-size: 3.2em;
-    }
-}
+// }
 
 @media screen and (max-width: 1200px) {
-
     .home {
         position: absolute;
         left: 10%;
@@ -42,18 +35,13 @@
         margin-left: 140px;
     }
 
-    .projects-container .project {
-        height: 200px;
-        width: 44%;
-        margin-left: 0;
+    .project {
+        width: 800px;
+        height: 400px;
     }
 
-    .project div p {
-        font-size: 38px;
-    }
-
-    .project-check {
-        font-size: 42px;
+    .project-wrapper p {
+        max-width: 800px
     }
 }
 
@@ -113,20 +101,16 @@
     }
 
     .projects {
-        margin-left: 100px;
+        margin-left: 80px;
     }
 
-    .projects-container .project {
-        height: 160px;
+    .project {
+        width: 620px;
+        height: 300px;
     }
 
-    .project div {
-        height: 80%;
-        top: 10%;
-    }
-
-    .project-check {
-        margin-top: 480px;
+    .project-wrapper p {
+        max-width: 620px
     }
 
 }
@@ -198,41 +182,8 @@
         width: 100%;
     }
 
-    .projects-container .project {
-        height: 190px;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .project div {
-        width: 100%;
-        height: 80%;
-        top: 10%;
-        left: 0;
-    }
-
-    .project div p {
-        font-size: 24px;
-    }
-
-    .project-check {
-        font-size: 26px;
-        margin-top: 300px;
-    }
-
 }
 
-@media screen and (max-width: 330px) {
-    .project div p {
-        font-size: 18px;
-    }
+// @media screen and (max-width: 330px) {
 
-    .projects-container .project {
-        height: 160px;
-    }
-
-    .project-check {
-        font-size: 20px;
-        margin-top: 160px;
-    }
-}
+// }
