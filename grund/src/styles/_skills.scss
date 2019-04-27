@@ -56,6 +56,8 @@
     left: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -68,9 +70,11 @@
     content: 'Libraries';
     position: absolute;
     bottom: -40px;
-    left: 20px;
+    left: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -83,16 +87,18 @@
     content: 'Pug';
     position: absolute;
     bottom: -40px;
-    left: 40px;
+    left: 36px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
 
 
 .js {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .js ul li:first-child {
@@ -104,9 +110,11 @@
     content: 'ES6 / ES7';
     position: absolute;
     bottom: -30px;
-    left: 10px;
+    left: 0px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -123,6 +131,8 @@
     left: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -136,9 +146,11 @@
     content: 'jQuery';
     position: absolute;
     bottom: -30px;
-    left: 20px;
+    left: 24px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -151,15 +163,17 @@
     content: 'Webpack';
     position: absolute;
     bottom: -30px;
-    left: 20px;
+    left: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
 
 .react {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .react ul li:first-child {
@@ -171,10 +185,12 @@
   &::after {
     content: 'Router';
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     left: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -186,17 +202,19 @@
   &::after {
     content: 'Redux';
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     left: 30px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
 
 
 .backend {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .backend ul li:first-child {
@@ -209,9 +227,11 @@
     content: 'Node.js';
     position: absolute;
     bottom: -30px;
-    left: 20px;
+    left: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -225,9 +245,11 @@
     content: 'Express.js';
     position: absolute;
     bottom: -30px;
-    left: 20px;
+    left: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
@@ -241,15 +263,17 @@
     content: 'MongoDB';
     position: absolute;
     bottom: -30px;
-    left: 20px;
+    left: 10px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
 
 
 .other {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .other ul li:first-child {
@@ -257,14 +281,16 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 30%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 
   &::after {
     content: 'TypeScript';
     position: absolute;
-    bottom: -30px;
-    left: 10px;
+    bottom: -40px;
+    left: 2px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
   }
 }
