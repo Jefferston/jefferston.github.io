@@ -5,12 +5,13 @@
     // background: #181818;
     position: fixed;
     top: 0;  
+    z-index: 10;
 }
   
 .sidebar-logo {
   background: url(../icons/s.png);
   // background: #000;
-  background-size: 80%;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 100%;
@@ -19,7 +20,7 @@
 
 .sidebar ul {
   list-style: none;
-  color: cyan;
+  color: $mainColor;
   text-align: center;
   font-size: 14px;
   width: 100%;

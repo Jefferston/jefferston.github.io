@@ -6,7 +6,7 @@
 
 .contacts h1 {
     font-size: 4em;
-    color: #75BB97;
+    color: $mainColor;
     margin-bottom: 20px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -15,7 +15,7 @@
     border-radius: 3rem;
 	height: 60px;
 	width: 200px;
-    background: #3F666F;
+    background: #466A87;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     color: white;
@@ -40,7 +40,7 @@
 }
 
 .contacts i {
-    color: #75BB97;
+    color: $mainColor;
 }
 
 .contacts i:before {
@@ -61,7 +61,7 @@
 
 .contacts-mail:after {
     content: 'dima.dima.989@gmail.com';
-    color: #75BB97;
+    color: $mainColor;
     position: absolute;
     left: 36px;
     bottom: 8px;
@@ -70,7 +70,7 @@
 
 .contacts-inst:after {
     content: 'Instagram';
-    color: #75BB97;
+    color: $mainColor;
     position: absolute;
     left: 36px;
     bottom: 6px;
@@ -78,7 +78,7 @@
 
 .contacts-git:after {
     content: 'GitHub';
-    color: #75BB97;
+    color: $mainColor;
     position: absolute;
     left: 36px;
     bottom: 6px;
@@ -86,7 +86,7 @@
 
 .contacts-link:after {
     content: 'LinkedIn';
-    color: #75BB97;
+    color: $mainColor;
     position: absolute;
     left: 36px;
     bottom: 6px;

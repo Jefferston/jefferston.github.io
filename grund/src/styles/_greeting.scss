@@ -74,6 +74,8 @@
   margin-right: 50px;
 }
 
+
+
 .cutePart {
   margin-top: 130px;
   position: relative;
@@ -103,4 +105,16 @@
 .cutePart div p {
   font-size: 26px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.cutePart::before {
+  content: '';
+  width: 400px;
+  height: 400px;
+  background: url('../icons/s.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  position: absolute;
+  left: -500px;
+  top: 300px;
 }
