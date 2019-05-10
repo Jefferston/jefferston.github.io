@@ -19,16 +19,14 @@
         margin-left: 140px;
     }
 
-    .about div {
-        width: 400px;
+    .about-me-pics div {
+        width: 200px;
+        height: 280px;
     }
 
-    .about-edu {
-        margin-top: 380px;
-    }
-
-    .about-text::after, .about-edu::before, .about-exp::after {
-        display: none;
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 410px;
+        height: 240px;
     }
 
     .skills {
@@ -89,19 +87,21 @@
 
     .about {
         margin: 0;
-        margin-left: -60px;
+        margin-left: 30px;
     }
 
-    .about-text {
-        margin-left: 164px;
+    .about-me-pics {
+        justify-content: space-around;
+        margin-left: -120px;
     }
 
-    .about div {
-        width: 600px;
+    .about-me-pics div {
+        width: 240px;
     }
 
-    .about-edu, .about-exp {
-        margin: 10px auto;
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 330px;
+        height: 190px;
     }
 
     .projects {
@@ -146,20 +146,17 @@
         margin: 0;
     }
 
-    .about-text {
-        margin: 0 auto;
+    .about-me-pics {
+        margin-left: 0;
     }
 
-    .about div {
-        width: 300px;
+    .about-me-pics div {
+        width: 280px;
+        height: 340px;
     }
 
-    .about-text h1 {
-        font-size: 3em;
-    }
-
-    .about-text p {
-        font-size: 14px;
+    .about-edu-netology div {
+        display: none;
     }
 
     .skills {
