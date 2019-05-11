@@ -11,30 +11,6 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-.contacts-cv a {
-    border-radius: 3rem;
-	height: 60px;
-	width: 200px;
-    background: #466A87;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    transition: .5s;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.contacts-cv a:hover {
-    transform: scale(1.2)
-}
-
-
 .contacts ul {
     margin-left: 20px;
 }

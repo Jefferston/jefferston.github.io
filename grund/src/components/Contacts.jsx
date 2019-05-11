@@ -5,11 +5,6 @@ export default function Skills() {
         <div className="contacts">
             <h1>Contacts</h1>
 
-            <div className="contacts-cv">
-                <a target="_blank" rel="noopener noreferrer"
-                    href="https://jefferston.github.io/portfolio/portfolio.pdf?">Check my CV</a>
-            </div>
-
             <ul>
                 <li>
                     <i className="fa fa-envelope contacts-mail"></i>                   

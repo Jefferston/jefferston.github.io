@@ -100,8 +100,8 @@
     }
 
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        width: 330px;
-        height: 190px;
+        width: 340px;
+        height: 200px;
     }
 
     .projects {
@@ -120,6 +120,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    h1 {
+        font-size: 3em;
+    }
 
     .cutePart {
         display: none;
@@ -155,8 +158,8 @@
         height: 340px;
     }
 
-    .about-edu-netology div {
-        display: none;
+    .about-edu-netology div:first-child {
+        order: 2;
     }
 
     .skills {

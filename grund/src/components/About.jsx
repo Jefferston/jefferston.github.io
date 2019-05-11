@@ -1,6 +1,8 @@
 import React from 'react';
+import ExpForm from './ExpForm';
 
 export default function About() {
+
     return (
         <div className="about">
 
@@ -13,14 +15,31 @@ export default function About() {
                 </div>
 
                 <div className="about-me-pics">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                        <h2>Developing</h2>
+                        <p>In my blood</p>
+                    </div>
+
+                    <div>
+                        <h2>Egineering</h2>
+                        <p>In my heart</p>
+                    </div>
+
+                    <div>
+                        <h2>Blogging</h2>
+                        <p>Is my passion</p>
+                    </div>
+
+                    <div>
+                        <h2>Traveling</h2>
+                        <p>Is my life</p>
+                    </div>
                 </div>
 
                 <div className="about-me-last">
                     <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://jefferston.github.io/portfolio/portfolio.pdf?">Check my CV</a>
                 </div>
             </div>
 
@@ -64,53 +83,20 @@ export default function About() {
 
             </div>
 
-            {/* <div className="about-text">
-                <h1>About me</h1>
-                <p>I'm a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
-                        I was working for 6 months in medical company before I changed the country of living.</p>
-                <p>Mainly focusing on react applications and javascript animation.</p>
-                <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
-            </div>
-
-            <div className="about-edu">
-                <h2>Education</h2>
-
-                <h3>Bachelor in Civil Engineering</h3>
-                <small>Moscow State University of Civil Engineering (unfinished)</small>
-                <p>Bachelor of civil engineering</p>
-
-                <h3>Courses of Frontend development</h3>
-                <small>Netology University</small>
-                <p>Courses of React.js</p>
-
-                <h3>Bachelor in Industrial Engineering</h3>
-                <small>Technische Hochschule Deggendorf</small>
-                <p>Bachelor of Industrial engineering and Maintainance Operations</p>
-            </div>
 
             <div className="about-exp">
-                <h2>Experience</h2>
+                <h1>Experience</h1>
 
-                <div>
-                    <h3>Netology LLC</h3>
-                    <small>1 year</small>
-                    <p>Mentoring the students and helping in making up the study program on React courses.</p>
-                </div>
+                <ExpForm name="Netology LLC" time="1 year" position="Mentoring the students" description="Mentoring the students and assistance in making up the study program on React courses."/>
 
-                <div>
-                    <h3>Biosreda LLC</h3>
-                    <small>6 months</small>
-                    <p>Developing and supporting the client's side in one russian medical company.</p>
-                </div>
+                <ExpForm name="Biosreda LLC" time="6 months" position="Frontend developer" description="Developing and supporting the client's side of the medical company that was trying to start I.C.O. (not very            successfully, by the way)."/>
 
-                <div>
-                    <h3>Studying</h3>
-                    <small>currently</small>
-                    <p>Nowadays I'm studying in Germany and meanwhile trying
-                        to increase my skills by learning new web-technologies and
-                        practicing with old ones.</p>
-                </div>
-            </div> */}
+                <ExpForm name="Studying" time="Currently" position="Student" description="Nowadays I'm studying in Germany and meanwhile trying to increase my skills by learning new web-technologies and
+                practicing with old ones."/>
+
+            </div>
+
+            
         </div>
     )
 }
