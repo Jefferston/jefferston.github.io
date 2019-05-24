@@ -294,3 +294,22 @@
     font-weight: 900;
   }
 }
+
+.other ul li:last-child {
+  background: url('../icons/python.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  margin-bottom: 40px;
+
+  &::after {
+    content: 'Python';
+    position: absolute;
+    bottom: -40px;
+    left: 16px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #174B54;
+    font-weight: 900;
+  }
+}

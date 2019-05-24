@@ -61,6 +61,7 @@ export default function Skills() {
 
                     <ul>
                         <li></li>
+                        <li></li>
                     </ul>
                 </div>
                 
