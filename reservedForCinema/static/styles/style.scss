@@ -1,0 +1,48 @@
+@import './vars.scss';
+@import './navbar.scss';
+@import './main.scss';
+@import './film.scss';
+@import './registration.scss';
+@import './genres.scss';
+@import './category.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main {
+    background: $mainColor;
+  }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header-span {
+    background: $mainColor;
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+}
+
+.cinema {
+    width: 100%;
+    background: #eee;
+}
+
+.cinema h1 {
+    margin-bottom: 30px;
+    font-size: 3em;
+}

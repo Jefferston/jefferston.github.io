@@ -205,10 +205,22 @@
 }
 
 @media screen and (max-width: 360px) {
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 320px;
+        height: 220px;
+    }
+
+    .about-edu-thd div:first-child {
+        background-size: 160%;
+    }
+
     .skills-description ul li {
         width: 150px;
         height: 150px;
         margin: 40px auto;
-
+        
+        &::after {
+            margin-left: 16px;
+        }
     }
 }
