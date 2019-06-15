@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Header = () => (
   <div className="header">
@@ -21,7 +21,7 @@ const Header = () => (
         </li>
 
         <li>
-          <Link href="/registration">
+          <Link href="/auth">
             <a>Registration</a>
           </Link>
         </li>

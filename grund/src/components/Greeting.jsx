@@ -46,7 +46,7 @@ export default function Greeting(){
                         </h1>            
                     </div>
 
-                    <h2 className="wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">Javascript / React / Three.js</h2>
+                    <h2 className="wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">Javascript / React / Next.js</h2>
 
                     <div className="contactMe wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">
                         <Link to='/contacts'>Contact me</Link>
