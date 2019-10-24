@@ -15,8 +15,16 @@
         margin: 100px auto;
     }
 
+    .cutePart::before {
+        display: none;
+    }
+
     .about {
         margin-left: 140px;
+    }
+
+    .about-me-last a {
+        animation: none;
     }
 
     .about-me-pics div {
@@ -47,7 +55,11 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+
+    .greeting {
+        margin-left: 0;
+    }
 
     .greeting-hi div:first-child {
         margin-top: 40px;
@@ -100,7 +112,7 @@
     }
 
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        width: 340px;
+        width: 420px;
         height: 200px;
     }
 
@@ -119,7 +131,19 @@
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 920px) {
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 670px) {
     h1 {
         font-size: 3em;
     }
@@ -158,8 +182,16 @@
         height: 340px;
     }
 
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 280px;
+    }
+
     .about-edu-netology div:first-child {
         order: 2;
+    }
+
+    .about-edu-mgsu div h2, .about-edu-netology div h2, .about-edu-thd div h2 {
+        font-size: 20px;
     }
 
     .skills {
@@ -204,10 +236,28 @@
 
 }
 
-@media screen and (max-width: 360px) {
+
+
+@media screen and (max-width: 460px) {
+    .about-edu {
+        margin-left: 10px;
+    }
+
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        width: 320px;
-        height: 220px;
+        width: 340px;
+        height: 180px;
+    }
+
+    .about-edu-mgsu div p, .about-edu-netology div p, .about-edu-thd div p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .about-edu {
+        margin-left: 0;
     }
 
     .about-edu-thd div:first-child {

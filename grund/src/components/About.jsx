@@ -12,9 +12,16 @@ export default function About() {
                     <p>I'm Dmitrii, a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
                         I was working for 6 months in medical company before I changed the country of living.</p>
                     <p>Mainly focusing on react applications and javascript animation.</p>
+                    <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
+
+                    
+                    <div className="about-me-last">
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://jefferston.github.io/portfolio/portfolio.pdf?">Check my CV</a>
+                    </div>
                 </div>
 
-                <div className="about-me-pics">
+                {/* <div className="about-me-pics">
                     <div>
                         <h2>Developing</h2>
                         <p>In my blood</p>
@@ -34,13 +41,7 @@ export default function About() {
                         <h2>Traveling</h2>
                         <p>Is my life</p>
                     </div>
-                </div>
-
-                <div className="about-me-last">
-                    <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
-                    <a target="_blank" rel="noopener noreferrer"
-                        href="https://jefferston.github.io/portfolio/portfolio.pdf?">Check my CV</a>
-                </div>
+                </div> */}
             </div>
 
 

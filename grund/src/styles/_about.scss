@@ -90,16 +90,17 @@
 
 .about-me-last a {
   border-radius: 3rem;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
 	height: 90px;
-	width: 300px;
+	width: 96%;
   background: #1D88B6;
   padding: 0.375rem 0.75rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 900;
-  color: #B6C0CB;
+  color: #eee;
   margin-top: 30px;
   margin-bottom: 50px;
-  margin-left: 10px;
   transition: .5s;
   cursor: pointer;
   display: flex;
@@ -107,11 +108,19 @@
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   align-self: flex-start;
+  // animation: bounce 1.5s infinite;
 }
 
 .about-me-last a:hover {
-  transform: scale(1.2)
+  transform: scale(1.1);
+  // animation: none;
 }
+
+// @keyframes bounce {
+//   0% { transform: scale(1) }
+//   50% { transform: scale(1.1) }
+//   100% { transform: scale(1) }
+// }
 
 
 
