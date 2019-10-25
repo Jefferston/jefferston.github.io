@@ -9,15 +9,16 @@ export default function About() {
             <div className="about-me">
                 <div className="about-me-text">
                     <h1>About me</h1>
-                    <p>I'm Dmitrii, a Junior Frontend Developer slash Engineer from Moscow currently located in Germany.
-                        I was working for 6 months in medical company before I changed the country of living.</p>
-                    <p>Mainly focusing on react applications and javascript animation.</p>
-                    <p>Currently I'm a workless student, amping up my skills for an up-to-date web developing.</p>
+                    <p>
+                        I'm Dmitrii, a Junior Frontend Developer slash Engineer from Moscow currently located in Germany. On this page I want to tell you a little bit about me.
+                    </p>
+                    <p>As you can see below, I was studying civil engineering in one university, but when I got               disappointed in the education system in my county, I applied to the university in Germany and         during the period between the disappointment and my admission I was learning Frontend developing      and, I believe, achieved a certain level in it.</p>
+                    <p>Now I'm studying Industrial Engineering and come back to developing time to time.</p>
 
                     
                     <div className="about-me-last">
                         <a target="_blank" rel="noopener noreferrer"
-                            href="https://jefferston.github.io/portfolio/portfolio.pdf?">Check my CV</a>
+                            href="https://www.google.com/">Check my CV</a>
                     </div>
                 </div>
 
@@ -90,7 +91,7 @@ export default function About() {
 
                 <ExpForm name="Netology LLC" time="1 year" position="Mentoring the students" description="Mentoring the students and assistance in making up the study program on React courses."/>
 
-                <ExpForm name="Biosreda LLC" time="6 months" position="Frontend developer" description="Developing and supporting the client's side of the medical company that was trying to start I.C.O. (not very            successfully, by the way)."/>
+                <ExpForm name="Biosreda LLC" time="6 months" position="Frontend developer" description="Developing and supporting the client's side of the medical company that was trying to start I.C.O. (but eventually they failed, by the way)."/>
 
                 <ExpForm name="Studying" time="Currently" position="Student" description="Nowadays I'm studying in Germany and meanwhile trying to increase my skills by learning new web-technologies and
                 practicing with old ones."/>
