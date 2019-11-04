@@ -64,7 +64,9 @@ export default function Greeting(){
             </div>
 
             {/* <div className="engineering">
-                MATRIX
+                <div>Matrix </div>
+                <div>is life.</div>
+                <div>Matrix </div>
             </div> */}
 
         </div>

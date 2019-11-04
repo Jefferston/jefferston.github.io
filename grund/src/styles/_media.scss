@@ -251,13 +251,17 @@
     .about-edu-mgsu div p, .about-edu-netology div p, .about-edu-thd div p {
         font-size: 15px;
     }
+
+    .contacts {
+        margin-left: 25px;
+    }
 }
 
 
 @media screen and (max-width: 380px) {
 
     .about-edu {
-        margin-left: 0;
+        margin-left: 4px;
     }
 
     .about-edu-thd div:first-child {

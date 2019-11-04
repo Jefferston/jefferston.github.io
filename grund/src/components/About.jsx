@@ -21,28 +21,7 @@ export default function About() {
                             href="https://www.google.com/">Check my CV</a>
                     </div>
                 </div>
-
-                {/* <div className="about-me-pics">
-                    <div>
-                        <h2>Developing</h2>
-                        <p>In my blood</p>
-                    </div>
-
-                    <div>
-                        <h2>Egineering</h2>
-                        <p>In my heart</p>
-                    </div>
-
-                    <div>
-                        <h2>Blogging</h2>
-                        <p>Is my passion</p>
-                    </div>
-
-                    <div>
-                        <h2>Traveling</h2>
-                        <p>Is my life</p>
-                    </div>
-                </div> */}
+               
             </div>
 
 

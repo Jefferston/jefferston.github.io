@@ -47,35 +47,6 @@
   margin-bottom: 10px;
 }
 
-.about-me-pics {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.about-me-pics div {
-  background: $grey;
-  font-size: 20px;
-  color: $fiolet;
-  width: 220px;
-  height: 300px;
-  margin: 14px 0px;
-  margin-right: 6px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transition: .5s;
-  cursor: grab;
-}
-
-.about-me-pics div:hover {
-  opacity: .6;
-}
-
 .about-me-last {
   display: flex;
   flex-direction: column;
