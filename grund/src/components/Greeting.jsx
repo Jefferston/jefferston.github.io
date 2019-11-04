@@ -63,11 +63,12 @@ export default function Greeting(){
                 </div>
             </div>
 
-            {/* <div className="engineering">
-                <div>Matrix </div>
-                <div>is life.</div>
-                <div>Matrix </div>
-            </div> */}
+            <div className="engineering">
+                <div>I have</div>
+                <div>no idea</div>
+                <div>what</div>
+                <div>to write</div>
+            </div>
 
         </div>
     )

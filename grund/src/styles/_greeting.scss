@@ -13,35 +13,43 @@
 }
 
 .greeting-ava {
+  background: url('../img/ava.jpg');
+  height: 320px;
+  width: 320px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  margin-right: 50px;
   position: relative;
 }
 
 .greeting-ava::after {
   content: '';
   background: red;
-  width: 10px;
+  width: 12px;
   height: 10px;
   border-radius: 100%;
   position: absolute;
-  top: 116px;
-  left: 110px;
-  animation: wolf 3s linear infinite;
+  top: 123px;
+  left: 117px;
+  animation: wolf 3.5s linear infinite;
 }
 
 .greeting-ava::before {
   content: '';
   background: red;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 11px;
   border-radius: 100%;
   position: absolute;
-  top: 113px;
-  left: 164px;
-  animation: wolf 3s linear infinite;
+  top: 120px;
+  left: 174px;
+  animation: wolf 3.5s linear infinite;
 }
 
 @keyframes wolf {
   0% {opacity: 1;}
+  20% {opacity: 0.2;}
   50% {opacity: 0;}
   80% {opacity: 0.8;}
   100% {opacity: 1;}
@@ -102,15 +110,7 @@
   color: black;
 }
 
-.greeting-ava {
-  background: url('../img/ava.jpg');
-  height: 300px;
-  width: 300px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border-radius: 100%;
-  margin-right: 50px;
-}
+
 
 
 
@@ -160,16 +160,34 @@
 
 .engineering {
   width: 90%;
-  background: #111111;
   margin: 100px auto 0;
+  // position: relative;
+  background: url(../img/dude.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .engineering div {
   color: #eee;
-  font-size: 10em;
+  font-size: 8em;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.engineering div:nth-child(2) {
+.engineering div:nth-child(2n) {
   text-align: right;
 }
+
+// .engineering::after {
+//   content: '';
+//   background: url(../img/dude.png);
+//   background-size: 80%;
+//   background-repeat: no-repeat;
+//   width: 600px;
+//   height: 600px;
+//   position: absolute;
+//   z-index: 2;
+//   top: 50px;
+//   left: 240px;
+// }
