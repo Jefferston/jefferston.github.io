@@ -32,7 +32,7 @@
   position: absolute;
   top: 123px;
   left: 117px;
-  animation: wolf 3.5s linear infinite;
+  animation: wolf 4.5s ease-in infinite;
 }
 
 .greeting-ava::before {
@@ -44,15 +44,18 @@
   position: absolute;
   top: 120px;
   left: 174px;
-  animation: wolf 3.5s linear infinite;
+  animation: wolf 4.5s ease-in infinite;
 }
 
 @keyframes wolf {
-  0% {opacity: 1;}
-  20% {opacity: 0.2;}
-  50% {opacity: 0;}
+  0% {opacity: 0;}
+  20% {opacity: 0;}
+  40% {opacity: 0;}
+  50% {opacity: 1;}
+  60% {opacity: 1;}
+  70% {opacity: 1;}
   80% {opacity: 0.8;}
-  100% {opacity: 1;}
+  100% {opacity: 0.1;}
 }
 
   
@@ -161,16 +164,15 @@
 .engineering {
   width: 90%;
   margin: 100px auto 0;
-  // position: relative;
   background: url(../img/dude.png);
-  background-size: 60%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 40% 50%;
 }
 
 .engineering div {
   color: #eee;
-  font-size: 8em;
+  font-size: 6em;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
@@ -178,16 +180,3 @@
 .engineering div:nth-child(2n) {
   text-align: right;
 }
-
-// .engineering::after {
-//   content: '';
-//   background: url(../img/dude.png);
-//   background-size: 80%;
-//   background-repeat: no-repeat;
-//   width: 600px;
-//   height: 600px;
-//   position: absolute;
-//   z-index: 2;
-//   top: 50px;
-//   left: 240px;
-// }

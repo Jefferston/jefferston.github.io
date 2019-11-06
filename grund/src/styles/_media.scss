@@ -11,8 +11,8 @@
     }
 
     .cutePart {
-        left: 5%;
-        margin: 100px auto;
+        left: 4%;
+        margin: 100px auto 0;
     }
 
     .cutePart::before {
@@ -53,6 +53,10 @@
     .project-wrapper p {
         max-width: 800px
     }
+
+    .contacts {
+        padding: 380px 140px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -67,6 +71,10 @@
     .greeting-hi div:first-child h1 {
         font-size: 30px;
         margin-top: 0px;
+    }
+
+    .engineering {
+        display: none;
     }
 
     .sidebar {
@@ -127,6 +135,10 @@
 
     .project-wrapper p {
         max-width: 620px
+    }
+
+    .contacts {
+        padding: 240px 80px;
     }
 
 }
@@ -253,7 +265,7 @@
     }
 
     .contacts {
-        margin-left: 25px;
+        padding: 180px 40px;
     }
 }
 
@@ -276,5 +288,9 @@
         &::after {
             margin-left: 16px;
         }
+    }
+
+    .contacts {
+        padding: 140px 30px;
     }
 }

@@ -64,10 +64,10 @@ export default function Greeting(){
             </div>
 
             <div className="engineering">
-                <div>I have</div>
-                <div>no idea</div>
-                <div>what</div>
-                <div>to write</div>
+                <div>young</div>
+                <div>daring</div>
+                <div>smart</div>
+                <div>creative</div>
             </div>
 
         </div>
