@@ -145,13 +145,13 @@
 
 @media screen and (max-width: 920px) {
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        max-width: 340px;
+        width: 340px;
     }
 }
 
 @media screen and (max-width: 750px) {
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        max-width: 300px;
+        width: 300px;
     }
 }
 
@@ -251,17 +251,37 @@
 
 
 @media screen and (max-width: 460px) {
-    .about-edu {
-        margin-left: 10px;
+    .greeting-hi h1 {
+        font-size: 40px !important;
     }
 
+    .greeting-hi h2 {
+        font-size: 16px;
+    }
+
+    .contactMe a {
+        font-size: 18px;
+        width: 160px;
+        height: 36px;
+    }
+    
     .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
-        width: 340px;
+        width: 375px;
         height: 180px;
     }
 
     .about-edu-mgsu div p, .about-edu-netology div p, .about-edu-thd div p {
         font-size: 15px;
+    }
+
+    .project {
+        width: 360px;
+        height: 200px;
+    }
+
+    .project-wrapper p {
+        max-width: 360px;
+        font-size: 18px;
     }
 
     .contacts {
@@ -271,9 +291,8 @@
 
 
 @media screen and (max-width: 380px) {
-
-    .about-edu {
-        margin-left: 4px;
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 335px;
     }
 
     .about-edu-thd div:first-child {
@@ -292,5 +311,26 @@
 
     .contacts {
         padding: 140px 30px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .greeting-hi h1 {
+        font-size: 30px !important;
+    }
+
+    .greeting-hi h2 {
+        font-size: 14px;
+    }
+
+    .contactMe a {
+        font-size: 14px;
+        width: 140px;
+        height: 30px;
+    }
+
+    .about-edu-mgsu div, .about-edu-netology div, .about-edu-thd div {
+        width: 315px;
     }
 }
