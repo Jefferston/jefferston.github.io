@@ -33,6 +33,21 @@ main {
     font-size: 5em;
 }
 
+.header .levelBar {
+    width: 200px;
+    height: 30px;
+    background: #000;
+    position: relative;
+}
+
+.header .levelBar .bar_progress {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: green;
+}
+
 .body {
     min-height: 75vh;
     padding: 20px 10px;
@@ -55,13 +70,29 @@ main {
 }
 
 .body .body_block h2 {
-    font-size: 3em;
+    font-size: 2.6em;
     margin-top: 0px;
 }
 
 .body .body_block .list .list_item {
     margin: 10px 0;
     min-width: 220px;
+}
+
+.body .body_block .list .list_item .prog {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background: #000;
+    position: relative;
+}
+
+.body .body_block .list .list_item .prog .ress {
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    background:green;
 }
 
 .body .body_block .list .list_item p {

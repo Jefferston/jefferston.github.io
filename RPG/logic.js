@@ -15,6 +15,9 @@ getExperience = () => {
 
         let sum = parseInt(IntelData[i].textContent, 10);
         exp += sum * Attributes["Intelligence"];
+
+        let bars = document.querySelectorAll('.body .knowledge .list .list_item .prog .ress');
+        bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
     let LangData = document.querySelectorAll('.body .languages .list .list_item p span');
@@ -22,6 +25,9 @@ getExperience = () => {
 
         let sum = parseInt(LangData[i].textContent, 10);
         exp += sum;
+
+        let bars = document.querySelectorAll('.body .languages .list .list_item .prog .ress');
+        bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
     let ArtData = document.querySelectorAll('.body .art .list .list_item p span');
@@ -36,17 +42,21 @@ getExperience = () => {
 
         let sum = parseInt(OtherData[i].textContent, 10);
         exp += sum;
+
+        let bars = document.querySelectorAll('.body .other .list .list_item .prog .ress');
+        bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
     let TravelData = document.querySelectorAll('.body .travel .list .list_item p');
     exp += TravelData.length * 100;
 
     let AgeValue = document.querySelector('.header .age h1').textContent;
-    exp += parseInt(AgeValue, 10) * 1000;
+    exp += (parseInt(AgeValue, 10) - 12) * 1000;
 }
 
 getLevel = () => {
     for (let n = 1; n <= 15; n++) {
+
         let number = n * 1000;
         levelArray.push(number);    
     }
@@ -57,14 +67,23 @@ getLevel = () => {
         if (levelArray[i] < exp) level = i + 2;
     }
 
+    for (let i = 1; i < 15; i++) {
+        
+        let levelBar = document.querySelector('.levelBar .bar_progress');
+        if (i < 14) {
+            levelBar.style.width = `${(levelArray[i + 1] - levelArray[i]) * 100 / levelArray[i + 1]}%`;
+        }
+    }
+
     // console.log(levelArray);
-    // console.log(exp)
+    // console.log(exp);
     console.log(`Level ${level}`);
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
 }
 
 getExperience();
 getLevel();
+
 
 let head = document.querySelector('.header .level h1');
 let subHead = document.querySelector('.header .level h3');
