@@ -61,21 +61,21 @@ getLevel = () => {
         levelArray.push(number);    
     }
 
-    for (let i = 1; i < 15; i++) {
+    for (let i = 1; i < levelArray.length; i++) {
         levelArray[i] = levelArray[i] + levelArray[i - 1];
 
         if (levelArray[i] < exp) level = i + 2;
     }
 
-    for (let i = 1; i < 15; i++) {
+    for (let i = 1; i < levelArray.length - 1; i++) {
         
         let levelBar = document.querySelector('.levelBar .bar_progress');
-        if (i < 14) {
+        if (i < levelArray.length - 1) {
             levelBar.style.width = `${(levelArray[i + 1] - levelArray[i]) * 100 / levelArray[i + 1]}%`;
         }
     }
 
-    // console.log(levelArray);
+    console.log(levelArray);
     // console.log(exp);
     console.log(`Level ${level}`);
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
