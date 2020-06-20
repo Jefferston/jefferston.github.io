@@ -9,21 +9,32 @@ main {
     background: #666;
 }
 
-.head {
-    height: 30vh;
+.header {
+    height: 25vh;
     background: rgb(37, 37, 214);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.head h1 {
+.header .age h1 {
+    font-size: 8em;
+    margin-bottom: -20px;
+}
+
+.header .level h1 {
     font-size: 5em;
 }
 
 .body {
-    min-height: 70vh;
+    min-height: 75vh;
     padding: 20px 10px;
     background: rgb(212, 129, 129);
     display: flex;
@@ -36,9 +47,11 @@ main {
     margin: 16px 0px;
     padding: 10px 20px;
     border-radius: 10px;
+    max-width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .body .body_block h2 {
@@ -52,7 +65,7 @@ main {
 }
 
 .body .body_block .list .list_item p {
-    font-size: 30px;
+    font-size: 26px;
     display: flex;
     justify-content: space-between;
 }
@@ -77,4 +90,22 @@ main {
 
 .body .other {
     background:rgb(150, 9, 155);
+}
+
+.body .achievements {
+    background: rgb(155, 28, 77);
+}
+
+.body .travel {
+    background: rgb(83, 125, 218);
+}
+
+body .travel .list .list_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+body .travel .list .list_item p {
+    margin-right: 6px;
 }

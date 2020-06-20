@@ -9,32 +9,40 @@ let Attributes = {
     'Luck': 4
 }
 
-let IntelData = document.querySelectorAll('.body .knowledge .list .list_item p span');
-for (let i = 0; i < IntelData.length; i++) {
+getExperience = () => {
+    let IntelData = document.querySelectorAll('.body .knowledge .list .list_item p span');
+    for (let i = 0; i < IntelData.length; i++) {
 
-    let sum = parseInt(IntelData[i].textContent, 10);
-    exp += sum * Attributes["Intelligence"];
-}
+        let sum = parseInt(IntelData[i].textContent, 10);
+        exp += sum * Attributes["Intelligence"];
+    }
 
-let LangData = document.querySelectorAll('.body .languages .list .list_item p span');
-for (let i = 0; i < LangData.length; i++) {
+    let LangData = document.querySelectorAll('.body .languages .list .list_item p span');
+    for (let i = 0; i < LangData.length; i++) {
 
-    let sum = parseInt(LangData[i].textContent, 10);
-    exp += sum;
-}
+        let sum = parseInt(LangData[i].textContent, 10);
+        exp += sum;
+    }
 
-let ArtData = document.querySelectorAll('.body .art .list .list_item p span');
-for (let i = 0; i < ArtData.length; i++) {
+    let ArtData = document.querySelectorAll('.body .art .list .list_item p span');
+    for (let i = 0; i < ArtData.length; i++) {
 
-    let sum = parseInt(ArtData[i].textContent, 10);
-    exp += sum * Attributes["Sense of beauty"];
-}
+        let sum = parseInt(ArtData[i].textContent, 10);
+        exp += sum * Attributes["Sense of beauty"];
+    }
 
-let OtherData = document.querySelectorAll('.body .other .list .list_item p span');
-for (let i = 0; i < OtherData.length; i++) {
+    let OtherData = document.querySelectorAll('.body .other .list .list_item p span');
+    for (let i = 0; i < OtherData.length; i++) {
 
-    let sum = parseInt(OtherData[i].textContent, 10);
-    exp += sum;
+        let sum = parseInt(OtherData[i].textContent, 10);
+        exp += sum;
+    }
+
+    let TravelData = document.querySelectorAll('.body .travel .list .list_item p');
+    exp += TravelData.length * 100;
+
+    let AgeValue = document.querySelector('.header .age h1').textContent;
+    exp += parseInt(AgeValue, 10) * 1000;
 }
 
 getLevel = () => {
@@ -55,9 +63,10 @@ getLevel = () => {
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
 }
 
+getExperience();
 getLevel();
 
-let head = document.querySelector('.head h1');
-let subHead = document.querySelector('.head h3');
+let head = document.querySelector('.header .level h1');
+let subHead = document.querySelector('.header .level h3');
 head.textContent = `Level ${level}`;
 subHead.textContent = `You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`;
