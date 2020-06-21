@@ -7,7 +7,21 @@ let Attributes = {
     'Will': 8,
     'Sense of beauty': 7,
     'Luck': 4
+};
+
+getAttributes = () => {
+    let govnoCode = ['Intelligence', 'Charm', 'Will', 'Sense of beauty', 'Luck'];
+    let listChars = document.querySelectorAll('.header .chars ul li');
+    let listCharBars = document.querySelectorAll('.header .chars ul .atBar');
+
+    listCharBars.forEach(el =>
+        el.style.width = `${Attributes[govnoCode[el.previousElementSibling.textContent]] * 10}px`);
+
+    listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: ${Attributes[govnoCode[el.textContent]]}`);
 }
+//Написал хуйню и радуюсь вуахаха
+
+
 
 getExperience = () => {
     let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p span');
@@ -81,6 +95,7 @@ getLevel = () => {
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
 }
 
+getAttributes();
 getExperience();
 getLevel();
 
