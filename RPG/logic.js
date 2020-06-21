@@ -48,7 +48,7 @@ getExperience = () => {
     }
 
     let TravelData = document.querySelectorAll('.body .travel .list .list_item p');
-    exp += TravelData.length * 100;
+    exp += TravelData.length * 200;
 
     let AgeValue = document.querySelector('.header .age h1').textContent;
     exp += (parseInt(AgeValue, 10) - 12) * 1000;
@@ -67,15 +67,10 @@ getLevel = () => {
         if (levelArray[i] < exp) level = i + 2;
     }
 
-    for (let i = 1; i < levelArray.length - 1; i++) {
-        
-        let levelBar = document.querySelector('.levelBar .bar_progress');
-        if (i < levelArray.length - 1) {
-            levelBar.style.width = `${(levelArray[i + 1] - levelArray[i]) * 100 / levelArray[i + 1]}%`;
-        }
-    }
+    let levelBar = document.querySelector('.levelBar .bar_progress');
+    levelBar.style.width = `${100 - ((levelArray[level - 1] - exp) * 100 / (levelArray[level - 1] - levelArray[level - 2]))}%`;
 
-    console.log(levelArray);
+    // console.log(levelArray);
     // console.log(exp);
     console.log(`Level ${level}`);
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
