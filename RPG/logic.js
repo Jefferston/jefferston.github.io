@@ -11,13 +11,13 @@ let Attributes = {
 
 getAttributes = () => {
     let govnoCode = ['Intelligence', 'Charm', 'Will', 'Sense of beauty', 'Luck'];
-    let listChars = document.querySelectorAll('.header .chars ul li');
-    let listCharBars = document.querySelectorAll('.header .chars ul .atBar');
+    let listChars = document.querySelectorAll('.header .chars ul .char_block li');
+    let listCharSpans = document.querySelectorAll('.header .chars ul .char_block span');
 
-    listCharBars.forEach(el =>
-        el.style.width = `${Attributes[govnoCode[el.previousElementSibling.textContent]] * 10}px`);
+    listCharSpans.forEach(el => el.textContent = `${Attributes[govnoCode[el.previousElementSibling.textContent]]}`)
+    listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: `);
 
-    listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: ${Attributes[govnoCode[el.textContent]]}`);
+    // listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: ${Attributes[govnoCode[el.textContent]]}`);
 }
 //Написал хуйню и радуюсь вуахаха
 
