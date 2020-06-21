@@ -10,44 +10,44 @@ let Attributes = {
 }
 
 getExperience = () => {
-    let IntelData = document.querySelectorAll('.body .knowledge .list .list_item p span');
+    let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p span');
     for (let i = 0; i < IntelData.length; i++) {
 
         let sum = parseInt(IntelData[i].textContent, 10);
         exp += sum * Attributes["Intelligence"];
 
-        let bars = document.querySelectorAll('.body .knowledge .list .list_item .prog .ress');
+        let bars = document.querySelectorAll('.mainBody .body .knowledge .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let LangData = document.querySelectorAll('.body .languages .list .list_item p span');
+    let LangData = document.querySelectorAll('.mainBody .body .languages .list .list_item p span');
     for (let i = 0; i < LangData.length; i++) {
 
         let sum = parseInt(LangData[i].textContent, 10);
         exp += sum;
 
-        let bars = document.querySelectorAll('.body .languages .list .list_item .prog .ress');
+        let bars = document.querySelectorAll('.mainBody .body .languages .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let ArtData = document.querySelectorAll('.body .art .list .list_item p span');
+    let ArtData = document.querySelectorAll('.mainBody .body .art .list .list_item p span');
     for (let i = 0; i < ArtData.length; i++) {
 
         let sum = parseInt(ArtData[i].textContent, 10);
         exp += sum * Attributes["Sense of beauty"];
     }
 
-    let OtherData = document.querySelectorAll('.body .other .list .list_item p span');
+    let OtherData = document.querySelectorAll('.mainBody .body .other .list .list_item p span');
     for (let i = 0; i < OtherData.length; i++) {
 
         let sum = parseInt(OtherData[i].textContent, 10);
         exp += sum;
 
-        let bars = document.querySelectorAll('.body .other .list .list_item .prog .ress');
+        let bars = document.querySelectorAll('.mainBody .body .other .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let TravelData = document.querySelectorAll('.body .travel .list .list_item p');
+    let TravelData = document.querySelectorAll('.mainBody .body .travel .list .list_item p');
     exp += TravelData.length * 200;
 
     let AgeValue = document.querySelector('.header .age h1').textContent;
@@ -67,8 +67,13 @@ getLevel = () => {
         if (levelArray[i] < exp) level = i + 2;
     }
 
-    let levelBar = document.querySelector('.levelBar .bar_progress');
-    levelBar.style.width = `${100 - ((levelArray[level - 1] - exp) * 100 / (levelArray[level - 1] - levelArray[level - 2]))}%`;
+    let levelBar = document.querySelector('.level .levelBar  .bar_progress');
+    let needToNewLevel = levelArray[level - 1] - levelArray[level - 2];
+    let haveOfThisLevel = exp - levelArray[level - 2];
+    let needToNewLevelMinusHaveOfThisLevel = levelArray[level - 1] - exp;
+
+    levelBar.style.width = `${100 - (needToNewLevelMinusHaveOfThisLevel * 100 / needToNewLevel)}%`;
+    document.querySelector('.header .level .levelBar span').textContent = `${haveOfThisLevel} / ${needToNewLevel}`;
 
     // console.log(levelArray);
     // console.log(exp);

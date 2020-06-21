@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     color: rgb(34, 28, 28);
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 main {
     background: #666;
+    display: flex;
 }
 
 .header {
-    height: 25vh;
+    height: 100vh;
+    width: 30vw;
     background: rgb(37, 37, 214);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header .top {
@@ -22,6 +24,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid rgb(102, 158, 37); */
 }
 
 .header .age h1 {
@@ -33,55 +36,72 @@ main {
     font-size: 5em;
 }
 
-.header .levelBar {
-    width: 200px;
-    height: 30px;
+.header .level .levelBar {
+    width: 100%;
+    height: 50px;
+    margin-top: 14px;
     background: #000;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position: relative;
 }
 
-.header .levelBar .bar_progress {
-    /* width: 100% !important; */
+.header .level .levelBar .bar_progress {
     height: 100%;
-    border-radius: 10px 0;
     position: absolute;
     left: 0;
     background: green;
 }
 
-.body {
-    min-height: 75vh;
-    padding: 20px 10px;
+.header .level .levelBar span {
+    color: wheat;
+    position: absolute;
+    z-index: 2;
+    top: 36%;
+    left: 40%;
+}
+
+.mainBody {
+    width: 70vw;
+    height: 100vh;
     background: #ccccc2dc;
+    overflow-y: scroll;
+}
+
+.mainBody .special {
+    height: 200px;
+    width: 100%;
+    background: chocolate;
+}
+
+.mainBody .body {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.body .body_block {
-    margin: 16px 0px;
+.mainBody .body .body_block {
+    margin: 16px 6px;
     padding: 10px 20px;
     border-radius: 10px;
-    max-width: 380px;
+    max-width: 560px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.body .body_block h2 {
+.mainBody .body .body_block h2 {
     font-size: 2.6em;
     margin-top: 0px;
 }
 
-.body .body_block .list .list_item {
+.mainBody .body .body_block .list .list_item {
     margin: 10px 0;
     min-width: 220px;
 }
 
-.body .body_block .list .list_item .prog {
+.mainBody .body .body_block .list .list_item .prog {
     width: 100%;
     height: 10px;
     border-radius: 10px 0;
@@ -90,7 +110,7 @@ main {
     margin-top: 4px;
 }
 
-.body .body_block .list .list_item .prog .ress {
+.mainBody .body .body_block .list .list_item .prog .ress {
     height: 100%;
     border-radius: 10px 0;
     position: absolute;
@@ -98,48 +118,48 @@ main {
     background:green;
 }
 
-.body .body_block .list .list_item p {
+.mainBody .body .body_block .list .list_item p {
     font-size: 26px;
     display: flex;
     justify-content: space-between;
 }
 
-.body .body_block .list .list_item p span {
+.mainBody .body .body_block .list .list_item p span {
     margin-left: 10px;
     color: black;
     font-weight: 900;
 }
 
-.body .knowledge {
+.mainBody .body .knowledge {
     background:rgb(180, 3, 3);
 }
 
-.body .languages {
+.mainBody .body .languages {
     background:rgb(102, 158, 37);
 }
 
-.body .art {
+.mainBody .body .art {
     background:rgb(167, 179, 7);
 }
 
-.body .other {
+.mainBody .body .other {
     background:rgb(150, 9, 155);
 }
 
-.body .achievements {
+.mainBody .body .achievements {
     background: #F06449;
 }
 
-.body .travel {
+.mainBody .body .travel {
     background: rgb(83, 125, 218);
 }
 
-body .travel .list .list_item {
+.mainBody .body .travel .list .list_item {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-body .travel .list .list_item p {
+.mainBody .body .travel .list .list_item p {
     margin-right: 6px;
 }
