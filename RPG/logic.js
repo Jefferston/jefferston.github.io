@@ -16,8 +16,6 @@ getAttributes = () => {
 
     listCharSpans.forEach(el => el.textContent = `${Attributes[govnoCode[el.previousElementSibling.textContent]]}`)
     listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: `);
-
-    // listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: ${Attributes[govnoCode[el.textContent]]}`);
 }
 //Написал хуйню и радуюсь вуахаха
 
@@ -59,6 +57,13 @@ getExperience = () => {
 
         let bars = document.querySelectorAll('.mainBody .body .other .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
+    }
+
+    let AchieveData = document.querySelectorAll('.mainBody .body .achievements .list .list_item p span');
+    for (let i = 0; i < AchieveData.length; i++) {
+
+        let sum = parseInt(AchieveData[i].textContent, 10);
+        exp += sum;
     }
 
     let TravelData = document.querySelectorAll('.mainBody .body .travel .list .list_item p');
