@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 ::-webkit-scrollbar{
@@ -22,6 +28,7 @@
 .content {
     display: flex;
     background: #999;
+    position: relative;
 }
 
 .leftSide {
@@ -31,6 +38,50 @@
     background-size: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.leftSideBurger {
+    width: 40px;
+    height: 40px;
+    background: rgb(197, 189, 189);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: black;
+    user-select: none;
+}
+
+.contentDarkness {
+    width: 100vw;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.contentDarkness ul {
+    position: absolute;
+    left: 16%;
+    top: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+}
+
+.contentDarkness ul a {
+    margin-bottom: 20px;
 }
 
 .rightSide{
@@ -38,8 +89,7 @@
     height: 100vh;
     padding-top: 20px;
     background: #1CB0F6;;
-    overflow-y: scroll;
-    font-family: 'Raleway', sans-serif;
+    overflow-y: auto;
 }
 
 .rightSideContent {
@@ -66,7 +116,6 @@
     padding: 6px 10px;
     font-size: 22px;
     border: 2px solid black;
-    text-decoration: none;
     color: #333333;
 }
 
