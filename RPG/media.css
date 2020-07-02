@@ -40,12 +40,18 @@
     }
 
     .mainBody {
-        overflow-y: auto;
+        overflow-y: initial;
+        height: auto;
     }
 
     .header {
         height: auto;
         width: 100vw;
+        justify-content: space-between;
+    }
+
+    .header .age {
+        margin-top: 30px;
     }
 
     .mainBody {
@@ -58,6 +64,11 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    .header {
+        height: 100vh;
+    }
+
     .mainBody .body .body_block {
         margin: 10px;
     }
