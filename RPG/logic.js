@@ -2,7 +2,7 @@ let exp = 0;
 let levelArray = [];
 let level = 1;
 let Attributes = {
-    'Intelligence': 7.2,
+    'Intelligence': 7,
     'Charm': 5,
     'Will': 8,
     'Sense of beauty': 7,
@@ -74,7 +74,7 @@ getExperience = () => {
 }
 
 getLevel = () => {
-    for (let n = 1; n <= 15; n++) {
+    for (let n = 1; n <= 20; n++) {
 
         let number = n * 1000;
         levelArray.push(number);    

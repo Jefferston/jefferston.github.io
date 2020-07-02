@@ -1,0 +1,73 @@
+@media screen and (max-width: 1100px) {
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .mainBody .body .knowledge {
+        order: 1;
+    }
+    
+    .mainBody .body .languages {
+        order: 2;
+    }
+    
+    .mainBody .body .art {
+        order: 4;
+    }
+    
+    .mainBody .body .other {
+        order: 3;
+    }
+    
+    .mainBody .body .achievements {
+        order: 6;
+    }
+    
+    .mainBody .body .travel {
+        order: 5;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    body {
+        overflow: auto;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .mainBody {
+        overflow-y: auto;
+    }
+
+    .header {
+        height: auto;
+        width: 100vw;
+    }
+
+    .mainBody {
+        width: 100vw;
+    }
+
+    .mainBody .special {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainBody .body .body_block {
+        margin: 10px;
+    }
+
+    .mainBody .body .body_block h2 {
+        font-size: 2em;
+    }
+
+    .mainBody .body .body_block .list .list_item p {
+        font-size: 20px;
+    }
+}
+
