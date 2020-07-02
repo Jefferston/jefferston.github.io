@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
     .header {
         height: 100vh;
@@ -79,6 +79,10 @@
 
     .mainBody .body .body_block .list .list_item p {
         font-size: 20px;
+    }
+
+    .mainBody .body .body_block .list .list_item p {
+        max-width: 300px;
     }
 }
 
