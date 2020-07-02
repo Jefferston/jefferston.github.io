@@ -70,19 +70,17 @@
     }
 
     .mainBody .body .body_block {
-        margin: 10px;
-    }
-
-    .mainBody .body .body_block h2 {
-        font-size: 2em;
-    }
-
-    .mainBody .body .body_block .list .list_item p {
-        font-size: 20px;
+        margin: 16px 10px;
+        min-width: 90%;
+        max-width: 90%;
     }
 
     .mainBody .body .body_block .list .list_item p {
-        max-width: 300px;
+        font-size: 22px;
+    }
+
+    .mainBody .body .body_block .list .list_item p {
+        max-width: 350px;
     }
 }
 
