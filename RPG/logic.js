@@ -36,7 +36,7 @@ getExperience = () => {
     for (let i = 0; i < LangData.length; i++) {
 
         let sum = parseInt(LangData[i].textContent, 10);
-        exp += sum;
+        exp += sum * 1.5;
 
         let bars = document.querySelectorAll('.mainBody .body .languages .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
