@@ -115,12 +115,12 @@ main {
 .mainBody {
     width: 70vw;
     height: 100vh;
-    background: #ccccc2dc;
+    background: #BACDD4;
     overflow-y: scroll;
 }
 
 .mainBody .special {
-    height: 200px;
+    height: 400px;
     width: 100%;
     background: #1CB0F6;
     border-bottom: 3px solid black;
@@ -139,6 +139,7 @@ main {
     font-size: 18px;
     padding: 0 20px;
     line-height: 20px;
+    margin-bottom: 14px;
 }
 
 .mainBody .body {
@@ -163,6 +164,9 @@ main {
 .mainBody .body .body_block h2 {
     font-size: 2.4em;
     font-family: 'Playfair Display', serif;
+    color: #1b2b3f;
+    /* background: #32a8a8; */
+    /* background: #9bd4bf; */
 }
 
 .mainBody .body .body_block .list .list_item {
@@ -203,7 +207,8 @@ main {
 
 
 .mainBody .body .knowledge {
-    background:#BF223C;
+    /* background:#BF223C; */
+    background: #d80056d7;
 }
 
 .mainBody .body .languages {
