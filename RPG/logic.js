@@ -19,7 +19,34 @@ getAttributes = () => {
 }
 //Написал хуйню и радуюсь вуахаха
 
+getDescription = () => {
+    let btns = document.querySelectorAll('.mainBody .body .body_block .what');
+    let descriptions = document.querySelectorAll('.mainBody .body .body_block .description');
 
+    for (let description of descriptions) {
+        description.style.display = 'none';
+    }
+
+    for (let btn of btns) {
+        btn.onclick = () => {
+
+        if (btn.nextElementSibling.style.display == 'none') { 
+                btn.nextElementSibling.style.display = 'block';
+                btn.nextElementSibling.onclick = () => btn.nextElementSibling.style.display = 'none';
+            }  
+            // else {
+            //     btn.nextElementSibling.style.display = 'none';
+            // }
+
+            // if (window.getComputedStyle(btn.nextElementSibling.visibility == 'hidden')) { 
+            //     btn.nextElementSibling.style.visibility = 'visible';
+            // }  else {
+            //     btn.nextElementSibling.style.visible = 'hidden';
+            // }
+        }
+    }
+
+}
 
 getExperience = () => {
     let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p span');
@@ -101,6 +128,7 @@ getLevel = () => {
 }
 
 getAttributes();
+getDescription();
 getExperience();
 getLevel();
 

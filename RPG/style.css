@@ -159,6 +159,7 @@ main {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .mainBody .body .body_block h2 {
@@ -167,6 +168,28 @@ main {
     color: #1b2b3f;
     /* background: #32a8a8; */
     /* background: #9bd4bf; */
+}
+
+.mainBody .body .body_block .what {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    font-size: 26px;
+    color: #111;
+    cursor: pointer;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.mainBody .body .body_block .description {
+    background: #000;
+    position: absolute;
+    /* left: 30%;
+    top: 30%; */
+    z-index: 2;
+    height: 400px;
+    width: 300px;
+    /* visibility: hidden; */
+    display: none;
 }
 
 .mainBody .body .body_block .list .list_item {
