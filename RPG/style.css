@@ -180,17 +180,16 @@ main {
     font-family: 'MuseoModerno', cursive;
 }
 
-.mainBody .body .body_block .description {
+/* .mainBody .body .body_block .description {
     background: #000;
     position: absolute;
-    /* left: 30%;
-    top: 30%; */
+    left: 30%;
+    top: 30%;
     z-index: 2;
     height: 400px;
     width: 300px;
-    /* visibility: hidden; */
     display: none;
-}
+} */
 
 .mainBody .body .body_block .list .list_item {
     margin: 10px 0;
