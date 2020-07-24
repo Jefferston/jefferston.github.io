@@ -23,6 +23,10 @@
     .mainBody .body .achievements {
         order: 6;
     }
+
+    .mainBody .body .participations {
+        order: 7;
+    }
     
     .mainBody .body .travel {
         order: 5;

@@ -167,14 +167,13 @@ main {
     font-family: 'Playfair Display', serif;
     color: #1b2b3f;
     /* background: #32a8a8; */
-    /* background: #9bd4bf; */
 }
 
 .mainBody .body .body_block .what {
     position: absolute;
-    right: 12px;
-    top: 8px;
-    font-size: 26px;
+    right: 4px;
+    top: 0px;
+    font-size: 24px;
     color: #111;
     cursor: pointer;
     font-family: 'MuseoModerno', cursive;
@@ -247,6 +246,10 @@ main {
 
 .mainBody .body .achievements {
     background: #F06449;
+}
+
+.mainBody .body .participations {
+    background: #32a8a8;
 }
 
 .mainBody .body .travel {

@@ -92,6 +92,9 @@ getExperience = () => {
     let TravelData = document.querySelectorAll('.mainBody .body .travel .list .list_item p');
     exp += TravelData.length * 200;
 
+    let ParticipData = document.querySelectorAll('.mainBody .body .participations .list .list_item p');
+    exp += ParticipData.length * 1000;
+
     let AgeValue = document.querySelector('.header .age h1').textContent;
     exp += (parseInt(AgeValue, 10) - 12) * 1000;
 }
