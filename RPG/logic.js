@@ -3,46 +3,20 @@ let levelArray = [];
 let level = 1;
 let Attributes = {
     'Intelligence': 7,
-    'Charm': 5,
+    'Charisma': 6,
     'Will': 8,
     'Sense of beauty': 7,
     'Luck': 4
 };
 
 getAttributes = () => {
-    let govnoCode = ['Intelligence', 'Charm', 'Will', 'Sense of beauty', 'Luck'];
+    let govnoCode = ['Intelligence', 'Charisma', 'Will', 'Sense of beauty', 'Luck'];
     let listChars = document.querySelectorAll('.header .chars ul .char_block li');
     let listCharSpans = document.querySelectorAll('.header .chars ul .char_block span');
 
     listCharSpans.forEach(el => el.textContent = `${Attributes[govnoCode[el.previousElementSibling.textContent]]}`)
     listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: `);
 }
-//Написал хуйню и радуюсь вуахаха
-
-// getDescription = () => {
-//     let btns = document.querySelectorAll('.mainBody .body .body_block .what');
-//     let descriptions = document.querySelectorAll('.mainBody .body .body_block .description');
-
-//     for (let description of descriptions) {
-//         description.style.display = 'none';
-//     }
-
-//     for (let btn of btns) {
-//         btn.onclick = () => {
-
-//         if (btn.nextElementSibling.style.display == 'none') { 
-//                 btn.nextElementSibling.style.display = 'block';
-//                 btn.nextElementSibling.onclick = () => btn.nextElementSibling.style.display = 'none';
-//             }  
-            // else {
-            //     btn.nextElementSibling.style.display = 'none';
-            // }
-
-
-//         }
-//     }
-
-// }
 
 getExperience = () => {
     let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p span');
