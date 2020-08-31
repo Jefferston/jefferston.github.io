@@ -5,7 +5,7 @@ let darkness = document.querySelector('.contentDarkness');
 
 burger.onclick = () => {
     if (window.getComputedStyle(darkness).display == 'none') {
-        darkness.style.display = 'block';
+        darkness.style.display = 'flex';
         ava.style.backgroundColor = '#333';
         ava.style.backgroundImage = 'none';
         text.style.overflowY = 'hidden';

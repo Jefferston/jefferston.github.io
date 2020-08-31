@@ -111,6 +111,7 @@ a {
 
 .rightSideContent h3 {
     font-size: 24px;
+    align-self: start;
 }
 
 .rightSideContent a {
@@ -169,11 +170,14 @@ a {
 
     .contentDarkness {
         opacity: 0.8;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contentDarkness ul {
-        top: 38%;
-        left: 35%;
+        top: auto;
+        left: auto;
     }
 }
 
@@ -196,8 +200,8 @@ a {
     }
 
     .contentDarkness ul {
-        top: 30%;
-        left: 10%;
+        top: auto;
+        left: auto;
     }
 }
 
@@ -214,6 +218,11 @@ a {
     .rightSideContent p {
         font-size: 16px;
         line-height: 20px;
+    }
+
+    .contentDarkness ul {
+        top: 30%;
+        left: auto;
     }
 }
 
@@ -235,8 +244,8 @@ a {
     }
 
     .contentDarkness ul {
-        top: 15%;
-        left: 16%;
+        top: 24%;
+        left: auto;
     }
 
     .contentDarkness ul {
