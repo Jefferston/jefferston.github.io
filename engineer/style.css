@@ -124,3 +124,34 @@ a {
     margin-bottom: 20px;
     line-height: 30px;
 }
+
+
+
+@media screen and (max-width: 800px) {
+    * {
+        overflow: auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .leftSide {
+        height: 320px;
+        width: auto;
+        background-size: stretch;
+        background-position: 50% 20%;
+    }
+
+    .rightSide {
+        height: auto;
+        width: auto;
+    }
+    .rightSideContent{
+        padding: 10px 12px;
+    }
+
+    .rightSideContent h1 {
+        font-size: 3em;
+    }
+}
