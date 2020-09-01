@@ -85,6 +85,11 @@ a {
 
 .contentDarkness ul a {
     margin-bottom: 20px;
+    transition: 0.4s; 
+}
+
+.contentDarkness ul a:hover {
+    opacity: 0.4;
 }
 
 .rightSide{

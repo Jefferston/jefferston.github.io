@@ -35,57 +35,95 @@ a {
     position: relative;
 }
 
-.first, .second, .third {
+.zeroth {
+    background: #1CB0F6;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.zeroth h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    color: #393D3D;
+}
+
+.section {
     display: flex;
     height: 400px;
     background: #1CB0F6;
 }
 
-.firstImage {
-    height: 400px;
+.subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
     width: 50%;
-    background: url('./mgsu.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 50% 50%;
-    border: 2px solid black;
 }
 
-.firstDescr {
+.subsection h1 {
+    font-size: 1.9em;
+    background: #393D3D;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-bottom: -6px;
+}
+
+.subsection h3 {
+    font-size: 1.2em;
+    color: #474d52;
+    font-weight: 100;
+    background: #393D3D;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.subsection h2 {
+    font-size: 1.5em;
+    margin: 10px 0 4px 0;
+    background: #393D3D;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.subsection p {
+    background: #393D3D;
+    color: white;
+    line-height: 22px;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.image {
+    height: 400px;
     width: 50%;
+    background-repeat: no-repeat;
+}
+
+.firstImage {
+    background: url('./mgsu.jpg');
+    background-size: 100%;
+    background-position: 50% 50%;
 }
 
 .secondImage {
-    height: 400px;
-    width: 50%;
     background: url('./netology.jpg');
-    background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50% 50%;
-    border: 2px solid black;
-}
-
-.secondDescr {
-    width: 50%;
 }
 
 
 .thirdImage {
-    height: 400px;
-    width: 50%;
     background: url('./thd.jpg');
-    background-repeat: no-repeat;
     background-size: stretch;
     background-position: 50% 50%;
-    border: 2px solid black;
 }
-
-.thirdDescr {
-    width: 50%;
-}
-
-
-
 
 .burger {
     width: 40px;
@@ -118,25 +156,37 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 250px;
+    padding-left: 220px;
+    padding-bottom: 40px;
 }
 
 .contentDarkness ul {
     position: absolute;
-    /* left: 36%;
-    top: 34%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-size: 28px;
     font-family: 'Playfair Display', serif;
+    opacity: 0.8;
 }
 
 .contentDarkness ul a {
     margin-bottom: 20px;
+    transition: 0.4s; 
 }
 
+.contentDarkness ul a:hover {
+    opacity: 0.4;
+}
 
-
+footer {
+    height: 100px;
+    background: #1CB0F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+    border-top: 3px solid black;
+}
 
