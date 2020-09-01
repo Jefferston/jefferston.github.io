@@ -143,12 +143,17 @@ a {
     overflow: hidden;
 }
 
+.rightSideContent p a {
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
 
 
 @media screen and (max-width: 1100px) {
-    /* * {
-        overflow: auto;
-    } */
 
     .content {
         flex-direction: column;
