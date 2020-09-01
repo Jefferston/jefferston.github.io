@@ -115,13 +115,13 @@ a {
 }
 
 .rightSideContent h3 {
-    font-size: 24px;
+    font-size: 22px;
     align-self: start;
 }
 
 .rightSideContent a {
     align-self: start;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 30px 0;
     padding: 6px 10px;
     font-size: 22px;
     border: 2px solid black;
@@ -132,6 +132,15 @@ a {
     font-size: 20px;
     margin-bottom: 20px;
     line-height: 30px;
+    align-self: start;
+}
+
+.rightSideContent p:last-child {
+    background: #393D3D;
+    color: #eee;
+    padding: 6px 0;
+    margin-top: -20px;
+    overflow: hidden;
 }
 
 
