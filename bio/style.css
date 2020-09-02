@@ -251,6 +251,9 @@ footer {
 
     .subsection p {
         font-size: 10px;
+    }
+
+    .subsection p:nth-child(1n) {
         margin-bottom: 30px;
     }
 
@@ -267,7 +270,7 @@ footer {
     }
 
     footer {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
 }
