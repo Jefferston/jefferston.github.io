@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #eee;
+    background: #1CB0F6;
 }
 
 a {
@@ -74,7 +74,7 @@ a {
 }
 
 .subsection h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #474d52;
     font-weight: 100;
     background: #393D3D;
@@ -85,10 +85,11 @@ a {
 
 .subsection h2 {
     font-size: 1.5em;
-    margin: 10px 0 4px 0;
+    margin: 10px 0 0px 0;
     background: #393D3D;
     color: white;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     padding: 4px 6px;
 }
 
@@ -96,26 +97,28 @@ a {
     background: #393D3D;
     color: white;
     line-height: 22px;
-    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     padding: 4px 6px;
 }
 
 .image {
     height: 400px;
     width: 50%;
-    background-repeat: no-repeat;
 }
 
 .firstImage {
     background: url('./mgsu.jpg');
     background-size: 100%;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .secondImage {
     background: url('./netology.jpg');
     background-size: 100%;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 
@@ -123,6 +126,7 @@ a {
     background: url('./thd.jpg');
     background-size: stretch;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .burger {
@@ -132,7 +136,7 @@ a {
     background-size: 80%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     left: 30px;
     top: 30px;
     cursor: pointer;
@@ -181,7 +185,6 @@ a {
 }
 
 footer {
-    height: 100px;
     background: #1CB0F6;
     display: flex;
     align-items: center;
@@ -190,3 +193,79 @@ footer {
     border-top: 3px solid black;
 }
 
+
+
+@media screen and (max-width: 800px) {
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .subsection h1 {
+        font-size: 1.6em;
+    }
+
+    .subsection h3 {
+        font-size: 0.8em;
+    }
+
+    .subsection h2 {
+        font-size: 1.4em;
+        margin-bottom: -2px;
+    }
+
+    .subsection p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .zeroth h1 {
+        font-size: 32px;
+        margin: 10px 0 0 40px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .subsection {
+        width: 100%;
+        margin: 20px 0;
+        order: 2;
+        padding: 0 10px;
+    }
+
+    .subsection h1 {
+        font-size: 1em;
+    }
+
+    .subsection h3 {
+        font-size: 0.6em;
+    }
+
+    .subsection h2 {
+        font-size: 0.8em;
+    }
+
+    .subsection p {
+        font-size: 10px;
+    }
+
+    .image {
+        width: 100%;
+        order: 1;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .contentDarkness {
+        padding: 0;
+        align-items: center;
+    }
+
+    footer {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
