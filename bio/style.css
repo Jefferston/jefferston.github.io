@@ -222,11 +222,12 @@ footer {
     .zeroth h1 {
         font-size: 32px;
         margin: 10px 0 0 40px;
+        color: black;
     }
 
     .section {
         flex-direction: column;
-        height: 420px;
+        height: 460px;
     }
 
     .subsection {
