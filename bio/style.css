@@ -155,19 +155,16 @@ a {
     background: #000;
     opacity: 0.8;
     position: absolute;
-    top: 0;
-    left: 0;
     display: none;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    padding-left: 220px;
-    padding-bottom: 40px;
+    align-items: center;
     overflow-y: hidden;
 }
 
 .contentDarkness ul {
     position: absolute;
+    /* top: 16%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,6 +194,15 @@ footer {
 }
 
 
+@media screen and (max-width: 1100px) {
+    .contentDarkness {
+        height: 100%;
+    }
+
+    .contentDarkness ul {
+        top: 38%;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .section {
@@ -218,6 +224,10 @@ footer {
 
     .subsection p {
         font-size: 14px;
+    }
+
+    .contentDarkness ul {
+        top: 28%;
     }
 
 }
@@ -274,7 +284,24 @@ footer {
         align-items: center;
     }
 
+    .contentDarkness ul {
+        top: 20%;
+    }
+
     footer {
         font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .zeroth h1 {
+        font-size: 28px;
+        margin: 10px 0 -20px 60px;
+    }
+
+    .contentDarkness ul {
+        font-size: 20px;
+        top: 15%;
     }
 }
