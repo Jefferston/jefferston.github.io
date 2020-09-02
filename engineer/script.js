@@ -11,7 +11,6 @@ burger.onclick = () => {
         ava.style.backgroundImage = 'none';
         text.style.overflowY = 'hidden';
         body.style.overflowY = 'hidden';
-        burger.style.borderRadius = '100%';
         burger.textContent = 'X';
         burger.style.backgroundImage = 'none';
     } else {
@@ -19,7 +18,6 @@ burger.onclick = () => {
         ava.style.backgroundImage = "url('./me.jpg')";
         text.style.overflowY = 'auto';
         body.style.overflowY = 'auto';
-        burger.style.borderRadius = '0';
         burger.textContent = '';
         burger.style.backgroundImage = "url('./menu.png')";
     }
