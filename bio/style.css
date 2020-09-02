@@ -194,6 +194,8 @@ footer {
 }
 
 
+
+
 @media screen and (max-width: 1100px) {
     .contentDarkness {
         height: 100%;
@@ -235,7 +237,7 @@ footer {
 @media screen and (max-width: 650px) {
     .zeroth h1 {
         font-size: 32px;
-        margin: 10px 0 0 40px;
+        margin: 10px 0 -10px 40px;
         color: black;
     }
 
@@ -294,7 +296,7 @@ footer {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 370px) {
     .zeroth h1 {
         font-size: 28px;
         margin: 10px 0 -20px 60px;
