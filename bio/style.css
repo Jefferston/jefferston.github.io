@@ -52,7 +52,6 @@ a {
 
 .section {
     display: flex;
-    height: 400px;
     background: #1CB0F6;
 }
 
@@ -227,6 +226,7 @@ footer {
 
     .section {
         flex-direction: column;
+        height: 420px;
     }
 
     .subsection {
@@ -250,7 +250,6 @@ footer {
 
     .subsection p {
         font-size: 10px;
-        margin-bottom: 30px;
     }
 
     .image {
