@@ -11,6 +11,7 @@ burger.onclick = () => {
         burger.style.backgroundImage = 'none';
         body.style.overflowY = 'hidden';
         subcard.style.backgroundColor = '#000';
+        subcard.style.zIndex = '-2';
     } else {
         darkness.style.display = 'none';
         burger.style.borderRadius = '0';
@@ -18,5 +19,6 @@ burger.onclick = () => {
         burger.style.backgroundImage = "url('./menu.png')";
         body.style.overflowY = 'auto';
         subcard.style.backgroundColor = '#808F8C';
+        subcard.style.zIndex = 'inherit';
     }
 }
