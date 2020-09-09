@@ -34,9 +34,9 @@ a {
 .leftSide {
     width: 50%;
     height: 100vh;
-    background: url('./me.jpg');
+    background: url('./ein.jpg');
     background-size: 100%;
-    background-position: 50% 50%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     /* position: relative; */
 }
@@ -227,7 +227,7 @@ a {
 @media screen and (max-width: 600px) {
     .leftSide {
         height: 340px;
-        background-position: 50% 20%;
+        background-position: 50% 0%;
     }
 
     .rightSide {
