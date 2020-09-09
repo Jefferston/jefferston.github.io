@@ -15,7 +15,7 @@ burger.onclick = () => {
         burger.style.backgroundImage = 'none';
     } else {
         darkness.style.display = 'none';
-        ava.style.backgroundImage = "url('./me.jpg')";
+        ava.style.backgroundImage = "url('./ein.jpg')";
         text.style.overflowY = 'auto';
         body.style.overflowY = 'auto';
         burger.textContent = '';
