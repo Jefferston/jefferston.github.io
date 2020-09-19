@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #1CB0F6;
+    background: #dfd5a7;
 }
 
 a {
@@ -41,23 +41,25 @@ a {
 .card {
     width: 70%;
     height: 70%;
-    background: #000;
+    background: #27302D;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 20px 20px 80px rgb(0,0,0);
+    border-radius: 10px;
 }
 
 .subcard {
     width: 94%;
     height: 86%;
-    background: #808F8C;
+    background: #59af98;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
     padding: 0 20px;
     position: relative;
+    border-radius: 8px;
 }
 
 .subcard a, .subcard span {

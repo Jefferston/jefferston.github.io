@@ -96,7 +96,7 @@ a {
     width: 50%;
     height: 100vh;
     padding-top: 20px;
-    background: #1CB0F6;;
+    background: #dfd5a7;
     overflow-y: auto;
 }
 
@@ -136,8 +136,8 @@ a {
 }
 
 .rightSideContent p:last-child {
-    background: #393D3D;
-    color: #eee;
+    /* background: #393D3D; */
+    color: rgb(105, 32, 32);
     padding: 6px 0;
     margin-top: -20px;
     overflow: hidden;
