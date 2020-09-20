@@ -4,10 +4,11 @@
     box-sizing: border-box;
     /* overflow: hidden; */
     font-family: 'Raleway', sans-serif;
+    color: #2F2C4E;
 }
 
 body {
-    background: #dfd5a7;
+    background: #EAE4C4;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
 .card {
     width: 70%;
     height: 70%;
-    background: #27302D;
+    background: #2F2C4E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +53,7 @@ a {
 .subcard {
     width: 94%;
     height: 86%;
-    background: #59af98;
+    background: #9FBED0;
     display: flex;
     justify-content: center;
     align-items: start;

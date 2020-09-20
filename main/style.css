@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
+    color: #2F2C4E;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
 
 .content {
     display: flex;
-    background: #1CB0F6;
+    background: #EAE4C4;
     position: relative;
 }
 
@@ -96,7 +97,7 @@ a {
     width: 50%;
     height: 100vh;
     padding-top: 20px;
-    background: #dfd5a7;
+    background: #EAE4C4;
     overflow-y: auto;
 }
 
