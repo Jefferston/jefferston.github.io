@@ -28,7 +28,7 @@ a {
 
 .content {
     display: flex;
-    background: #EAE4C4;
+    background: #9FBED0;
     position: relative;
 }
 
@@ -97,7 +97,7 @@ a {
     width: 50%;
     height: 100vh;
     padding-top: 20px;
-    background: #EAE4C4;
+    background: #9FBED0;
     overflow-y: auto;
 }
 
