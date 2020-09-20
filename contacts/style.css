@@ -4,7 +4,7 @@
     box-sizing: border-box;
     /* overflow: hidden; */
     font-family: 'Raleway', sans-serif;
-    color: #2F2C4E;
+    color: wheat;
 }
 
 body {
@@ -42,7 +42,7 @@ a {
 .card {
     width: 70%;
     height: 70%;
-    background: #2F2C4E;
+    background: #0B2F3F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ a {
 .subcard {
     width: 94%;
     height: 86%;
-    background: #d1bb3e;
+    background: #224a5c;
     display: flex;
     justify-content: center;
     align-items: start;
