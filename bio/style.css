@@ -269,6 +269,7 @@ footer {
 
     .subsection p {
         font-size: 10px;
+        line-height: 18px;
     }
 
     .subsection p:nth-child(1n) {
