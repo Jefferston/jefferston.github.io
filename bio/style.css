@@ -270,11 +270,11 @@ footer {
     }
 
     .subsection h2 {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .subsection p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 18px;
     }
 
@@ -326,10 +326,10 @@ footer {
 
 
 @media screen and (max-width: 370px) {
-    .zeroth h1 {
+    /* .zeroth h1 {
         font-size: 28px;
         margin: 10px 0 -20px 60px;
-    }
+    } */
 
     .contentDarkness ul {
         font-size: 20px;
