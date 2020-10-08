@@ -18,7 +18,7 @@ burger.onclick = () => {
         burger.textContent = '';
         burger.style.backgroundImage = "url('./menu.png')";
         body.style.overflowY = 'auto';
-        subcard.style.backgroundColor = '#808F8C';
+        subcard.style.backgroundColor = '#224a5c';
         subcard.style.zIndex = 'inherit';
     }
 }
