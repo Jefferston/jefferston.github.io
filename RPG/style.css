@@ -160,6 +160,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .mainBody .body .body_block h2 {
@@ -189,6 +190,7 @@ main {
     width: 300px;
     display: none;
 } */
+
 
 .mainBody .body .body_block .list .list_item {
     margin: 10px 0;
@@ -241,7 +243,7 @@ main {
 }
 
 .mainBody .body .coding {
-    background:#d32b9bf8;
+    background:#3fc259;
 }
 
 .mainBody .body .other {
