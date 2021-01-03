@@ -63,6 +63,16 @@ getExperience = () => {
         exp += sum;
     }
 
+    let CodingData = document.querySelectorAll('.mainBody .body .coding .list .list_item p span');
+    for (let i = 0; i < CodingData.length; i++) {
+
+        let sum = parseInt(CodingData[i].textContent, 10);
+        exp += sum;
+        
+        let bars = document.querySelectorAll('.mainBody .body .coding .list .list_item .prog .ress');
+        bars[i].style.width = `${sum * 100 / 10000}%`;
+    }
+
     let TravelData = document.querySelectorAll('.mainBody .body .travel .list .list_item p');
     exp += TravelData.length * 200;
 

@@ -90,7 +90,7 @@ main {
 }
 
 .header .level .levelBar {
-    width: 100%;
+    width: 101%;
     height: 50px;
     margin-top: 14px;
     background: #000;
@@ -192,7 +192,7 @@ main {
 
 .mainBody .body .body_block .list .list_item {
     margin: 10px 0;
-    min-width: 220px;
+    min-width: 200px;
 }
 
 .mainBody .body .body_block .list .list_item .prog {
@@ -238,6 +238,10 @@ main {
 
 .mainBody .body .art {
     background:#f1cf09;
+}
+
+.mainBody .body .coding {
+    background:#d32b9bf8;
 }
 
 .mainBody .body .other {

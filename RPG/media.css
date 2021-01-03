@@ -25,6 +25,10 @@
     }
 
     .mainBody .body .participations {
+        order: 8;
+    }
+
+    .mainBody .body .coding {
         order: 7;
     }
     
