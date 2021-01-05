@@ -90,5 +90,15 @@
     .mainBody .body .body_block .list .list_item p {
         max-width: 350px;
     }
+
+    .mainBody .library .authors p {
+        font-size: 14px;
+    }
+
+    .mainBody .library .container .book {
+        width: 120px;
+        height: 180px;
+        margin: 10px;
+    }
 }
 

@@ -120,7 +120,7 @@ main {
 }
 
 .mainBody .special {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background: #1CB0F6;
     border-bottom: 3px solid black;
@@ -170,28 +170,6 @@ main {
     /* background: #32a8a8; */
 }
 
-.mainBody .body .body_block .what {
-    position: absolute;
-    right: 4px;
-    top: 0px;
-    font-size: 24px;
-    color: #111;
-    cursor: pointer;
-    font-family: 'MuseoModerno', cursive;
-}
-
-/* .mainBody .body .body_block .description {
-    background: #000;
-    position: absolute;
-    left: 30%;
-    top: 30%;
-    z-index: 2;
-    height: 400px;
-    width: 300px;
-    display: none;
-} */
-
-
 .mainBody .body .body_block .list .list_item {
     margin: 10px 0;
     min-width: 200px;
@@ -228,7 +206,6 @@ main {
     font-weight: 900;
 }
 
-
 .mainBody .body .knowledge {
     /* background:#BF223C; */
     background: #d80056d7;
@@ -239,7 +216,8 @@ main {
 }
 
 .mainBody .body .art {
-    background:#f1cf09;
+    /* background:#f1cf09; */
+    background:#e92848;
 }
 
 .mainBody .body .coding {
@@ -247,7 +225,7 @@ main {
 }
 
 .mainBody .body .other {
-    background:#0E9AA7;
+    background:#0ca3b1;
 }
 
 .mainBody .body .achievements {
@@ -255,7 +233,8 @@ main {
 }
 
 .mainBody .body .participations {
-    background: #32a8a8;
+    /* background: #32a8a8; */
+    background:#f1cf09;
 }
 
 .mainBody .body .travel {
@@ -291,4 +270,89 @@ main {
 .mainBody .body .coding .list .list_item p span::after {
     content: 'h';
     margin-left: 4px;
+}
+
+
+
+
+.mainBody .library {
+    margin-top: 60px;
+    border-top: 6px solid black;
+}
+
+
+.mainBody .library h1 {
+    padding: 20px 0 10px;
+    font-size: 4em;
+    font-family: 'MuseoModerno', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBody .library .authors {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainBody .library .authors p {
+    border: 3px solid black;
+    background: #1CB0F6;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mainBody .library .container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainBody .library .container .book {
+    width: 170px;
+    height: 260px;
+    background: #000;
+    margin: 20px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainBody .library .container .hell {
+    background-image: url('./covers/hell.jpg');
+}
+
+.mainBody .library .container .mockin {
+    background-image: url('./covers/mockin.jpg');
+}
+
+.mainBody .library .container .galaxy {
+    background-image: url('./covers/galaxy.jpg');
+}
+
+.mainBody .library .container .innsmut {
+    background-image: url('./covers/innsmut.jpg');
+}
+
+.mainBody .library .container .legend {
+    background-image: url('./covers/legend.webp');
+}
+
+.mainBody .library .container .choke {
+    background-image: url('./covers/choke.webp');
+}
+
+.mainBody .library .container .atlant {
+    background-image: url('./covers/atlant.jpg');
+}
+
+.mainBody .library .container .niggers {
+    background-image: url('./covers/niggers.jpg');
 }

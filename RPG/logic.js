@@ -4,8 +4,8 @@ let level = 1;
 let Attributes = {
     'Intelligence': 7,
     'Charisma': 6,
-    'Will': 8,
-    'Sense of beauty': 7,
+    'Will': 7,
+    'Sense of beauty': 8,
     'Luck': 4
 };
 
@@ -16,6 +16,36 @@ getAttributes = () => {
 
     listCharSpans.forEach(el => el.textContent = `${Attributes[govnoCode[el.previousElementSibling.textContent]]}`)
     listChars.forEach(el => el.textContent = `${govnoCode[el.textContent]}: `);
+}
+
+getAuthors = () => {
+    let authors = document.querySelectorAll('.authors p');
+
+    for (let author of authors) {
+        author.onclick = () => {
+            let books = document.querySelectorAll('.book');
+
+            for (let book of books) {
+                if (!(book.getAttribute('data-author') == author.getAttribute('data-author'))) {
+                    book.style.display = "none";
+    
+                    
+                // if (book.getAttribute('data-author') == author.getAttribute('data-author')) {
+                //     book.style.borderColor = "#eee"
+                // }
+    
+                if (author.getAttribute('data-author') == "All") {
+                    book.style.display = "block";
+                }
+    
+                } 
+                else {
+                    book.style.display = "block";
+                }
+    
+            }
+        }
+    }
 }
 
 getExperience = () => {
@@ -111,7 +141,7 @@ getLevel = () => {
 }
 
 getAttributes();
-// getDescription();
+getAuthors();
 getExperience();
 getLevel();
 
