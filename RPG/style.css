@@ -216,7 +216,6 @@ main {
 }
 
 .mainBody .body .art {
-    /* background:#f1cf09; */
     background:#e92848;
 }
 
@@ -305,6 +304,11 @@ main {
     border-radius: 6px;
     font-size: 18px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.mainBody .library .authors p:hover {
+    opacity: 0.7;
 }
 
 .mainBody .library .container {
@@ -323,6 +327,10 @@ main {
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.selected {
+    border: 4px solid #d80056d7 !important;
 }
 
 .mainBody .library .container .hell {
@@ -355,4 +363,32 @@ main {
 
 .mainBody .library .container .niggers {
     background-image: url('./covers/niggers.jpg');
+}
+
+.mainBody .library .container .oruel {
+    background-image: url('./covers/1984.jpg');
+}
+
+.mainBody .library .container .millennium1 {
+    background-image: url('./covers/millennium1.jpeg');
+}
+
+.mainBody .library .container .millennium2 {
+    background-image: url('./covers/millennium2.jpg');
+}
+
+.mainBody .library .container .millennium3 {
+    background-image: url('./covers/millennium3.webp');
+}
+
+.mainBody .library .container .geralt {
+    background-image: url('./covers/geralt.jpeg');
+}
+
+.mainBody .library .container .ciri {
+    background-image: url('./covers/ciri.jpg');
+}
+
+.mainBody .library .container .world {
+    background-image: url('./covers/world.jpg');
 }

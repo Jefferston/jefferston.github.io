@@ -23,21 +23,24 @@ getAuthors = () => {
 
     for (let author of authors) {
         author.onclick = () => {
+
+            for (let author of authors) {
+                author.classList.remove('selected');
+            }
+            
+            author.classList.add('selected');
+
+
+            console.log(author)
             let books = document.querySelectorAll('.book');
 
             for (let book of books) {
                 if (!(book.getAttribute('data-author') == author.getAttribute('data-author'))) {
-                    book.style.display = "none";
+                    book.style.display = "none";    
     
-                    
-                // if (book.getAttribute('data-author') == author.getAttribute('data-author')) {
-                //     book.style.borderColor = "#eee"
-                // }
-    
-                if (author.getAttribute('data-author') == "All") {
-                    book.style.display = "block";
-                }
-    
+                    if (author.getAttribute('data-author') == "All") {
+                        book.style.display = "block";
+                    }   
                 } 
                 else {
                     book.style.display = "block";
