@@ -92,7 +92,8 @@
     }
 
     .mainBody .library .authors p {
-        font-size: 12px;
+        font-size: 13px;
+        padding: 6px;
     }
 
     .mainBody .library .container {
