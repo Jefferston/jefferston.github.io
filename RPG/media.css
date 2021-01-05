@@ -94,6 +94,7 @@
     .mainBody .library .authors p {
         font-size: 14px;
         padding: 6px;
+        margin: 2px;
     }
 
     .mainBody .library .container {
