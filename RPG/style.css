@@ -276,6 +276,7 @@ main {
 
 .mainBody .library {
     margin-top: 60px;
+    margin-bottom: 40px;
     border-top: 6px solid black;
 }
 
@@ -314,7 +315,7 @@ main {
 .mainBody .library .container {
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -323,7 +324,7 @@ main {
     width: 170px;
     height: 260px;
     background: #000;
-    margin: 20px;
+    margin: 20px 40px;
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
