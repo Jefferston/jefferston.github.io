@@ -329,6 +329,7 @@ main {
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0 0 14px rgba(0,0,0,0.5);
 }
 
 .selected {
