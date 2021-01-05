@@ -95,6 +95,10 @@
         font-size: 12px;
     }
 
+    .mainBody .library .container {
+        justify-content: space-around;
+    }
+
     .mainBody .library .container .book {
         width: 140px;
         height: 200px;
