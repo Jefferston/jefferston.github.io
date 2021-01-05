@@ -33,8 +33,10 @@ getAuthors = () => {
             let books = document.querySelectorAll('.book');
 
             for (let book of books) {
+
                 book.style.width = "240px";
                 book.style.height = "350px";
+
                 if (!(book.getAttribute('data-author') == author.getAttribute('data-author'))) {
                     book.style.display = "none";    
     
@@ -116,6 +118,10 @@ getExperience = () => {
 
     let AgeValue = document.querySelector('.header .age h1').textContent;
     exp += (parseInt(AgeValue, 10) - 12) * 1000;
+
+    let authors = document.querySelectorAll('.authors p');
+    let books = document.querySelectorAll('.book')
+    exp += (authors.length - 1) * 100 + books.length * 50;
 }
 
 getLevel = () => {

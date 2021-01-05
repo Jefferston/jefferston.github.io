@@ -100,9 +100,9 @@
     }
 
     .mainBody .library .container .book {
-        max-width: 140px;
-        max-height: 200px;
-        margin: 10px;
+        max-width: 150px;
+        max-height: 230px;
+        margin: 6px;
     }
 }
 
