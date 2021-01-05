@@ -3,6 +3,7 @@
     padding: 0;
     color: rgb(34, 28, 28);
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -392,4 +393,8 @@ main {
 
 .mainBody .library .container .world {
     background-image: url('./covers/world.jpg');
+}
+
+.mainBody .library .container .thief {
+    background-image: url('./covers/thief.webp');
 }

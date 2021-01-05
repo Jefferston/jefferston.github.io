@@ -30,16 +30,18 @@ getAuthors = () => {
             
             author.classList.add('selected');
 
-
-            console.log(author)
             let books = document.querySelectorAll('.book');
 
             for (let book of books) {
+                book.style.width = "240px";
+                book.style.height = "350px";
                 if (!(book.getAttribute('data-author') == author.getAttribute('data-author'))) {
                     book.style.display = "none";    
     
                     if (author.getAttribute('data-author') == "All") {
                         book.style.display = "block";
+                        book.style.width = "170px";
+                        book.style.height = "260px";
                     }   
                 } 
                 else {
