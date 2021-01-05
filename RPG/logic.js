@@ -114,7 +114,7 @@ getExperience = () => {
     exp += TravelData.length * 200;
 
     let ParticipData = document.querySelectorAll('.mainBody .body .participations .list .list_item p');
-    exp += ParticipData.length * 1000;
+    exp += ParticipData.length * 2000;
 
     let AgeValue = document.querySelector('.header .age h1').textContent;
     exp += (parseInt(AgeValue, 10) - 12) * 1000;
