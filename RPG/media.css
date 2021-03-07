@@ -13,7 +13,7 @@
     }
     
     .mainBody .body .art {
-        order: 4;
+        order: 5;
     }
     
     .mainBody .body .other {
@@ -21,7 +21,7 @@
     }
     
     .mainBody .body .achievements {
-        order: 7;
+        order: 4;
     }
 
     .mainBody .body .participations {
@@ -33,7 +33,7 @@
     }
     
     .mainBody .body .travel {
-        order: 5;
+        order: 7;
     }
 
 }
@@ -89,6 +89,10 @@
 
     .mainBody .body .body_block .list .list_item p {
         max-width: 350px;
+    }
+
+    .mainBody .body .body_block h2 {
+        font-size: 32px;
     }
 
     .mainBody .library .authors p {
