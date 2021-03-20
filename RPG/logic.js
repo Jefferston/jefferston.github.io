@@ -8,6 +8,16 @@ let Attributes = {
     'Sense of beauty': 8,
     'Luck': 4
 };
+let Class = {
+    'Name': 'Adventurer',
+    'MainFocus': 'Economics: ',
+    'AdditionalFocus': 'art',
+    'HobbyFocus': 'Useful videos: ',
+    'Knowledge': 1.3,
+    'Area': 1.2,
+    'Hobby': 1.1
+};
+
 
 getAttributes = () => {
     let govnoCode = ['Intelligence', 'Charisma', 'Will', 'Sense of beauty', 'Luck'];
@@ -55,56 +65,70 @@ getAuthors = () => {
     }
 }
 
+
 getExperience = () => {
-    let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p span');
+    let IntelData = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p');
     for (let i = 0; i < IntelData.length; i++) {
 
-        let sum = parseInt(IntelData[i].textContent, 10);
+        let sum = parseInt(IntelData[i].getAttribute("data-value"), 10);
         exp += sum * Attributes["Intelligence"];
+
+        IntelData[i].childNodes[1].textContent = IntelData[i].getAttribute("data-value");
 
         let bars = document.querySelectorAll('.mainBody .body .knowledge .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let LangData = document.querySelectorAll('.mainBody .body .languages .list .list_item p span');
+    let LangData = document.querySelectorAll('.mainBody .body .languages .list .list_item p');
     for (let i = 0; i < LangData.length; i++) {
 
-        let sum = parseInt(LangData[i].textContent, 10);
+        let sum = parseInt(LangData[i].getAttribute("data-value"), 10);
         exp += sum * 1.5;
+
+        LangData[i].childNodes[1].textContent = LangData[i].getAttribute("data-value");
 
         let bars = document.querySelectorAll('.mainBody .body .languages .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let ArtData = document.querySelectorAll('.mainBody .body .art .list .list_item p span');
+    let ArtData = document.querySelectorAll('.mainBody .body .art .list .list_item p');
     for (let i = 0; i < ArtData.length; i++) {
 
-        let sum = parseInt(ArtData[i].textContent, 10);
+        let sum = parseInt(ArtData[i].getAttribute("data-value"), 10);
         exp += sum * Attributes["Sense of beauty"];
+
+        ArtData[i].childNodes[1].textContent = ArtData[i].getAttribute("data-value");
     }
 
-    let OtherData = document.querySelectorAll('.mainBody .body .other .list .list_item p span');
+    let OtherData = document.querySelectorAll('.mainBody .body .other .list .list_item p');
     for (let i = 0; i < OtherData.length; i++) {
 
-        let sum = parseInt(OtherData[i].textContent, 10);
+        let sum = parseInt(OtherData[i].getAttribute("data-value"), 10);
         exp += sum;
+
+        OtherData[i].childNodes[1].textContent = OtherData[i].getAttribute("data-value");
 
         let bars = document.querySelectorAll('.mainBody .body .other .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
-    let AchieveData = document.querySelectorAll('.mainBody .body .achievements .list .list_item p span');
+    let AchieveData = document.querySelectorAll('.mainBody .body .achievements .list .list_item p');
     for (let i = 0; i < AchieveData.length; i++) {
 
-        let sum = parseInt(AchieveData[i].textContent, 10);
+        let sum = parseInt(AchieveData[i].getAttribute("data-value"), 10);
         exp += sum;
+
+        AchieveData[i].childNodes[1].textContent = AchieveData[i].getAttribute("data-value");
     }
 
-    let CodingData = document.querySelectorAll('.mainBody .body .coding .list .list_item p span');
+
+    let CodingData = document.querySelectorAll('.mainBody .body .coding .list .list_item p');
     for (let i = 0; i < CodingData.length; i++) {
 
-        let sum = parseInt(CodingData[i].textContent, 10);
+        let sum = parseInt(CodingData[i].getAttribute("data-value"), 10);
         exp += sum;
+
+        CodingData[i].childNodes[1].textContent = CodingData[i].getAttribute("data-value");
         
         let bars = document.querySelectorAll('.mainBody .body .coding .list .list_item .prog .ress');
         bars[i].style.width = `${sum * 100 / 10000}%`;
@@ -122,6 +146,31 @@ getExperience = () => {
     let authors = document.querySelectorAll('.authors p');
     let books = document.querySelectorAll('.book')
     exp += (authors.length - 1) * 100 + books.length * 50;
+}
+
+getClassBonus = () => {
+    let jopa = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p');
+    for (let jo of jopa) {
+        if (jo.textContent === Class.MainFocus) {
+            let mainBonus = jo.getAttribute("data-value") * Class.Knowledge - jo.getAttribute("data-value");
+            exp += mainBonus * Attributes["Intelligence"];
+        }
+    }
+
+    let pula = document.querySelectorAll(`.mainBody .body .${Class.AdditionalFocus} .list .list_item p`);
+    for (let i = 0; i < pula.length; i++) {  
+        let sum = parseInt(pula[i].getAttribute("data-value"), 10);
+        let secondaryBonus = sum * Class.Area - sum;
+        exp += secondaryBonus * Attributes["Sense of beauty"];
+    }
+
+    let jopula = document.querySelectorAll('.mainBody .body .other .list .list_item p');
+    for (let jola of jopula) {
+        if (jola.textContent === Class.HobbyFocus) {
+            let hobbyBonus = jola.getAttribute("data-value") * Class.Hobby - jola.getAttribute("data-value");
+            exp += hobbyBonus;
+        }
+    }
 }
 
 getLevel = () => {
@@ -153,6 +202,7 @@ getLevel = () => {
 
 getAttributes();
 getAuthors();
+getClassBonus();
 getExperience();
 getLevel();
 
