@@ -12,7 +12,7 @@ let Class = {
     'Name': 'Adventurer',
     'MainFocus': 'Economics: ',
     'AdditionalFocus': 'art',
-    'HobbyFocus': 'Useful videos: ',
+    'HobbyFocus': 'World comprehension: ',
     'Knowledge': 1.3,
     'Area': 1.2,
     'Hobby': 1.1
