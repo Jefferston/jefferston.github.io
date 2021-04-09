@@ -169,7 +169,7 @@ getClassBonus = () => {
         if (jola.textContent === Class.HobbyFocus) {
             let hobbyBonus = jola.getAttribute("data-value") * Class.Hobby - jola.getAttribute("data-value");
             exp += hobbyBonus;
-        }
+        }             
     }
 }
 
@@ -194,7 +194,7 @@ getLevel = () => {
     levelBar.style.width = `${100 - (needToNewLevelMinusHaveOfThisLevel * 100 / needToNewLevel)}%`;
     document.querySelector('.header .level .levelBar span').textContent = `${haveOfThisLevel} / ${needToNewLevel}`;
 
-    // console.log(levelArray);
+    console.log(levelArray);
     // console.log(exp);
     console.log(`Level ${level}`);
     console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
