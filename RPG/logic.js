@@ -143,9 +143,9 @@ getExperience = () => {
     let AgeValue = document.querySelector('.header .age h1').textContent;
     exp += (parseInt(AgeValue, 10) - 12) * 1000;
 
-    let authors = document.querySelectorAll('.authors p');
+    let authors = document.querySelectorAll('.authors p'); 
     let books = document.querySelectorAll('.book')
-    exp += (authors.length - 1) * 100 + books.length * 50;
+    exp += authors.length * 100 + books.length * 50;
 }
 
 getClassBonus = () => {
@@ -183,26 +183,43 @@ getLevel = () => {
     for (let i = 1; i < levelArray.length; i++) {
         levelArray[i] = levelArray[i] + levelArray[i - 1];
 
-        if (levelArray[i] < exp) level = i + 2;
+        if (levelArray[i - 1] <= exp) level = i + 1;
     }
 
     let levelBar = document.querySelector('.level .levelBar  .bar_progress');
-    let needToNewLevel = levelArray[level - 1] - levelArray[level - 2];
-    let haveOfThisLevel = exp - levelArray[level - 2];
-    let needToNewLevelMinusHaveOfThisLevel = levelArray[level - 1] - exp;
+
+    let needToNewLevel = 1000
+    if (exp >= 1000) needToNewLevel = levelArray[level - 1] - levelArray[level - 2];
+
+
+    // console.log(levelArray[level - 1])
+    // console.log(levelArray[level - 2])
+    
+    let haveOfThisLevel = 0;
+    if (exp <= 1000) {
+        haveOfThisLevel = exp
+    } 
+    else {
+        haveOfThisLevel = exp - levelArray[level - 2];
+    }
+
+
+    let needToNewLevelMinusHaveOfThisLevel = needToNewLevel - haveOfThisLevel;
 
     levelBar.style.width = `${100 - (needToNewLevelMinusHaveOfThisLevel * 100 / needToNewLevel)}%`;
     document.querySelector('.header .level .levelBar span').textContent = `${haveOfThisLevel} / ${needToNewLevel}`;
 
     console.log(levelArray);
-    // console.log(exp);
+    console.log(exp);
     console.log(`Level ${level}`);
-    console.log(`You need ${levelArray[level - 1] - exp} experience to reach level ${level + 1}.`);
+    console.log(`You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`);
 }
 
 getAttributes();
 getAuthors();
+// 2200
 getClassBonus();
+// 3440
 getExperience();
 getLevel();
 
