@@ -203,7 +203,6 @@ getLevel = () => {
         haveOfThisLevel = exp - levelArray[level - 2];
     }
 
-
     let needToNewLevelMinusHaveOfThisLevel = needToNewLevel - haveOfThisLevel;
 
     levelBar.style.width = `${100 - (needToNewLevelMinusHaveOfThisLevel * 100 / needToNewLevel)}%`;
