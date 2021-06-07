@@ -121,19 +121,6 @@ getExperience = () => {
         AchieveData[i].childNodes[1].textContent = AchieveData[i].getAttribute("data-value");
     }
 
-
-    let CodingData = document.querySelectorAll('.mainBody .body .coding .list .list_item p');
-    for (let i = 0; i < CodingData.length; i++) {
-
-        let sum = parseInt(CodingData[i].getAttribute("data-value"), 10);
-        exp += sum;
-
-        CodingData[i].childNodes[1].textContent = CodingData[i].getAttribute("data-value");
-        
-        let bars = document.querySelectorAll('.mainBody .body .coding .list .list_item .prog .ress');
-        bars[i].style.width = `${sum * 100 / 10000}%`;
-    }
-
     let TravelData = document.querySelectorAll('.mainBody .body .travel .list .list_item p');
     exp += TravelData.length * 200;
 
