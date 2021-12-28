@@ -45,8 +45,8 @@
 }
 
 .book {
-    width: 240px;
-    height: 350px;
+    width: 250px;
+    height: 340px;
     background: #000;
     margin: 40px 36px;
     border-radius: 6px;
@@ -66,14 +66,17 @@
 
 .library .princip_economics {
     background-image: url('./img/books/princip_economics.jpg');
-}
-
-.library .microeconomics {
-    background-image: url('./img/books/microecominics.jpg');
+    background-position-x: 70%;
 }
 
 .library .macroeconomics {
     background-image: url('./img/books/macroeconomics.jpg');
+    background-position-x: 70%;
+}
+
+.library .valuation {
+    background-image: url('./img/books/valuation.jpg');
+    background-position-y: 34%;
 }
 
 .library .why_nations_fail {
