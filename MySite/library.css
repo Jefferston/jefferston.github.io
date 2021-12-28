@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.library {
+    text-align: center;
+}
+
+.library h1 {
+    font-size: 54px;
+}
+
+.library .topics {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    font-family: 'Raleway', sans-serif;
+}
+
+.library .topics p {
+    border: 3px solid black;
+    background: #1CB0F6;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.library .topics p:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.book {
+    width: 240px;
+    height: 350px;
+    background: #000;
+    margin: 40px 36px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.books_title {
+    position: relative;
+    bottom: -101%;
+}
+
+.selected {
+    border: 4px solid #d80056d7 !important;
+}
+
+.library .princip_economics {
+    background-image: url('./img/books/princip_economics.jpg');
+}
+
+.library .microeconomics {
+    background-image: url('./img/books/microecominics.jpg');
+}
+
+.library .macroeconomics {
+    background-image: url('./img/books/macroeconomics.jpg');
+}
+
+.library .why_nations_fail {
+    background-image: url('./img/books/why_fail.jpg');
+}
+
+.library .eloquent_js {
+    background-image: url('./img/books/js.png');
+    background-position-x: 50%;
+}
+
+.library .learn_sql {
+    background-image: url('./img/books/learn_sql.jpg');
+}
+
+.library .math_world {
+    background-image: url('./img/books/math.jpg');
+}
+
+.library .lean_management {
+    background-image: url('./img/books/lean_management.jpg');
+    background-size: 100%;
+    background-position-y: 70%;
+}
+
+.library .out_crisis {
+    background-image: url('./img/books/out_crisis.jpg');
+}
+
+.library .data_science {
+    background-image: url('./img/books/data_science.gif');
+}
+
+.library .data_statistics {
+    background-image: url('./img/books/statistics_data.jpg');
+    background-position: 50%;
+}
+
+.library .minimum_bigdata {
+    background-image: url('./img/books/minimum_bigdata.jpeg');
+}
+
+.library .leading_change {
+    background-image: url('./img/books/leading_change.jpg');
+    background-position-y: 70%;
+}
+
+.library .economy_populism {
+    background-image: url('./img/books/populism.png');
+    background-size: 120%;
+    background-position: 40%;
+}
