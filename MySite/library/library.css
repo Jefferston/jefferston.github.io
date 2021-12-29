@@ -59,67 +59,67 @@
 }
 
 .library .princip_economics {
-    background-image: url('./img/books/princip_economics.jpg');
+    background-image: url('../img/books/princip_economics.jpg');
     background-position-x: 70%;
 }
 
 .library .macroeconomics {
-    background-image: url('./img/books/macroeconomics.jpg');
+    background-image: url('../img/books/macroeconomics.jpg');
     background-position-x: 70%;
 }
 
 .library .valuation {
-    background-image: url('./img/books/valuation.jpg');
+    background-image: url('../img/books/valuation.jpg');
     background-position-y: 34%;
 }
 
 .library .why_nations_fail {
-    background-image: url('./img/books/why_fail.jpg');
+    background-image: url('../img/books/why_fail.jpg');
 }
 
 .library .eloquent_js {
-    background-image: url('./img/books/js.png');
+    background-image: url('../img/books/js.png');
     background-position-x: 50%;
 }
 
 .library .learn_sql {
-    background-image: url('./img/books/learn_sql.jpg');
+    background-image: url('../img/books/learn_sql.jpg');
 }
 
 .library .math_world {
-    background-image: url('./img/books/math.jpg');
+    background-image: url('../img/books/math.jpg');
 }
 
 .library .lean_management {
-    background-image: url('./img/books/lean_management.jpg');
+    background-image: url('../img/books/lean_management.jpg');
     background-size: 100%;
     background-position-y: 70%;
 }
 
 .library .out_crisis {
-    background-image: url('./img/books/out_crisis.jpg');
+    background-image: url('../img/books/out_crisis.jpg');
 }
 
 .library .data_science {
-    background-image: url('./img/books/data_science.gif');
+    background-image: url('../img/books/data_science.gif');
 }
 
 .library .data_statistics {
-    background-image: url('./img/books/statistics_data.jpg');
+    background-image: url('../img/books/statistics_data.jpg');
     background-position: 50%;
 }
 
 .library .minimum_bigdata {
-    background-image: url('./img/books/minimum_bigdata.jpeg');
+    background-image: url('../img/books/minimum_bigdata.jpeg');
 }
 
 .library .leading_change {
-    background-image: url('./img/books/leading_change.jpg');
+    background-image: url('../img/books/leading_change.jpg');
     background-position-y: 70%;
 }
 
 .library .economy_populism {
-    background-image: url('./img/books/populism.png');
+    background-image: url('../img/books/populism.png');
     background-size: 120%;
     background-position: 40%;
 }

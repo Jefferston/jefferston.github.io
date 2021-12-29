@@ -6,7 +6,7 @@
 
 .welcomeSection {
     background: #304ffe;
-    height: 360px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ li a {
 
 .projBox h1.title {
     margin-top: 10px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     font-size: 42px;
 }
 
@@ -55,7 +55,7 @@ li a {
 }
 
 .projList {
-    width: 60%;
+    max-width: 900px;
     margin: 10px 0 30px;
 }
 
@@ -65,28 +65,45 @@ li a {
 }
 
 .projPic {
-    width: 100px;
-    height: 60px;
+    width: 300px;
+    height: 180px;
     margin-right: 10px;
+    border-radius: 20px;
 }
 
 .projPic.first {
     background: url('./img/projects/1.jpg');
-    background-position: 50%;
+    background-position-y: -10%;
     background-size: 110%;
     background-repeat: no-repeat;
 }
 
 .projPic.second {
     background: url('./img/projects/2.png');
-    background-position: 50%;
+    background-position-y: -40%;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .projPic.third {
     background: url('./img/projects/3.jpg');
-    background-position: 50%;
+    background-position-y: -10%;
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.projPic.reactogram {
+    background: url('./img/projects/reactogram.jpg');
+    background-position-x: 10%;
+    background-position-y: 10%;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+.projPic.agency {
+    background: url('./img/projects/agency.jpg');
+    background-position-x: 50%;
+    background-position-y: 10%;
+    background-size: 160%;
     background-repeat: no-repeat;
 }
