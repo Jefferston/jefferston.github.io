@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.projectBox {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid orange; */
+}
+
+.project {
+    width: 280px;
+    height: 220px;
+    background: #000;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.cht {
+    background-image: url('../img/projects/cht.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+.uni {
+    background-image: url('../img/projects/edu.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+}

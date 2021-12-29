@@ -1,0 +1,50 @@
+.welcomeSection {
+    background: #304ffe;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.doubleBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.expList {
+    background: rgb(235, 235, 235);
+    box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    width: 560px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.eduList {
+    background: rgb(235, 235, 235);
+    box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.skillList {
+    background: rgb(235, 235, 235);
+    box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 280px;
+    /* border: 1px solid black; */
+}
