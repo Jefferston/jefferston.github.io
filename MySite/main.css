@@ -1,16 +1,7 @@
-.welcomeSection {
-    background: #304ffe;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .review {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 0 30px;
 }
 
 .doubleBlock {
