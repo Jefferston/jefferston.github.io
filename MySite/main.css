@@ -2,6 +2,46 @@
     display: flex;
     justify-content: center;
     margin: 20px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rewBlock {
+   padding: 20px;
+}
+
+.rewBlock .addInfo {
+    margin-bottom: 16px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.rewTitleAdd {
+    font-weight: 500;
+}
+
+.rewDates {
+    font-size: 12px;
+}
+
+.rewBullets {
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.rewBullets li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.review h1 {
+    font-weight: 700 !important;
+}
+
+.review p {
+    font-weight: 400;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .doubleBlock {
@@ -16,7 +56,7 @@
     background: rgb(235, 235, 235);
     box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
     border-radius: 20px;
-    width: 560px;
+    width: 550px;
     height: 600px;
     /* border: 1px solid black; */
 }
@@ -25,9 +65,13 @@
     background: rgb(235, 235, 235);
     box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
     border-radius: 20px;
-    width: 400px;
+    width: 430px;
     height: 300px;
     /* border: 1px solid black; */
+}
+
+.eduList .rewTitle {
+    margin-top: 10px;
 }
 
 .skillList {
@@ -35,7 +79,7 @@
     box-shadow: 0 12px 9px 0 rgb(0 0 0 / 20%);
     margin-top: 20px;
     border-radius: 20px;
-    width: 400px;
+    width: 430px;
     height: 280px;
     /* border: 1px solid black; */
 }

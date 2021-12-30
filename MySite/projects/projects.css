@@ -6,6 +6,11 @@
     margin: 10px 0 20px;
 }
 
+.container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
 .projectBox {
     max-width: 900px;
     display: flex;
@@ -20,6 +25,12 @@
     height: 220px;
     margin: 40px 10px;
     text-align: center;
+}
+
+.project h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 img {

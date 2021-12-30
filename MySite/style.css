@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
 }
 
 .welcomeSection {
     background: #304ffe;
-    height: 320px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.welcomeSection h1 {
+    font-weight: 700;
 }
 
 .navigation {
@@ -26,7 +29,7 @@
 .navigation ul {
     display: flex;
     justify-content: space-around;
-    width: 240px;
+    width: 260px;
 }
 
 li {
@@ -37,6 +40,8 @@ li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .projBox {
@@ -44,6 +49,7 @@ li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .projBox h1.title {
@@ -52,8 +58,16 @@ li a {
     font-size: 42px;
 }
 
-.projBox h1.cht {
+.cht {
     color: red;
+}
+
+.hoist {
+    color: #C91281;
+}
+
+.biosreda {
+    color: rgb(10, 173, 10);
 }
 
 .projList {
@@ -71,7 +85,21 @@ li a {
     width: 300px;
     height: 160px;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
+}
+
+.projText {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.projText h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.projText p {
+    font-size: 16px;
 }
 
 .projPic.first {
@@ -99,18 +127,22 @@ li a {
 
 .projPic.reactogram {
     background: url('./img/projects/reactogram.jpg');
-    background-position-x: 10%;
-    background-position-y: 10%;
-    background-size: 160%;
+    background-position-x: 20%;
+    background-position-y: 0%;
+    background-size: 230%;
     background-repeat: no-repeat;
+    width: 400px;
+    height: 160px;
 }
 
 .projPic.agency {
     background: url('./img/projects/agency.jpg');
     background-position-x: 50%;
     background-position-y: 10%;
-    background-size: 160%;
+    background-size: 180%;
     background-repeat: no-repeat;
+    width: 400px;
+    height: 160px;
 }
 
 .projPic.robot {
@@ -124,10 +156,10 @@ li a {
 }
 
 .projPic.bachelor {
-    background: url('./img/projects/robot.jpg');
-    background-position-x: 70%;
+    background: url('./img/books/populism.png');
+    background-position-x: 50%;
     background-position-y: 50%;
-    background-size: 180%;
+    background-size: 110%;
     background-repeat: no-repeat;
     width: 400px;
     height: 160px;

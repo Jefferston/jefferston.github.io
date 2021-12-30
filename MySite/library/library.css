@@ -4,15 +4,17 @@
 }
 
 .library h1 {
-    font-size: 54px;
+    font-size: 34px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .library .topics {
-    padding: 20px;
+    padding: 10px 10px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 .library .topics p {
@@ -21,9 +23,11 @@
     padding: 10px;
     margin: 6px;
     border-radius: 6px;
-    font-size: 18px;
     cursor: pointer;
     transition: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .library .topics p:hover {
@@ -52,6 +56,8 @@
 .books_title {
     position: relative;
     bottom: -101%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 .selected {
