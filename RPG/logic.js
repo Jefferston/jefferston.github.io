@@ -112,6 +112,18 @@ getExperience = () => {
         bars[i].style.width = `${sum * 100 / 10000}%`;
     }
 
+    let CompreData = document.querySelectorAll('.mainBody .body .comprehension .list .list_item p');
+    for (let i = 0; i < CompreData.length; i++) {
+
+        let sum = parseInt(CompreData[i].getAttribute("data-value"), 10);
+        exp += sum;
+
+        CompreData[i].childNodes[1].textContent = CompreData[i].getAttribute("data-value");
+
+        let bars = document.querySelectorAll('.mainBody .body .comprehension .list .list_item .prog .ress');
+        bars[i].style.width = `${sum * 100 / 10000}%`;
+    }
+
     let AchieveData = document.querySelectorAll('.mainBody .body .achievements .list .list_item p');
     for (let i = 0; i < AchieveData.length; i++) {
 

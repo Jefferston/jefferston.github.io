@@ -220,7 +220,7 @@ main {
     background:#e92848;
 }
 
-.mainBody .body .coding {
+.mainBody .body .comprehension {
     background:#3bbb55;
 }
 
@@ -240,6 +240,7 @@ main {
 .mainBody .body .travel {
     background: rgb(83, 125, 218);
 }
+
 
 .mainBody .body .travel .list .list_item {
     display: flex;
