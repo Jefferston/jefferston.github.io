@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blackLine {
+    background: #000;
+    height: 5vh;
+}
+
+.desk {
+    background: #00FFC5;
+    height: 95vh;
+}
+
+.iconContainer {
+    width: 26vw;
+    min-height: 40vh;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+    /* border: 1px solid black; */
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.iconUnit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+.iconOne {
+    background-image: url('./portfolio.svg');
+}
+
+.iconTwo {
+    background-image: url('./anaesterizer.svg');
+}
+
+.iconThree {
+    background-image: url('./whoru.svg');
+}
+
+.selected .icon, .selected .icon_text{
+    box-shadow: 0px 0px 0px 6px blue;
+    background-color: blue;
+    color: white;
+}
+
+.window {
+    background: #000;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    display: none;
+}
+
+.window .controls {
+    background: black;
+    height: 14px;
+}
+
+.window .controls .closeBtn {
+    background: red;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.portfolio {
+    top: 16%;
+    left: 24%;
+    width: 900px;
+    height: 500px;
+    background: white;
+}
+
+.portfolio .windowContent {
+    height: 540px;
+    width: 100%;
+}
+
+.elseWindow {
+    background: blue;
+    width: 900px;
+    height: 500px;
+}
