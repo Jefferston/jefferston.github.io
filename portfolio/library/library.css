@@ -24,10 +24,10 @@
     margin: 6px;
     border-radius: 6px;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.7s;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .library .topics p:hover {
@@ -43,8 +43,8 @@
 }
 
 .book {
-    width: 250px;
-    height: 340px;
+    width: 180px;
+    height: 240px;
     background: #000;
     margin: 40px 36px;
     border-radius: 6px;
@@ -57,10 +57,10 @@
     position: relative;
     bottom: -101%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.selected {
+.genre-selected {
     border: 4px solid #d80056d7 !important;
 }
 

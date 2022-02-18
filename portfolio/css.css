@@ -43,7 +43,7 @@
 }
 
 .iconOne {
-    background-image: url('./portfolio.svg');
+    background-image: url('./face.svg');
 }
 
 .iconTwo {
@@ -51,7 +51,7 @@
 }
 
 .iconThree {
-    background-image: url('./whoru.svg');
+    background-image: url('./books.svg');
 }
 
 .selected .icon, .selected .icon_text{
@@ -61,11 +61,10 @@
 }
 
 .window {
-    background: #000;
     position: absolute;
     top: 20%;
     left: 24%;
-    display: none;
+    /* display: none; */
 }
 
 .window .controls {
@@ -92,6 +91,16 @@
     height: 540px;
     width: 100%;
 }
+
+.libWindow {
+    background: #1CB0F6;
+    width: 900px;
+    height: 500px;
+    top: 18%;
+    left: 22%;
+    overflow-y: auto;
+}
+
 
 .elseWindow {
     background: blue;

@@ -3,17 +3,14 @@ getAuthors = () => {
 
     for (let author of authors) {
         author.onclick = () => {
-
             for (let author of authors) {
-                author.classList.remove('selected');
-            }
-            
-            author.classList.add('selected');
+                author.classList.remove('genre-selected');
+            }            
+            author.classList.add('genre-selected');
 
             let books = document.querySelectorAll('.book');
 
             for (let book of books) {
-
                 book.style.width = "260px";
                 book.style.height = "360px";
 
