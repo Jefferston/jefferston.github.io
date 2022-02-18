@@ -19,8 +19,8 @@ getAuthors = () => {
     
                     if (author.getAttribute('data-topic') == "All") {
                         book.style.display = "block";
-                        book.style.width = "250px";
-                        book.style.height = "340px";
+                        book.style.width = "180px";
+                        book.style.height = "240px";
                     }   
                 } 
                 else {
