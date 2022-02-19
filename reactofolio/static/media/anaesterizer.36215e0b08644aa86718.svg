@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Apps/Synth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Apps/Synth">
+            <polygon id="Bezel" stroke="#000000" stroke-width="2" fill="#000000" points="6 5.53604057 10.3557739 2.03312683 59 6 63.9398727 65.5144252 59 69 6 69"></polygon>
+            <g id="Shading" transform="translate(7.000000, 6.000000)" fill="#00FFC5">
+                <rect id="Rectangle-12" x="48" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="44" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="40" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="36" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="32" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="28" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="24" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="20" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="16" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="12" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="8" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="4" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="60" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="56" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="52" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="48" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="44" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="40" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="36" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="32" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="28" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="24" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="20" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="16" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="12" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="8" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="4" width="2" height="2"></rect>
+                <rect id="Rectangle-12" x="0" y="0" width="2" height="2"></rect>
+            </g>
+            <rect id="Rectangle-17" stroke="#000000" stroke-width="2" fill="#00FFC5" x="11" y="2" width="53" height="63"></rect>
+            <g id="Display" transform="translate(16.000000, 6.000000)">
+                <rect id="Rectangle-17" fill="#000000" x="0" y="0" width="28" height="26"></rect>
+                <path d="M1,8 C8.74393466,8 9.02494848,21.7070995 26.404915,21.7070995" id="Path-3" stroke="#FF00ED"></path>
+            </g>
+            <g id="Keyboard" transform="translate(16.000000, 37.000000)">
+                <rect id="Rectangle-16" fill="#FFFFFF" x="0" y="7" width="7" height="16" rx="3.5"></rect>
+                <rect id="Rectangle-16" fill="#FFFFFF" x="9" y="7" width="7" height="16" rx="3.5"></rect>
+                <rect id="Rectangle-16" fill="#FFFFFF" x="18" y="7" width="7" height="16" rx="3.5"></rect>
+                <rect id="Rectangle-16" fill="#FFFFFF" x="27" y="7" width="7" height="16" rx="3.5"></rect>
+                <rect id="Rectangle-16" fill="#FFFFFF" x="36" y="7" width="7" height="16" rx="3.5"></rect>
+                <circle id="Oval-3" fill="#000000" cx="8" cy="3" r="3"></circle>
+                <circle id="Oval-3" fill="#000000" cx="17" cy="3" r="3"></circle>
+                <circle id="Oval-3" fill="#000000" cx="35" cy="3" r="3"></circle>
+            </g>
+            <g id="Dials" transform="translate(48.000000, 6.000000)">
+                <circle id="Oval-3" fill="#FF00ED" cx="5.5" cy="20.5" r="5.5"></circle>
+                <circle id="Oval-3" fill="#0004FF" cx="5.5" cy="5.5" r="5.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
