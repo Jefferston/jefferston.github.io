@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="./library/library.css">
+    <link rel="stylesheet" href="./styles/icons.css">
+    <link rel="stylesheet" href="./styles/winPortfolio.css">
+    <link rel="stylesheet" href="./styles/winLibrary.css">
+    <link rel="stylesheet" href="./styles/winGallery.css">
+    <link rel="stylesheet" href="./styles/winAchievements.css">
+    <link rel="stylesheet" href="./styles/winRPG.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,13 +29,18 @@
             </div>
 
             <div class="iconUnit">
-                <div class="icon iconElse"></div>
+                <div class="icon iconAch"></div>
                 <div class="icon_text">Achievements</div>
             </div>
 
             <div class="iconUnit">
-                <div class="icon iconElse2"></div>
+                <div class="icon iconGal"></div>
                 <div class="icon_text">Gallery</div>
+            </div>
+
+            <div class="iconUnit">
+                <div class="icon iconRPG"></div>
+                <div class="icon_text">RPG</div>
             </div>
 
         </div>
@@ -138,19 +148,102 @@
 
             <div class="windowContent">
                 <div class="header">
-                    <h1>Instagram was too dubm so I made my own</h1>
+                    <h1>Instagram was too dumb so I made my own</h1>
                 </div>
 
                 <div class="postContainer">
-                    <div class="post ein"></div>
-                    <div class="post zwei"></div>
-                    <div class="post drei"></div>
-                    <div class="post vier"></div>
-                    <!-- <div class="post funf"></div>
-                    <div class="post sechs"></div> -->
+                    <div class="post inst-ein"></div>
+                    <div class="post inst-zwei"></div>
+                    <div class="post inst-drei"></div>
+                    <div class="post inst-vier"></div>
+                    <div class="post inst-funf"></div>
+                    <div class="post inst-sechs"></div>
                 </div>
             </div>
         </div>
+
+
+        <!-- <div class="window achWindow" data-name="Achievements">
+            <div class="controls">
+                <div class="closeBtn"></div>
+            </div>
+
+            <div class="windowContent">
+                <div class="header">
+                    <h1>Here I will describe the achievements</h1>
+                </div>
+
+                <div class="listOfAchievements">
+                    <div class="achievement">
+                        <h2>Its name</h2>
+                        <div class="itsContent"></div>
+                    </div>
+                </div>
+
+                <div class="listOfAchievements">
+                    <div class="achievement">
+                        <h2>Its name</h2>
+                        <div class="itsContent"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+
+        <div class="window rpgWindow" data-name="RPG">
+            <div class="controls">
+                <div class="closeBtn"></div>
+            </div>
+
+            <div class="windowContent">
+                <div class="header">
+                    <!-- <h1>Here I will have progress bar</h1> -->
+                </div>
+
+                <div class="rpgBody">
+                    <div class="glass">
+                        <div class="progress"></div>
+                        <h1>Art</h1>
+            
+                        <div class="item">
+                            <div class="itemHead">
+                                <div class="itemName">English</div>
+                                <div class="itemButtons">
+                                    <div class="button buttonGreen"></div>
+                                    <div class="button buttonRed"></div>
+                                </div>
+                            </div>
+            
+                            <div class="prog">
+                                <span>6000</span>
+                                <div class="ress"></div>
+                            </div>
+                        </div>
+            
+                        <div class="item">
+                            <div class="itemHead">
+                                <div class="itemName">Deutsch</div>
+                                <div class="itemButtons">
+                                    <div class="button buttonGreen"></div>
+                                    <div class="button buttonRed"></div>
+                                </div>
+                            </div>
+            
+                            <div class="prog">
+                                <span>6000</span>
+                                <div class="ress"></div>
+                            </div>
+                        </div>
+            
+            
+                        <div class="add">Add</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
 
         <div class="postBig"></div>
 
@@ -159,6 +252,6 @@
 
 
     <script src="./js.js"></script>
-    <script src="./library/script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

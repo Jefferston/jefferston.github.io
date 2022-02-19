@@ -1,0 +1,31 @@
+.achWindow {
+    /* background: #ebdbdbe1; */
+    background: #38738f;
+    overflow-y: auto;
+    top: 18%;
+    left: 22%;
+}
+
+.achWindow .header {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.listOfAchievements {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.listOfAchievements .achievement {
+    margin-bottom: 20px;
+}
+
+.listOfAchievements .achievement .itsContent {
+    background: #000;
+    height: 200px;
+}

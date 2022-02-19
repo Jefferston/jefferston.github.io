@@ -3,6 +3,7 @@ let windowArray = document.querySelectorAll(".window");
 let btnArray = document.querySelectorAll(".window .controls .closeBtn");
 let postArray = document.querySelectorAll(".postContainer .post");
 
+
 for (let icon of iconArray) {
 
     icon.addEventListener('click', (el) => {
@@ -19,8 +20,12 @@ for (let icon of iconArray) {
                 window.style.display = 'block';
             }
         }
+        for (let icon of iconArray) {
+            icon.classList.remove('selected');
+        }
     })
 }
+
 
 for (let btn of btnArray) {
     btn.onclick = (el) => el.target.parentElement.parentElement.style.display = 'none';

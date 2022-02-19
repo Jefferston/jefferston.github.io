@@ -1,0 +1,10 @@
+.portfolio {
+    top: 16%;
+    left: 24%;
+    background: white;
+}
+
+.portfolio .windowContent {
+    height: 540px;
+    width: 100%;
+}

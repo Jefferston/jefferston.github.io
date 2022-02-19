@@ -1,0 +1,84 @@
+.galWindow {
+    /* background: #ebdbdbe1; */
+    background: #a0c8db;
+    overflow-y: auto;
+    top: 18%;
+    left: 22%;
+}
+
+.galWindow .header {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.galWindow .windowContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.post {
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    background: url('./img/insta/ava.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.post.inst-ein {
+    background: url('../img/insta/schloss1.jpg');
+    background-size: 100%;
+}
+
+.post.inst-zwei {
+    background: url('../img/insta/cave2.jpg');
+    background-size: 100%;
+}
+
+.post.inst-drei {
+    background: url('../img/insta/cave1.jpg');
+    background-size: 100%;
+}
+
+.post.inst-vier {
+    background: url('../img/insta/china.jpg');
+    background-size: 100%;
+}
+
+.post.inst-funf {
+    background: url('../img/insta/waterfall.jpg');
+    background-size: 100%;
+}
+
+.post.inst-sechs {
+    background: url('../img/insta/rainyday.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+.postBig {
+    width: 600px;
+    height: 620px;
+    background: url('../img/insta/china.jpg');
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: zoom-out;
+    display: none;
+}
