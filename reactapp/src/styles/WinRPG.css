@@ -1,9 +1,13 @@
 .rpgWindow {
-    /* background: #ebdbdbe1; */
     background: rgb(90, 192, 206);;
     overflow-y: auto;
-    top: 18%;
-    left: 22%;
+    top: 14%;
+    left: 14%;
+    width: 740px;
+}
+
+.rpgWindow .controls {
+  width: 740px;
 }
 
 .rpgWindow .header {
@@ -15,142 +19,166 @@
 
 .rpgBody {
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    flex-direction: row;
-    width: 65%;
+    flex-direction: column;
+    width: 90%;
     flex-wrap: wrap;
     padding-top: 50px;
-  }
+    padding-bottom: 10px;
+}
   
-  .glass {
-    background: white;
-    width: 340px;
-    /* background: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    ); */
-    background: linear-gradient(
-      to right bottom,
-      rgba(95, 214, 230, 0.9),
-      rgba(255, 255, 255, 0.1)
-    );
-  
-    border-radius: 1rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
-    margin: 10px 20px;
-  }
-  
-  /* .glass:last-child { */
-    /* margin-bottom: 120px; */
-  /* } */
-  
-  .glass h1 {
-    font-family: 'MuseoModerno';
-    border-radius: 0.5rem 0.5rem 0 0;
-    border-bottom: none;
-    display: flex;
-    /* justify-content: center; */
-    padding-left: 14px;
-    align-items: center;
-    width: 100%;
-    height: 46px;
-    background: rgba(93, 219, 238, 0.9);
-    font-size: 30px;
-    position: relative;
-  }
-  
-  .item {
-    display: flex;
-    background: linear-gradient(
-      to left top,
-      rgba(240, 240, 240, 1),
-      rgba(240, 240, 240, 0.5)
-    );
-    width: 94%;
-    height: 56px;
-    border-radius: 0.5rem;
-    margin-top: 12px;
-    box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
-    align-items: center; 
-    flex-direction: column;
-    padding: 6px 0;
-    font-family: 'Raleway';
-  }
-  
-  .item .itemHead {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-  }
-  
-  .item .itemHead .itemButtons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 26px;
-  }
-  
-  .item .itemHead .itemButtons .buttonGreen {
-    background: rgb(105, 218, 105);
-  }
-  
-  .item .itemHead .itemButtons .buttonRed {
-    background: red;
-  }
-  
-  .item .itemHead .button {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-  }
-  
-  .item .prog {
-    /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
-    /* background: linear-gradient(to right top, #65dfc9, #1CB0F6); */
-    background: rgb(217, 212, 212);
-    width: 90%;
-    height: 14px;
-    border-radius: 1rem;
-    position: relative;
-    overflow: hidden;
-    margin-top: 6px;
-    border-radius: 10px 0;
-    font-size: 14px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .item .prog span {
-    z-index: 2;
-  }
-  
-  .item .ress {
-    height: 100%;
-    background: linear-gradient(to right top, #65dfc9, #1CB0F6);
-    position: absolute;
-    left: 0%;
-    width: 60%;
-  }
-  
-  .add {
-    font-weight: bold;
-    margin-top: 14px;
-    font-size: 1.3em;
-    font-family: 'Roboto';
-    width: 99.7%;
-    height: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(62, 212, 231, 0.8);
-    border-radius: 0 0 0.5rem 0.5rem;
-  }
+.glass {
+  background: white;
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(95, 214, 230, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+
+  border-radius: 1rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
+  margin: 10px 20px;
+}
+
+.glass h1 {
+  font-family: 'MuseoModerno';
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: none;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 14px;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+  background: rgba(93, 219, 238, 0.9);
+  font-size: 30px;
+  position: relative;
+}
+
+.item, .countItem {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(240, 240, 240, 1),
+    rgba(240, 240, 240, 0.5)
+  );
+  width: 94%;
+  border-radius: 0.5rem;
+  margin-top: 12px;
+  box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
+  align-items: center; 
+  flex-direction: column;
+  font-family: 'Raleway';
+  padding: 4px 0;
+}
+
+.countItem {
+  width: auto;
+  display: flex;
+  flex-direction: row !important;
+  align-self: start;
+  justify-content: start;
+  margin-left: 16px;
+  flex-wrap: wrap;
+}
+
+.item .itemHead, .countItem .itemHead {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.countItem .itemHead {
+  width: auto;
+}
+
+.countBlockContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  flex-wrap: wrap;
+}
+
+.countBlockContainer .itemName span:first-child {
+  padding: 8px;
+}
+
+.countBlockContainer .itemName span:last-child {
+  background: rgb(105, 218, 105);
+  height: 100%;
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  padding: 4px;
+  align-self: end;
+}
+
+.item .itemHead .itemButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26px;
+}
+
+.item .itemHead .itemButtons .buttonGreen {
+  background: rgb(105, 218, 105);
+}
+
+.item .itemHead .itemButtons .buttonRed {
+  background: red;
+}
+
+.item .itemHead .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.item .prog {
+  /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+  /* background: linear-gradient(to right top, #65dfc9, #1CB0F6); */
+  background: rgb(217, 212, 212);
+  width: 90%;
+  height: 14px;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .prog span {
+  z-index: 2;
+}
+
+.item .ress {
+  height: 100%;
+  background: linear-gradient(to right top, #65dfc9, #1CB0F6);
+  position: absolute;
+  left: 0%;
+}
+
+.add {
+  font-weight: bold;
+  margin-top: 14px;
+  font-size: 1.3em;
+  font-family: 'Roboto';
+  width: 99.7%;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(62, 212, 231, 0.8);
+  border-radius: 0 0 0.5rem 0.5rem;
+}

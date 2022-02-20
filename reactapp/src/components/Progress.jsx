@@ -3,28 +3,27 @@ import '../index.css';
 import '../styles/Window.css';
 import '../styles/WinRPG.css';
 
-
-
-const Progress = (props) => {
-
-  return (
-
-        <div className="item">
-            <div className="itemHead">
-                <div className="itemName">{props.name}</div>
-                {/* <div className="itemButtons">
-                    <div className="button buttonGreen"></div>
-                    <div className="button buttonRed"></div>
-                </div> */}
-            </div>
-
-            <div className="prog">
-                <span>{props.value}</span>
-                <div className="ress"></div>
-            </div>
-        </div>
-
-  );
+const widthAdjustment = (el) => {
+    let bars = document.querySelectorAll('.ress');
+    for (let bar of bars) {
+        bar.style.width = `${(bar.parentElement.firstChild.textContent / 100)}%`
+    }
 }
 
-export default Progress;
+class Progress extends React.Component {
+
+    render() {
+        return (
+            <div className="prog">
+                <span>{this.props.value}</span>
+                <div className="ress"></div>
+            </div>
+        );
+    }
+
+    componentDidMount() {
+        widthAdjustment()
+      }
+  }
+  
+  export default Progress;
