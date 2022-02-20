@@ -13,6 +13,7 @@
     height: 14px;
     position: fixed;
     width: 940px;
+    z-index: 100;
     /* top: 18%;
     left: 22%;
     z-index: 3; */

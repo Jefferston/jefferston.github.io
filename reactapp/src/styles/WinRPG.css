@@ -17,6 +17,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.rpgHead .experience{
+  margin-top: 50px;
+}
+
 .rpgBody {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,6 @@
   );
 
   border-radius: 1rem;
-  z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
   flex-direction: column;
@@ -95,6 +98,10 @@
 
 .countItem .itemHead {
   width: auto;
+}
+
+.itemHead .country {
+  padding: 4px;
 }
 
 .countBlockContainer {

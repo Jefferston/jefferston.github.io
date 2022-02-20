@@ -16,18 +16,18 @@ const WinGallery = (props) => {
             <div className="closeBtn" onClick={closeWindow}></div>
         </div>
 
-        <div class="windowContent">
-                <div class="header">
+        <div className="windowContent">
+                <div className="header">
                     <h1>Instagram was too dumb so I made my own</h1>
                 </div>
 
-                <div class="postContainer">
-                    <div class="post inst-ein"></div>
-                    <div class="post inst-zwei"></div>
-                    <div class="post inst-drei"></div>
-                    <div class="post inst-vier"></div>
-                    <div class="post inst-funf"></div>
-                    <div class="post inst-sechs"></div>
+                <div className="postContainer">
+                    <div className="post inst-ein"></div>
+                    <div className="post inst-zwei"></div>
+                    <div className="post inst-drei"></div>
+                    <div className="post inst-vier"></div>
+                    <div className="post inst-funf"></div>
+                    <div className="post inst-sechs"></div>
                 </div>
             </div>
     </div>

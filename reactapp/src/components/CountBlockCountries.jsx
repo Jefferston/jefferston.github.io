@@ -4,15 +4,15 @@ import '../styles/Window.css';
 import '../styles/WinRPG.css';
 
 
-const CountBlock = (props) => {
+const CountBlockCountries = (props) => {
 
     return (
         <div className="countItem">
             <div className="itemHead">
-                <div className="itemName"><span>{props.name}:</span> <span className="valueSpan">{props.value}</span></div>
+                <div className="itemName country">{props.name}</div>
             </div>
         </div>
   );
 }
 
-export default CountBlock;
+export default CountBlockCountries;
