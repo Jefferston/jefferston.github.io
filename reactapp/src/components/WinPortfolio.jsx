@@ -1,6 +1,9 @@
 import React from 'react';
 import '../index.css';
 import '../styles/Window.css';
+import '../styles/WinPortfolio.css';
+
+
 import { Document, Page } from 'react-pdf';
 // import Lebenslauf from "../img/Lebenslauf.pdf"
 

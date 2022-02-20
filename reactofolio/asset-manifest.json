@@ -1,17 +1,39 @@
 {
   "files": {
-    "main.css": "./static/css/main.7d76d495.css",
-    "main.js": "./static/js/main.05cc6674.js",
+    "main.css": "./static/css/main.93866324.css",
+    "main.js": "./static/js/main.e043a381.js",
+    "static/media/statistics_data.jpg": "./static/media/statistics_data.f44d0a7293ba4b750622.jpg",
+    "static/media/schloss1.jpg": "./static/media/schloss1.b6ea70973531e967e028.jpg",
+    "static/media/waterfall.jpg": "./static/media/waterfall.db801180aee69889e6ca.jpg",
+    "static/media/macroeconomics.jpg": "./static/media/macroeconomics.51a882130b359eb6427e.jpg",
+    "static/media/populism.png": "./static/media/populism.1694f5f6c344057828f4.png",
+    "static/media/china.jpg": "./static/media/china.d5751de5571f858ab89a.jpg",
+    "static/media/learn_sql.jpg": "./static/media/learn_sql.11700200144ec719cafc.jpg",
+    "static/media/cave2.jpg": "./static/media/cave2.e60435ca7b9bd431b962.jpg",
+    "static/media/lean_management.jpg": "./static/media/lean_management.e910c708807e5f3866d6.jpg",
+    "static/media/js.png": "./static/media/js.c1db33ce074fff4fea31.png",
+    "static/media/cave1.jpg": "./static/media/cave1.dc670942c87612000a8e.jpg",
+    "static/media/rainyday.jpg": "./static/media/rainyday.29937eea96f706f998d5.jpg",
+    "static/media/princip_economics.jpg": "./static/media/princip_economics.e254e836aa90530d3a5e.jpg",
+    "static/media/ava.jpg": "./static/media/ava.370e5b8f3485610ff205.jpg",
+    "static/media/why_fail.jpg": "./static/media/why_fail.d2610732363be3f917d6.jpg",
+    "static/media/valuation.jpg": "./static/media/valuation.01c0afb4227f3408f710.jpg",
+    "static/media/minimum_bigdata.jpeg": "./static/media/minimum_bigdata.f8c3a48accaab6aacc18.jpeg",
+    "static/media/leading_change.jpg": "./static/media/leading_change.bc623d28895255777f32.jpg",
+    "static/media/math.jpg": "./static/media/math.ddd01b1c93bbdf3c426e.jpg",
+    "static/media/out_crisis.jpg": "./static/media/out_crisis.59d8af41414f8d95a939.jpg",
+    "static/media/data_science.gif": "./static/media/data_science.dd7fc615ca2b717e9f7f.gif",
     "static/media/face.svg": "./static/media/face.4810ed69ea4d3fbba1d2.svg",
     "static/media/books.svg": "./static/media/books.13636896a91cbdbb3c5d.svg",
     "static/media/anaesterizer.svg": "./static/media/anaesterizer.36215e0b08644aa86718.svg",
+    "static/media/drummer.svg": "./static/media/drummer.345fec1bffc18fec8c7b.svg",
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
-    "main.7d76d495.css.map": "./static/css/main.7d76d495.css.map",
-    "main.05cc6674.js.map": "./static/js/main.05cc6674.js.map"
+    "main.93866324.css.map": "./static/css/main.93866324.css.map",
+    "main.e043a381.js.map": "./static/js/main.e043a381.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d76d495.css",
-    "static/js/main.05cc6674.js"
+    "static/css/main.93866324.css",
+    "static/js/main.e043a381.js"
   ]
 }

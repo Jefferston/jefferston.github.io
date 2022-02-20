@@ -24,12 +24,16 @@
     background-image: url('../img/icons/books.svg');
 }
 
-.iconElse {
+.iconAch {
     background-image: url('../img/icons/anaesterizer.svg');
 }
 
-.iconElse2 {
+.iconGal {
     background-image: url('../img/icons/whoru.svg');
+}
+
+.iconRPG {
+    background-image: url('../img/icons/drummer.svg');
 }
 
 .selected .icon, .selected .icon_text{

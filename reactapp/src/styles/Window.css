@@ -25,17 +25,6 @@
     cursor: pointer;
 }
 
-.portfolio {
-    top: 16%;
-    left: 24%;
-    background: white;
-}
-
-.portfolio .windowContent {
-    height: 540px;
-    width: 100%;
-}
-
 .libWindow {
     /* background: linear-gradient(to right top, #08A5C4, #6cdbeb); */
     background: #52a9d4;
