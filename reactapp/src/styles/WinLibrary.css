@@ -8,6 +8,9 @@
 
 .library {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .library h1 {
@@ -41,19 +44,40 @@
     transform: scale(1.03);
 } */
 
-.container {
+.library .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     padding-bottom: 50px;
+    width: 95%;
+}
+
+.library .switcher {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-self: start;
+    margin-left: 10px;
+}
+
+.library .switcher p {
+    border: 3px solid black;
+    background: #1CB0F6;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .book {
-    width: 180px;
-    height: 240px;
+    width: 220px;
+    height: 320px;
     background: #000;
-    margin: 40px 36px;
+    margin: 30px 36px;
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,7 +97,7 @@
 
 .library .princip_economics {
     background-image: url('../img/books/princip_economics.jpg');
-    background-position-x: 70%;
+    background-position-x: 50%;
 }
 
 .library .macroeconomics {
@@ -135,4 +159,75 @@
     background-image: url('../img/books/populism.png');
     background-size: 120%;
     background-position: 40%;
+}
+
+
+
+.library .hell {
+    background-image: url('../img/covers/hell.jpg');
+}
+
+.library .container .mockin {
+    background-image: url('../img/covers/mockin.jpg');
+}
+
+.library .galaxy {
+    background-image: url('../img/covers/galaxy.jpg');
+}
+
+.library .innsmut {
+    background-image: url('../img/covers/innsmut.jpg');
+}
+
+.library .legend {
+    background-image: url('../img/covers/legend.webp');
+    background-position-y: 50%;
+}
+
+.library .choke {
+    background-image: url('../img/covers/choke.webp');
+    background-position-y: 20%;
+}
+
+.library .atlant {
+    background-image: url('../img/covers/atlant.jpg');
+}
+
+.library .niggers {
+    background-image: url('../img/covers/niggers.jpg');
+}
+
+.library .oruel {
+    background-image: url('../img/covers/1984.jpg');
+}
+
+.library .millennium1 {
+    background-image: url('../img/covers/millennium1.jpeg');
+}
+
+.library .millennium2 {
+    background-image: url('../img/covers/millennium2.jpg');
+}
+
+.library .millennium3 {
+    background-image: url('../img/covers/millennium3.webp');
+}
+
+.library .geralt {
+    background-image: url('../img/covers/geralt.jpeg');
+    background-position-y: 20%;
+}
+
+.library .ciri {
+    background-image: url('../img/covers/ciri.jpg');
+    background-position-y: 20%;
+}
+
+.library .world {
+    background-image: url('../img/covers/world.jpg');
+}
+
+.library .thief {
+    background-image: url('../img/covers/thief.webp');
+    background-position-y: 20%;
 }
