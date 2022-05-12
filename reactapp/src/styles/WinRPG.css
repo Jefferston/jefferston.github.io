@@ -1,13 +1,13 @@
 .rpgWindow {
     background: rgb(90, 192, 206);;
     overflow-y: auto;
-    top: 14%;
-    left: 14%;
-    width: 740px;
+    top: 18%;
+    left: 24%;
+    width: 700px;
 }
 
 .rpgWindow .controls {
-  width: 740px;
+  width: 700px;
 }
 
 .rpgWindow .header {
@@ -17,13 +17,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.rpgHead .experience{
+.rpgHead .rpgTop{
   margin-top: 50px;
 }
 
 .rpgBody {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 90%;
     flex-wrap: wrap;
     padding-top: 50px;
@@ -32,7 +33,7 @@
   
 .glass {
   background: white;
-  width: 70%;
+  width: 90%;
   background: linear-gradient(
     to right bottom,
     rgba(95, 214, 230, 0.9),
@@ -46,6 +47,7 @@
   align-items: center;
   box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
   margin: 10px 20px;
+  margin-left: 50px;
 }
 
 .glass h1 {
@@ -188,4 +190,24 @@
   align-items: center;
   background: rgba(62, 212, 231, 0.8);
   border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.lvlProg {
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: relative;
+}
+
+.lvlProg span {
+  color: white;
+  position: absolute;
+  top: 22%;
+  left: 43%;
+}
+
+.lvlRess {
+  background: #000;
+  height: 100%;
+  background: #7AC70C;
 }

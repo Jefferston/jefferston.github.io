@@ -27,36 +27,59 @@ const WinRPG = () => {
                 </div>
 
                 <div className="rpgBody">
-                  <StandartBlock name="Languages" type="Languages">
-                    <StandartBlockItem name="English" value="6000"></StandartBlockItem>
-                    <StandartBlockItem name="Deutsch" value="3000"></StandartBlockItem>
-                  </StandartBlock>
 
                   <StandartBlock name="Knowledge" type="Knowledge">
-                    <StandartBlockItem name="English" value="4000"></StandartBlockItem>
+                    <StandartBlockItem name="Engineering" value="1000"></StandartBlockItem>
+                    <StandartBlockItem name="Programming" value="1200"></StandartBlockItem>
+                    <StandartBlockItem name="Economics" value="1200"></StandartBlockItem>
+                  </StandartBlock>
+
+                  <StandartBlock name="Languages" type="Languages">
+                    <StandartBlockItem name="English" value="10000"></StandartBlockItem>
+                    <StandartBlockItem name="Deutsch" value="3000"></StandartBlockItem>
+                    <StandartBlockItem name="French" value="100"></StandartBlockItem>
+                  </StandartBlock>
+
+                  <StandartBlock name="Other skills" type="Other">
+                    <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>
+                    <StandartBlockItem name="Driving" value="300"></StandartBlockItem>
+                    <StandartBlockItem name="World comprehension" value="3200"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Achievements">
                     <div className="countBlockContainer">
-                      <CountBlock name="Something" value="1000"></CountBlock>
-                      <CountBlock name="Something else" value="2000"></CountBlock>
-                      <CountBlock name="And govno" value="3000"></CountBlock>
+                      <CountBlock name="Bachelor degree" value="10000"></CountBlock>
+                      <CountBlock name="Living abroad" value="5000"></CountBlock>
+                      <CountBlock name="Fluency in 2 foreign languages" value="10000"></CountBlock>
                     </div>
                   </StandartBlock>
 
-                  <StandartBlock name="Achievements">
+                  <StandartBlock name="Art" type="Art">
                     <div className="countBlockContainer">
-                      <CountBlock name="Something" value="4000"></CountBlock>
+                      <CountBlock name="Written book" value="1000"></CountBlock>
                     </div>
                   </StandartBlock>
 
                   <StandartBlock name="Travel">
-                  <div className="countBlockContainer">
-                      <CountBlockCountries name="Something"></CountBlockCountries>
-                      <CountBlockCountries name="Something else"></CountBlockCountries>
-                      <CountBlockCountries name="And govno"></CountBlockCountries>
+                    <div className="countBlockContainer">
+                      <CountBlockCountries name="Austria"></CountBlockCountries>
+                      <CountBlockCountries name="Germany"></CountBlockCountries>
+                      <CountBlockCountries name="Romania"></CountBlockCountries>
+                      <CountBlockCountries name="Spain"></CountBlockCountries>
+                      <CountBlockCountries name="Netherlands"></CountBlockCountries>
+                      <CountBlockCountries name="Moldova"></CountBlockCountries>
+                      <CountBlockCountries name="Belgium"></CountBlockCountries>
+                      <CountBlockCountries name="France"></CountBlockCountries>
+                      <CountBlockCountries name="Montenegro"></CountBlockCountries>
+                      <CountBlockCountries name="Switzerland"></CountBlockCountries>
+                      <CountBlockCountries name="Liechtenstein"></CountBlockCountries>
                     </div>
                   </StandartBlock>
+
+                  <StandartBlock name="Job experience" type="JobExp">
+                    <StandartBlockItem name="Data analyst" value="300"></StandartBlockItem>
+                  </StandartBlock>
+                  
                 </div>
 
         </div>

@@ -121,7 +121,6 @@ main {
 }
 
 .mainBody .special {
-    height: 300px;
     width: 100%;
     background: #1CB0F6;
     border-bottom: 3px solid black;
@@ -134,6 +133,7 @@ main {
 
 .mainBody .special h1 {
     font-size: 4em;
+    margin-top: 20px;
 }
 
 .mainBody .special h4 {
