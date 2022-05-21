@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b34de838.css",
-    "main.js": "./static/js/main.f85e6d59.js",
+    "main.css": "./static/css/main.d56af2bd.css",
+    "main.js": "./static/js/main.c281bc7e.js",
     "static/media/millennium1.jpeg": "./static/media/millennium1.e3c52f75a112775103ad.jpeg",
     "static/media/statistics_data.jpg": "./static/media/statistics_data.f44d0a7293ba4b750622.jpg",
     "static/media/geralt.jpeg": "./static/media/geralt.38b2614dcb0a4ec302b8.jpeg",
@@ -9,14 +9,20 @@
     "static/media/schloss1.jpg": "./static/media/schloss1.b6ea70973531e967e028.jpg",
     "static/media/waterfall.jpg": "./static/media/waterfall.db801180aee69889e6ca.jpg",
     "static/media/macroeconomics.jpg": "./static/media/macroeconomics.51a882130b359eb6427e.jpg",
+    "static/media/house1.jpg": "./static/media/house1.db5272c26b2a9505fb68.jpg",
+    "static/media/zoo2.jpg": "./static/media/zoo2.eabe175c2c972f5c1057.jpg",
     "static/media/innsmut.jpg": "./static/media/innsmut.4b025ce6ef5c66b192bf.jpg",
     "static/media/populism.png": "./static/media/populism.1694f5f6c344057828f4.png",
     "static/media/china.jpg": "./static/media/china.d5751de5571f858ab89a.jpg",
+    "static/media/gnome.jpg": "./static/media/gnome.455c98b3965e6f9d02fc.jpg",
     "static/media/learn_sql.jpg": "./static/media/learn_sql.11700200144ec719cafc.jpg",
+    "static/media/mountains1.jpg": "./static/media/mountains1.d85eee61edd54097fa52.jpg",
     "static/media/cave2.jpg": "./static/media/cave2.e60435ca7b9bd431b962.jpg",
     "static/media/lean_management.jpg": "./static/media/lean_management.e910c708807e5f3866d6.jpg",
     "static/media/legend.webp": "./static/media/legend.69627d3bee8e9c3f1161.webp",
     "static/media/js.png": "./static/media/js.c1db33ce074fff4fea31.png",
+    "static/media/mine.jpg": "./static/media/mine.3287a34dc171267a648d.jpg",
+    "static/media/salzburg.jpg": "./static/media/salzburg.b6555755ea0729963a3d.jpg",
     "static/media/thief.webp": "./static/media/thief.eac9b3e531a970bfbe57.webp",
     "static/media/cave1.jpg": "./static/media/cave1.dc670942c87612000a8e.jpg",
     "static/media/rainyday.jpg": "./static/media/rainyday.29937eea96f706f998d5.jpg",
@@ -45,11 +51,11 @@
     "static/media/drummer.svg": "./static/media/drummer.345fec1bffc18fec8c7b.svg",
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
-    "main.b34de838.css.map": "./static/css/main.b34de838.css.map",
-    "main.f85e6d59.js.map": "./static/js/main.f85e6d59.js.map"
+    "main.d56af2bd.css.map": "./static/css/main.d56af2bd.css.map",
+    "main.c281bc7e.js.map": "./static/js/main.c281bc7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b34de838.css",
-    "static/js/main.f85e6d59.js"
+    "static/css/main.d56af2bd.css",
+    "static/js/main.c281bc7e.js"
   ]
 }

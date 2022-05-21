@@ -67,7 +67,6 @@ const switchTypes = () => {
             for (let topic of topics) {
                 if (!(topic.getAttribute('data-type') === type.getAttribute('data-type'))) {
                     topic.style.display = "none";    
-     
                 } 
                 else {
                     topic.style.display = "block";
