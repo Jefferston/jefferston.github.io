@@ -21,13 +21,40 @@
   margin-top: 50px;
 }
 
+.rpgTop ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.rpgTop ul li {
+  list-style-type: none;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rpgTop ul li span {
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
 .rpgBody {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
   

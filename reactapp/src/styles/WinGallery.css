@@ -2,8 +2,14 @@
     /* background: #ebdbdbe1; */
     background: #a0c8db;
     overflow-y: auto;
-    top: 18%;
-    left: 22%;
+    top: 12%;
+    left: 12%;
+    width: 1240px;
+    height: 500px;
+}
+
+.galWindow .controls {
+    width: 1240px;
 }
 
 .galWindow .header {
@@ -29,8 +35,8 @@
 }
 
 .post {
-    height: 270px;
-    width: 270px;
+    height: 350px;
+    width: 350px;
     margin: 8px;
     background: url('../img/insta/ava.jpg');
     background-size: 100%;
@@ -42,31 +48,73 @@
 .post.inst-ein {
     background: url('../img/insta/schloss1.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .post.inst-zwei {
     background: url('../img/insta/cave2.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .post.inst-drei {
     background: url('../img/insta/cave1.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .post.inst-vier {
     background: url('../img/insta/china.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .post.inst-funf {
     background: url('../img/insta/waterfall.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .post.inst-sechs {
     background: url('../img/insta/rainyday.jpg');
     background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+.post.inst-sieben {
+    background: url('../img/insta/gnome.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.post.inst-acht {
+    background: url('../img/insta/house1.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.post.inst-neun {
+    background: url('../img/insta/mountains1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.post.inst-zehn {
+    background: url('../img/insta/salzburg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.post.inst-elf {
+    background: url('../img/insta/zoo2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.post.inst-zwolf {
+    background: url('../img/insta/mine.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 

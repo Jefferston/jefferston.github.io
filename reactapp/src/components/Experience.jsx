@@ -117,7 +117,13 @@ class Experience extends React.Component {
         return (
             <div className="rpgTop">
                 <div>23, Working student</div>
-                <div>Attributes here</div>
+                <ul>
+                    <li><span>7</span>Inteligence</li>
+                    <li><span>6</span>Charisma</li>
+                    <li><span>7</span>Will</li>
+                    <li><span>8</span>Sense of beauty</li>
+                    <li><span>5</span>Luck</li>
+                </ul>
                 <div className="lvl">Level <span>1</span></div>
                 <div className="experience"></div>
                 <div className="lvlProg"><span>Content here</span><div className="lvlRess"></div></div>

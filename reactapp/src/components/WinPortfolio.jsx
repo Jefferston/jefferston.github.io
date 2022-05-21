@@ -20,7 +20,7 @@ const WinPortfolio = (props) => {
         </div>
 
         <div className="windowContent">
-            <object data="https://jefferston.github.io/portfolio/Lebenslauf.pdf" type="application/pdf" width="100%" height="100%"/>
+            <object data="https://jefferston.github.io/Lebenslauf.pdf" type="application/pdf" width="100%" height="100%"/>
         </div>
     </div>
   );

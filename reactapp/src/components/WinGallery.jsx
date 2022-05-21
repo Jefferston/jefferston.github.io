@@ -28,6 +28,12 @@ const WinGallery = (props) => {
                     <div className="post inst-vier"></div>
                     <div className="post inst-funf"></div>
                     <div className="post inst-sechs"></div>
+                    <div className="post inst-sieben"></div>
+                    <div className="post inst-acht"></div>
+                    <div className="post inst-neun"></div>
+                    <div className="post inst-zehn"></div>
+                    <div className="post inst-elf"></div>
+                    <div className="post inst-zwolf"></div>
                 </div>
             </div>
     </div>
