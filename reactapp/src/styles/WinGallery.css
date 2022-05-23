@@ -12,11 +12,11 @@
     width: 1340px;
 }
 
-.galWindow .header {
+.galWindow .header h1 {
     text-align: center;
-    font-size: 14px;
-    margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .galWindow .windowContent {
@@ -177,7 +177,8 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    user-select: none;
 }

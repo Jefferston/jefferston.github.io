@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.d56af2bd.css",
-    "main.js": "./static/js/main.c281bc7e.js",
+    "main.css": "./static/css/main.4319ce6d.css",
+    "main.js": "./static/js/main.25ba1d97.js",
     "static/media/millennium1.jpeg": "./static/media/millennium1.e3c52f75a112775103ad.jpeg",
     "static/media/statistics_data.jpg": "./static/media/statistics_data.f44d0a7293ba4b750622.jpg",
     "static/media/geralt.jpeg": "./static/media/geralt.38b2614dcb0a4ec302b8.jpeg",
@@ -22,6 +22,7 @@
     "static/media/legend.webp": "./static/media/legend.69627d3bee8e9c3f1161.webp",
     "static/media/js.png": "./static/media/js.c1db33ce074fff4fea31.png",
     "static/media/mine.jpg": "./static/media/mine.3287a34dc171267a648d.jpg",
+    "static/media/atlant2.jpg": "./static/media/atlant2.7978578c546e54c13d04.jpg",
     "static/media/salzburg.jpg": "./static/media/salzburg.b6555755ea0729963a3d.jpg",
     "static/media/thief.webp": "./static/media/thief.eac9b3e531a970bfbe57.webp",
     "static/media/cave1.jpg": "./static/media/cave1.dc670942c87612000a8e.jpg",
@@ -51,11 +52,11 @@
     "static/media/drummer.svg": "./static/media/drummer.345fec1bffc18fec8c7b.svg",
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
-    "main.d56af2bd.css.map": "./static/css/main.d56af2bd.css.map",
-    "main.c281bc7e.js.map": "./static/js/main.c281bc7e.js.map"
+    "main.4319ce6d.css.map": "./static/css/main.4319ce6d.css.map",
+    "main.25ba1d97.js.map": "./static/js/main.25ba1d97.js.map"
   },
   "entrypoints": [
-    "static/css/main.d56af2bd.css",
-    "static/js/main.c281bc7e.js"
+    "static/css/main.4319ce6d.css",
+    "static/js/main.25ba1d97.js"
   ]
 }

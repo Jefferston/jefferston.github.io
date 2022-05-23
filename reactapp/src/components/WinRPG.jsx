@@ -40,6 +40,10 @@ const WinRPG = () => {
                     <StandartBlockItem name="French" value="100"></StandartBlockItem>
                   </StandartBlock>
 
+                  <StandartBlock name="Job experience" type="JobExp">
+                    <StandartBlockItem name="Data analyst" value="300"></StandartBlockItem>
+                  </StandartBlock>
+
                   <StandartBlock name="Other skills" type="Other">
                     <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>
                     <StandartBlockItem name="Driving" value="300"></StandartBlockItem>
@@ -74,10 +78,6 @@ const WinRPG = () => {
                       <CountBlockCountries name="Switzerland"></CountBlockCountries>
                       <CountBlockCountries name="Liechtenstein"></CountBlockCountries>
                     </div>
-                  </StandartBlock>
-
-                  <StandartBlock name="Job experience" type="JobExp">
-                    <StandartBlockItem name="Data analyst" value="300"></StandartBlockItem>
                   </StandartBlock>
                   
                 </div>

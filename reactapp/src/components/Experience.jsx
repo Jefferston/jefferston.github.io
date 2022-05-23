@@ -75,10 +75,9 @@ const getExperience = (el) => {
 
     let needToNewLevelMinusHaveOfThisLevel = needToNewLevel - haveOfThisLevel;
 
-    exp.textContent = `${count}, You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`;
+    exp.textContent = `You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`;
     lvl.textContent = `Level ${level}`;
 
-    // let barPar = document.querySelector('.lvlProg');
     let bar = document.querySelector('.lvlRess');
         bar.style.width = `${(haveOfThisLevel / needToNewLevel * 100)}%`
 
@@ -86,8 +85,9 @@ const getExperience = (el) => {
     barLabel.textContent = `${haveOfThisLevel} / ${needToNewLevel}`;
 
     console.log(levelArray);
-    console.log(`Level ${level}`);
-    console.log(`You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`);
+    console.log(count)
+    // console.log(`Level ${level}`);
+    // console.log(`You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`);
 }
 
 
@@ -127,6 +127,7 @@ class Experience extends React.Component {
                 <div className="lvl">Level <span>1</span></div>
                 <div className="experience"></div>
                 <div className="lvlProg"><span>Content here</span><div className="lvlRess"></div></div>
+                <div className="traits">Here will be traits</div>
             </div>
         );
     }

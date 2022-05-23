@@ -228,6 +228,7 @@ class WinLibrary extends React.Component {
                             <div className="book legend" data-topic="Richard_Matheson" data-type="Stories"></div>
                             <div className="book choke" data-topic="Chuck_Palahniuk" data-type="Stories"></div>
                             <div className="book atlant" data-topic="Ayn_Rand" data-type="Stories"></div>
+                            <div className="book atlant2" data-topic="Ayn_Rand" data-type="Stories"></div>
                             <div className="book niggers" data-topic="Agata_Christie" data-type="Stories"></div>
                             <div className="book oruel" data-topic="J_Oruel" data-type="Stories"></div>
                             <div className="book millennium1" data-topic="Stieg_Larsson" data-type="Stories"></div>

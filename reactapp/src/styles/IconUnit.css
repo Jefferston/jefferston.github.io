@@ -16,6 +16,10 @@
     background-repeat: no-repeat;
 }
 
+.icon_text {
+    font-family: 'Koulen', cursive !important;
+}
+
 .iconMe {
     background-image: url('../img/icons/face.svg');
 }

@@ -16,7 +16,7 @@
 .library h1 {
     font-size: 34px;
     margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .library .topics {
@@ -24,7 +24,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    /* font-family: 'Raleway', sans-serif; */
 }
 
 .library .topics p {
@@ -35,9 +34,10 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
     font-size: 14px;
+    user-select: none;
 }
 
 /* .library .topics p:hover {
@@ -68,9 +68,10 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
     font-size: 14px;
+    user-select: none;
 }
 
 .book {
@@ -191,6 +192,10 @@
 
 .library .atlant {
     background-image: url('../img/covers/atlant.jpg');
+}
+
+.library .atlant2 {
+    background-image: url('../img/covers/atlant2.jpg');
 }
 
 .library .niggers {

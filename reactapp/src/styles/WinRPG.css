@@ -4,6 +4,7 @@
     top: 18%;
     left: 24%;
     width: 700px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .rpgWindow .controls {
@@ -13,19 +14,18 @@
 .rpgWindow .header {
     text-align: center;
     font-size: 14px;
-    margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;  
 }
 
 .rpgHead .rpgTop{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .rpgTop ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin: 6px 0;
 }
 
 .rpgTop ul li {
@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 500;
 }
 
 .rpgTop ul li span {
@@ -48,13 +49,29 @@
   font-weight: bold;
 }
 
+.rpgTop div:first-child {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.rpgTop div:nth-child(3) {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.rpgTop div {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'MuseoModerno', cursive;
+}
+
 .rpgBody {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
   
@@ -205,7 +222,7 @@
   left: 0%;
 }
 
-.add {
+/* .add {
   font-weight: bold;
   margin-top: 14px;
   font-size: 1.3em;
@@ -217,7 +234,7 @@
   align-items: center;
   background: rgba(62, 212, 231, 0.8);
   border-radius: 0 0 0.5rem 0.5rem;
-}
+} */
 
 .lvlProg {
   width: 100%;
@@ -237,4 +254,9 @@
   background: #000;
   height: 100%;
   background: #7AC70C;
+}
+
+.traits {
+  height: 50px;
+  background: rgb(103, 99, 99);
 }
