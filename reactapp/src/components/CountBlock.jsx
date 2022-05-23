@@ -9,7 +9,7 @@ const CountBlock = (props) => {
     return (
         <div className="countItem">
             <div className="itemHead">
-                <div className="itemName"><span>{props.name}:</span> <span className="valueSpan">{props.value}</span></div>
+                <div className="itemName"><span>{props.name}</span> <span className="valueSpan">{props.value}</span></div>
             </div>
         </div>
   );

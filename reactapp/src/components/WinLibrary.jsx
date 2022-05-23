@@ -156,7 +156,6 @@ class WinLibrary extends React.Component {
                             <p data-topic="Harper_Li" data-type="Stories">Harper Li</p>
                             <p data-topic="H_Lovecraft" data-type="Stories">Howard Lovecraft</p>
                             <p data-topic="J_Oruel" data-type="Stories">Jeorge Oruel</p>
-                            <p data-topic="Markus_Zusak" data-type="Stories">Markus Zusak</p>
                             <p data-topic="Oldos_Hucksley" data-type="Stories">Oldos Hucksley</p>
                             <p data-topic="Richard_Matheson" data-type="Stories">Richard Matheson</p>
                             <p data-topic="Stieg_Larsson" data-type="Stories">Stieg Larsson</p>
@@ -237,7 +236,6 @@ class WinLibrary extends React.Component {
                             <div className="book geralt" data-topic="A_Sapkovcki" data-type="Stories"></div>
                             <div className="book ciri" data-topic="A_Sapkovcki" data-type="Stories"></div>
                             <div className="book world" data-topic="Oldos_Hucksley" data-type="Stories"></div>
-                            <div className="book thief" data-topic="Markus_Zusak" data-type="Stories"></div>
                         </div>
             
                 </div>

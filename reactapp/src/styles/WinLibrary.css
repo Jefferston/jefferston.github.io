@@ -231,8 +231,3 @@
 .library .world {
     background-image: url('../img/covers/world.jpg');
 }
-
-.library .thief {
-    background-image: url('../img/covers/thief.webp');
-    background-position-y: 20%;
-}
