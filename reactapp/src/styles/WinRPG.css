@@ -92,6 +92,7 @@
   box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
   margin: 10px 20px;
   margin-left: 50px;
+  padding-bottom: 10px;
 }
 
 .glass h1 {
@@ -122,7 +123,7 @@
   box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
   align-items: center; 
   flex-direction: column;
-  font-family: 'Raleway';
+  font-family: 'MuseoModerno', cursive;
   padding: 4px 0;
 }
 
