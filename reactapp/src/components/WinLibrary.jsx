@@ -19,7 +19,7 @@ const getTopics = () => {
                 if ((book.getAttribute('data-topic') === topic.getAttribute('data-topic'))) {
                     document.querySelector('.library .container').style.justifyContent = "center";
                     book.style.width = "260px";
-                    book.style.height = "360px";
+                    book.style.height = "380px";
                 }
 
                 if (!(book.getAttribute('data-topic') === topic.getAttribute('data-topic'))) {
@@ -27,8 +27,8 @@ const getTopics = () => {
     
                     if (topic.getAttribute('data-topic') === "All") {
                         for (let book of books) {
-                            book.style.width = "220px";
-                            book.style.height = "320px";
+                            book.style.width = "180px";
+                            book.style.height = "250px";
                             document.querySelector('.library .container').style.justifyContent = "start";
                             if (book.getAttribute('data-type') === topic.getAttribute('data-type')) {
                                 book.style.display = "block";
@@ -80,8 +80,8 @@ const switchTypes = () => {
                 else {
                     document.querySelector('.library .container').style.justifyContent = "start";
                     book.style.display = "block";
-                    book.style.width = "220px";
-                    book.style.height = "320px";
+                    book.style.width = "180px";
+                    book.style.height = "250px";
                 }
             }
         }

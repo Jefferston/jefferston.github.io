@@ -91,15 +91,37 @@ const getExperience = (el) => {
 }
 
 
-//     let levelArray = [];
-//     let level = 1;
-//     // let Attributes = {
-//     //     'Intelligence': 7,
-//     //     'Charisma': 6,
-//     //     'Will': 7,
-//     //     'Sense of beauty': 8,
-//     //     'Luck': 4
-//     // };
+// const nextWindow = el => {
+//     el.target.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = 'none';
+
+//     let gal = document.querySelector('.galWindow');
+//     gal.style.display = "block";
+//     gal.style.visibility = "visible";
+// }
+
+// getClassBonus = () => {
+//     let jopa = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p');
+//     for (let jo of jopa) {
+//         if (jo.textContent === Class.MainFocus) {
+//             let mainBonus = jo.getAttribute("data-value") * Class.Knowledge - jo.getAttribute("data-value");
+//             exp += mainBonus * Attributes["Intelligence"];
+//         }
+//     }
+
+//     let pula = document.querySelectorAll(`.mainBody .body .${Class.AdditionalFocus} .list .list_item p`);
+//     for (let i = 0; i < pula.length; i++) {  
+//         let sum = parseInt(pula[i].getAttribute("data-value"), 10);
+//         let secondaryBonus = sum * Class.Area - sum;
+//         exp += secondaryBonus * Attributes["Sense of beauty"];
+//     }
+
+//     let jopula = document.querySelectorAll('.mainBody .body .other .list .list_item p');
+//     for (let jola of jopula) {
+//         if (jola.textContent === Class.HobbyFocus) {
+//             let hobbyBonus = jola.getAttribute("data-value") * Class.Hobby - jola.getAttribute("data-value");
+//             exp += hobbyBonus;
+//         }             
+//     }
 //     // let Class = {
 //     //     'Name': 'Adventurer',
 //     //     'MainFocus': 'Economics: ',
@@ -128,6 +150,10 @@ class Experience extends React.Component {
                 <div className="experience"></div>
                 <div className="lvlProg"><span>Content here</span><div className="lvlRess"></div></div>
                 <div className="traits">Here will be traits</div>
+                {/* <div className="mobileSwitch">
+                    <div className="mobilePrev">Prev</div>
+                    <div className="mobileNext" onClick={nextWindow}>Next</div>
+                </div> */}
             </div>
         );
     }

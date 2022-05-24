@@ -1,9 +1,15 @@
 .libWindow {
     /* background: linear-gradient(to right top, #08A5C4, #6cdbeb); */
     background: #52a9d4;
-    top: 18%;
-    left: 22%;
+    top: 10%;
+    left: 14%;
+    width: 1000px;
+    height: 600px;
     overflow-y: auto;
+}
+
+.libWindow .controls {
+    width: 1000px;
 }
 
 .library {
@@ -40,14 +46,11 @@
     user-select: none;
 }
 
-/* .library .topics p:hover {
-    transform: scale(1.03);
-} */
-
 .library .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    /* justify-content: center; */
     padding-bottom: 50px;
     width: 95%;
 }
@@ -75,10 +78,10 @@
 }
 
 .book {
-    width: 220px;
-    height: 320px;
+    width: 180px;
+    height: 250px;
     background: #000;
-    margin: 30px 36px;
+    margin: 36px 26px;
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
