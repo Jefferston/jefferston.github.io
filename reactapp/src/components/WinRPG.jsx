@@ -2,11 +2,11 @@ import React from 'react';
 import '../index.css';
 import '../styles/Window.css';
 import '../styles/WinRPG.css';
-import StandartBlock from './StandartBlock';
-import StandartBlockItem from './StandartBlockItem';
-import CountBlock from './CountBlock';
-import CountBlockCountries from './CountBlockCountries';
-import Experience from './Experience';
+import StandartBlock from './rpgElems/StandartBlock';
+import StandartBlockItem from './rpgElems/StandartBlockItem';
+import CountBlock from './rpgElems/CountBlock';
+import CountBlockCountries from './rpgElems/CountBlockCountries';
+import Experience from './rpgElems/Experience';
 
 
 const closeWindow = (el) => {

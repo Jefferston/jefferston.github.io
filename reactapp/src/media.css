@@ -1,0 +1,22 @@
+@media screen and (max-width: 770px) {
+    .window {
+        visibility: hidden;
+    }
+
+    .desk {
+        visibility: hidden;
+    }
+
+    .rpgWindow {
+        visibility: visible;
+        display: block !important;
+        width: 100% !important;
+        height: 100vh !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    /* .rpgWindow:nth-child(1) {
+        visibility: visible;
+    } */
+}

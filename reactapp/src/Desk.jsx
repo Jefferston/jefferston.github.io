@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import './media.css';
 import IconUnit from './components/IconUnit.jsx';
 import WinPortfolio from './components/WinPortfolio.jsx';
 import WinRPG from './components/WinRPG.jsx';
