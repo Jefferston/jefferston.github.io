@@ -288,8 +288,20 @@
       left: 0;
   }
 
+  .rpgWindow .controls {
+    display: none;
+  }
+
   .rpgBody {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+  }
+
+  .glass {
+    background: rgb(9, 152, 171);
+  }
+
+  .traits {
+    display: none;
   }
 
   .mobileSwitch {
