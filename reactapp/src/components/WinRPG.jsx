@@ -37,7 +37,7 @@ const WinRPG = () => {
                   <StandartBlock name="Languages" type="Languages">
                     <StandartBlockItem name="English" value="10000"></StandartBlockItem>
                     <StandartBlockItem name="Deutsch" value="3500"></StandartBlockItem>
-                    <StandartBlockItem name="French" value="200"></StandartBlockItem>
+                    <StandartBlockItem name="French" value="300"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Job experience" type="JobExp">

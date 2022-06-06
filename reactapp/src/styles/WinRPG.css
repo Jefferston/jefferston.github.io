@@ -293,11 +293,15 @@
   }
 
   .rpgBody {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
   }
 
   .glass {
     background: rgb(9, 152, 171);
+  }
+
+  .glass h1 {
+    background: rgba(70, 175, 192, 0.9);
   }
 
   .traits {

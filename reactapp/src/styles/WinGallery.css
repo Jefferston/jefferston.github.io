@@ -80,7 +80,7 @@
 }
 
 .post.inst-ein {
-    background: url('../img/insta/mountains1.jpg');
+    background: url('../img/insta/switz/mountains1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: span 2;
@@ -88,14 +88,14 @@
 }
 
 .post.inst-zwei {
-    background: url('../img/insta/cave2.jpg');
+    background: url('../img/insta/switz/cave2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     grid-row: span 1;
 }
 
 .post.inst-drei {
-    background: url('../img/insta/cave1.jpg');
+    background: url('../img/insta/switz/cave1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: span 1;
@@ -110,7 +110,7 @@
 }
 
 .post.inst-funf {
-    background: url('../img/insta/waterfall.jpg');
+    background: url('../img/insta/switz/waterfall.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 820px;
@@ -118,7 +118,7 @@
 }
 
 .post.inst-sechs {
-    background: url('../img/insta/gnome.jpg');
+    background: url('../img/insta/switz/gnome.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
