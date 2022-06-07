@@ -53,7 +53,7 @@ const WinRPG = () => {
 
                   <StandartBlock name="Achievements">
                     <div className="countBlockContainer">
-                      <CountBlock name="Bachelor degree" value="10000"></CountBlock>
+                      <CountBlock name="Bachelor's degree" value="10000"></CountBlock>
                       <CountBlock name="Living abroad" value="5000"></CountBlock>
                       <CountBlock name="Fluency in 2 foreign languages" value="10000"></CountBlock>
                       <CountBlock name="Perfect storm 2020" value="2000"></CountBlock>

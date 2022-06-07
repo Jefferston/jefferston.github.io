@@ -12,6 +12,20 @@ const getExperience = (el) => {
     let numberOfBooks = 16;
     count += numberOfBooks * 100;
 
+    // TODO
+    let mainCitiesOfGermany = ['Munich', 'Nuremberg', 'Berlin', 'Stuttgart', 'Koln', 'Aachen', 'Bremen', 'Hamburg', 'Ruhr-Aglomerance'];
+    //let mainCitiesOfAustria = ['Salzburg'];
+    //let mainCitiesOfBelgium = ['Brussels'];
+    //let mainCitiesOfMoldova = ['Chisinau'];
+
+    // if >2 then
+    count += (mainCitiesOfGermany.length - 1) * 100;
+
+    // if saw at lest 3 Vi / Ca then write here
+    let specialThingsinGermany = ['Villages', 'Castles'];
+    count += specialThingsinGermany.length * 100;
+
+
     let exp = document.querySelector('.experience')
     let valNorm = document.querySelectorAll('.prog span')
     let valCount = document.querySelectorAll('.countItem .valueSpan')
