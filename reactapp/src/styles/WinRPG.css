@@ -5,6 +5,7 @@
     left: 24%;
     width: 800px;
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
 }
 
 .rpgWindow .controls {

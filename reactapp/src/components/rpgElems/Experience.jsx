@@ -13,15 +13,15 @@ const getExperience = (el) => {
     count += numberOfBooks * 100;
 
     // TODO
-    let mainCitiesOfGermany = ['Munich', 'Nuremberg', 'Berlin', 'Stuttgart', 'Koln', 'Aachen', 'Bremen', 'Hamburg', 'Ruhr-Aglomerance'];
+    let mainCitiesOfGermany = 
+        ['Munich', 'Nuremberg', 'Berlin', 'Stuttgart', 'Koln', 'Aachen', 'Bremen', 'Hamburg', 'Ruhr-Aglomerance', 'Koblenz-Trier'];
     //let mainCitiesOfAustria = ['Salzburg'];
     //let mainCitiesOfBelgium = ['Brussels'];
-    //let mainCitiesOfMoldova = ['Chisinau'];
 
-    // if >2 then
+    // if >2 then, max 10
     count += (mainCitiesOfGermany.length - 1) * 100;
 
-    // if saw at lest 3 Vi / Ca then write here
+    // if saw at lest 3 Villages / Castles / Other special stuff, then write here
     let specialThingsinGermany = ['Villages', 'Castles'];
     count += specialThingsinGermany.length * 100;
 
@@ -113,38 +113,7 @@ const getExperience = (el) => {
 //     gal.style.visibility = "visible";
 // }
 
-// getClassBonus = () => {
-//     let jopa = document.querySelectorAll('.mainBody .body .knowledge .list .list_item p');
-//     for (let jo of jopa) {
-//         if (jo.textContent === Class.MainFocus) {
-//             let mainBonus = jo.getAttribute("data-value") * Class.Knowledge - jo.getAttribute("data-value");
-//             exp += mainBonus * Attributes["Intelligence"];
-//         }
-//     }
 
-//     let pula = document.querySelectorAll(`.mainBody .body .${Class.AdditionalFocus} .list .list_item p`);
-//     for (let i = 0; i < pula.length; i++) {  
-//         let sum = parseInt(pula[i].getAttribute("data-value"), 10);
-//         let secondaryBonus = sum * Class.Area - sum;
-//         exp += secondaryBonus * Attributes["Sense of beauty"];
-//     }
-
-//     let jopula = document.querySelectorAll('.mainBody .body .other .list .list_item p');
-//     for (let jola of jopula) {
-//         if (jola.textContent === Class.HobbyFocus) {
-//             let hobbyBonus = jola.getAttribute("data-value") * Class.Hobby - jola.getAttribute("data-value");
-//             exp += hobbyBonus;
-//         }             
-//     }
-//     // let Class = {
-//     //     'Name': 'Adventurer',
-//     //     'MainFocus': 'Economics: ',
-//     //     'AdditionalFocus': 'art',
-//     //     'HobbyFocus': 'World comprehension: ',
-//     //     'Knowledge': 1.3,
-//     //     'Area': 1.2,
-//     //     'Hobby': 1.1
-//     // };
 
 
 class Experience extends React.Component {
@@ -152,7 +121,7 @@ class Experience extends React.Component {
 
         return (
             <div className="rpgTop">
-                <div>23, Working student</div>
+                <div>23, Requirements Engineer</div>
                 <ul>
                     <li><span>7</span>Inteligence</li>
                     <li><span>6</span>Charisma</li>
