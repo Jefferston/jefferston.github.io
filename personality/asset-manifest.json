@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.e31466fc.css",
-    "main.js": "./static/js/main.414f7da0.js",
+    "main.css": "./static/css/main.e5251974.css",
+    "main.js": "./static/js/main.9bdee493.js",
     "static/media/kotor.jpg": "./static/media/kotor.1e87ad42d72330ca680e.jpg",
     "static/media/brussels.jpg": "./static/media/brussels.cdacc77feaf169492c41.jpg",
     "static/media/millennium1.jpeg": "./static/media/millennium1.e3c52f75a112775103ad.jpeg",
@@ -11,7 +11,7 @@
     "static/media/salzburg.jpg": "./static/media/salzburg.468b1f535c578b079ac7.jpg",
     "static/media/ciri.jpg": "./static/media/ciri.b5d91bb612e010670f7d.jpg",
     "static/media/munchen.jpg": "./static/media/munchen.f88d4b89a6cf26ae113b.jpg",
-    "static/media/tubingen.jpg": "./static/media/tubingen.05b5d8ad44a171087f42.jpg",
+    "static/media/tubingen.jpg": "./static/media/tubingen.40461d5aa742f0639cd8.jpg",
     "static/media/bremen.jpg": "./static/media/bremen.d51c8a20a6a57fae7dde.jpg",
     "static/media/macroeconomics.jpg": "./static/media/macroeconomics.51a882130b359eb6427e.jpg",
     "static/media/luxembourg.jpg": "./static/media/luxembourg.bf6d728e07108d76c1ee.jpg",
@@ -19,12 +19,14 @@
     "static/media/populism.png": "./static/media/populism.1694f5f6c344057828f4.png",
     "static/media/hamburg.jpg": "./static/media/hamburg.4343f2a418e9115becd1.jpg",
     "static/media/learn_sql.jpg": "./static/media/learn_sql.11700200144ec719cafc.jpg",
+    "static/media/3.png": "./static/media/3.9b87fb2b166895ecc3ef.png",
     "static/media/zurich.jpg": "./static/media/zurich.516239f751151d73d09c.jpg",
     "static/media/lean_management.jpg": "./static/media/lean_management.e910c708807e5f3866d6.jpg",
     "static/media/legend.webp": "./static/media/legend.69627d3bee8e9c3f1161.webp",
     "static/media/js.png": "./static/media/js.c1db33ce074fff4fea31.png",
     "static/media/atlant2.jpg": "./static/media/atlant2.7978578c546e54c13d04.jpg",
     "static/media/achen.jpg": "./static/media/achen.9340acd6e38b93115af2.jpg",
+    "static/media/2.png": "./static/media/2.2616d9f34ce2ba002c72.png",
     "static/media/princip_economics.jpg": "./static/media/princip_economics.e254e836aa90530d3a5e.jpg",
     "static/media/why_fail.jpg": "./static/media/why_fail.d2610732363be3f917d6.jpg",
     "static/media/valuation.jpg": "./static/media/valuation.01c0afb4227f3408f710.jpg",
@@ -49,11 +51,11 @@
     "static/media/drummer.svg": "./static/media/drummer.345fec1bffc18fec8c7b.svg",
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
-    "main.e31466fc.css.map": "./static/css/main.e31466fc.css.map",
-    "main.414f7da0.js.map": "./static/js/main.414f7da0.js.map"
+    "main.e5251974.css.map": "./static/css/main.e5251974.css.map",
+    "main.9bdee493.js.map": "./static/js/main.9bdee493.js.map"
   },
   "entrypoints": [
-    "static/css/main.e31466fc.css",
-    "static/js/main.414f7da0.js"
+    "static/css/main.e5251974.css",
+    "static/js/main.9bdee493.js"
   ]
 }

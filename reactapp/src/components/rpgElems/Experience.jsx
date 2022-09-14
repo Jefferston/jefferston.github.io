@@ -18,7 +18,7 @@ const getExperience = (el) => {
     //let mainCitiesOfAustria = ['Salzburg'];
     //let mainCitiesOfBelgium = ['Brussels'];
 
-    // if >2 then, max 10
+    // if >2 then; max 10
     count += (mainCitiesOfGermany.length - 1) * 100;
 
     // if saw at lest 3 Villages / Castles / Other special stuff, then write here

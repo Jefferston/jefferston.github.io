@@ -4,9 +4,6 @@ import '../styles/Window.css';
 import '../styles/WinPortfolio.css';
 
 
-import { Document, Page } from 'react-pdf';
-// import Lebenslauf from "../img/Lebenslauf.pdf"
-
 const closeWindow = (el) => {
   el.target.parentElement.parentElement.style.display = 'none';
 }
@@ -20,7 +17,22 @@ const WinPortfolio = (props) => {
         </div>
 
         <div className="windowContent">
-            <object data="https://jefferston.github.io/Lebenslauf.pdf" type="application/pdf" width="100%" height="100%"/>
+		<div className="partOne AboutMeMain">
+			<div className="MePresentation">
+				<div className="MeOnePhoto"></div>
+				<div className="MeOneName">
+					<div className="MeOneName_Main">Dmitrii Sokololoev</div>
+					<div className="MeOneName_Pathos">I will eat you.</div>
+				</div>
+			</div>
+		</div>
+		<div className="partTwo AboutMeMain">
+			<div className="MeStory">
+				<div className="MeTwoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni a, magnam repellendus ipsam corporis ab necessitatibus repellat? Perspiciatis, nesciunt earum. Doloribus accusamus provident rerum libero dignissimos mollitia qui reprehenderit.</div>
+				<div className="MeTwoPhoto"></div>
+			</div>
+		</div>
+
         </div>
     </div>
   );

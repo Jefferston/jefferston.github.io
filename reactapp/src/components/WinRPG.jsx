@@ -44,14 +44,13 @@ const WinRPG = () => {
 
                   <StandartBlock name="Job experience" type="JobExp">
                     <StandartBlockItem name="Data analyst" value="400"></StandartBlockItem>
-                    <StandartBlockItem name="Project manager" value="600"></StandartBlockItem>
-                    <StandartBlockItem name="Requirements engineer" value="0"></StandartBlockItem>
+                    <StandartBlockItem name="Project / Product Manager" value="600"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Other skills" type="Other">
                     <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>
                     <StandartBlockItem name="Driving" value="300"></StandartBlockItem>
-                    <StandartBlockItem name="World comprehension" value="3200"></StandartBlockItem>
+                    <StandartBlockItem name="World comprehension" value="3400"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Achievements">
@@ -61,12 +60,13 @@ const WinRPG = () => {
                       <CountBlock name="Fluency in 2 foreign languages" value="10000"></CountBlock>
                       <CountBlock name="Perfect storm 2020" value="2000"></CountBlock>
                       <CountBlock name="Developed a blog" value="500"></CountBlock>
+                      <CountBlock name="Career block" value="0"></CountBlock>
                     </div>
                   </StandartBlock>
 
                   <StandartBlock name="Art" type="Art">
                     <div className="countBlockContainer">
-                      <CountBlock name="Written book" value="1000"></CountBlock>
+                      <CountBlock name="Written book (later 2)" value="1000"></CountBlock>
                       <CountBlock name="Personal site" value="100"></CountBlock>
                     </div>
                   </StandartBlock>

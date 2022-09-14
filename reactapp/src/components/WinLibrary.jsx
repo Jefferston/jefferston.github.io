@@ -213,6 +213,10 @@ class WinLibrary extends React.Component {
                             <div className="book leading_change" data-topic="Management" data-type="Professional">
                                 <h2 className="books_title">Leading change</h2>
                             </div>
+
+                            <div className="book AddLater" data-topic="AddLater" data-type="Professional">
+                                <h2 className="books_title">Wolfzeit</h2>
+                            </div>
             
                             <div className="book economy_populism" data-topic="Research" data-type="Professional">
                                 <h2 className="books_title">The Political Economy of Populism</h2>

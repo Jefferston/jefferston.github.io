@@ -159,6 +159,12 @@
     background-position-y: 70%;
 }
 
+.library .AddLater {
+    background: #000;
+    /* background-image: url('../img/books/leading_change.jpg'); */
+    background-position-y: 70%;
+}
+
 .library .economy_populism {
     background-image: url('../img/books/populism.png');
     background-size: 120%;
