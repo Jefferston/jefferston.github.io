@@ -2,14 +2,14 @@
     /* background: #ebdbdbe1; */
     background: #a0c8db;
     overflow-y: auto;
-    top: 6%;
-    left: 8%;
-    width: 1340px;
-    height: 620px;
+    top: 10%;
+    left: 4%;
+    width: 80%;
+    height: 80%;
 }
 
 .galWindow .controls {
-    width: 1340px;
+    width: 80%;
 }
 
 .galWindow .header {

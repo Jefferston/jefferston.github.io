@@ -198,16 +198,8 @@ class WinLibrary extends React.Component {
                                 <h2 className="books_title">Out of crisis</h2>
                             </div>
             
-                            <div className="book data_science" data-topic="Data science" data-type="Professional">
-                                <h2 className="books_title">Doing data science</h2>
-                            </div>
-            
                             <div className="book data_statistics" data-topic="Data science" data-type="Professional">
                                 <h2 className="books_title">Statistics for data science</h2>
-                            </div>
-            
-                            <div className="book minimum_bigdata" data-topic="Data science" data-type="Professional">
-                                <h2 className="books_title">Theoretical minimum for big data</h2>
                             </div>
             
                             <div className="book leading_change" data-topic="Management" data-type="Professional">

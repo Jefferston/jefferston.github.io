@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.e5251974.css",
-    "main.js": "./static/js/main.9bdee493.js",
+    "main.css": "./static/css/main.19c7c14e.css",
+    "main.js": "./static/js/main.017d8501.js",
     "static/media/kotor.jpg": "./static/media/kotor.1e87ad42d72330ca680e.jpg",
     "static/media/brussels.jpg": "./static/media/brussels.cdacc77feaf169492c41.jpg",
     "static/media/millennium1.jpeg": "./static/media/millennium1.e3c52f75a112775103ad.jpeg",
@@ -30,7 +30,6 @@
     "static/media/princip_economics.jpg": "./static/media/princip_economics.e254e836aa90530d3a5e.jpg",
     "static/media/why_fail.jpg": "./static/media/why_fail.d2610732363be3f917d6.jpg",
     "static/media/valuation.jpg": "./static/media/valuation.01c0afb4227f3408f710.jpg",
-    "static/media/minimum_bigdata.jpeg": "./static/media/minimum_bigdata.f8c3a48accaab6aacc18.jpeg",
     "static/media/1984.jpg": "./static/media/1984.57a93e77997ab17d5c1b.jpg",
     "static/media/world.jpg": "./static/media/world.f432aa65b2a6b01a1709.jpg",
     "static/media/hell.jpg": "./static/media/hell.77f0120cab59f28348dc.jpg",
@@ -40,7 +39,6 @@
     "static/media/out_crisis.jpg": "./static/media/out_crisis.59d8af41414f8d95a939.jpg",
     "static/media/niggers.jpg": "./static/media/niggers.63c304432d0861529dda.jpg",
     "static/media/millennium2.jpg": "./static/media/millennium2.b3ecf1f697d1258e70c2.jpg",
-    "static/media/data_science.gif": "./static/media/data_science.dd7fc615ca2b717e9f7f.gif",
     "static/media/galaxy.jpg": "./static/media/galaxy.9b91c0f9c809c2c0c6c8.jpg",
     "static/media/millennium3.webp": "./static/media/millennium3.5b959d47f91969e76f8a.webp",
     "static/media/mockin.jpg": "./static/media/mockin.2cde4131546b61d410a8.jpg",
@@ -51,11 +49,11 @@
     "static/media/drummer.svg": "./static/media/drummer.345fec1bffc18fec8c7b.svg",
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
-    "main.e5251974.css.map": "./static/css/main.e5251974.css.map",
-    "main.9bdee493.js.map": "./static/js/main.9bdee493.js.map"
+    "main.19c7c14e.css.map": "./static/css/main.19c7c14e.css.map",
+    "main.017d8501.js.map": "./static/js/main.017d8501.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5251974.css",
-    "static/js/main.9bdee493.js"
+    "static/css/main.19c7c14e.css",
+    "static/js/main.017d8501.js"
   ]
 }

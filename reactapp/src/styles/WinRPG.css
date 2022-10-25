@@ -3,13 +3,14 @@
     overflow-y: auto;
     top: 18%;
     left: 24%;
-    width: 800px;
+    width: 50%;
+    height: 70%;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
 }
 
 .rpgWindow .controls {
-  width: 800px;
+  width: 50%;
 }
 
 .rpgWindow .header {

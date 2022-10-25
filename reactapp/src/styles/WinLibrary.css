@@ -2,14 +2,14 @@
     /* background: linear-gradient(to right top, #08A5C4, #6cdbeb); */
     background: #52a9d4;
     top: 10%;
-    left: 14%;
-    width: 1000px;
-    height: 600px;
+    left: 16%;
+    width: 60%;
+    height: 80%;
     overflow-y: auto;
 }
 
 .libWindow .controls {
-    width: 1000px;
+    width: 54%
 }
 
 .library {
@@ -30,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    align-self: flex-start;
 }
 
 .library .topics p {
@@ -81,7 +82,7 @@
     width: 180px;
     height: 250px;
     background: #000;
-    margin: 36px 26px;
+    margin: 36px 42px;
     border-radius: 6px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,17 +142,9 @@
     background-image: url('../img/books/out_crisis.jpg');
 }
 
-.library .data_science {
-    background-image: url('../img/books/data_science.gif');
-}
-
 .library .data_statistics {
     background-image: url('../img/books/statistics_data.jpg');
     background-position: 50%;
-}
-
-.library .minimum_bigdata {
-    background-image: url('../img/books/minimum_bigdata.jpeg');
 }
 
 .library .leading_change {
