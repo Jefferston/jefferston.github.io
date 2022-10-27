@@ -15,15 +15,11 @@ const getExperience = (el) => {
     // TODO
     let mainCitiesOfGermany = 
         ['Munich', 'Nuremberg', 'Berlin', 'Stuttgart', 'Koln', 'Aachen', 'Bremen', 'Hamburg', 'Ruhr-Aglomerance', 'Koblenz-Trier'];
-    //let mainCitiesOfAustria = ['Salzburg'];
-    //let mainCitiesOfBelgium = ['Brussels'];
+    let mainCitiesOfNetherlands = ['Rotterdam', 'Hague', 'Amsterdam'];
 
     // if >2 then; max 10
     count += (mainCitiesOfGermany.length - 1) * 100;
-
-    // if saw at lest 3 Villages / Castles / Other special stuff, then write here
-    let specialThingsinGermany = ['Villages', 'Castles'];
-    count += specialThingsinGermany.length * 100;
+    count += (mainCitiesOfNetherlands.length - 1) * 100;
 
 
     let exp = document.querySelector('.experience')
@@ -98,8 +94,8 @@ const getExperience = (el) => {
     let barLabel = document.querySelector('.lvlProg span');
     barLabel.textContent = `${haveOfThisLevel} / ${needToNewLevel}`;
 
-    console.log(levelArray);
-    console.log(count)
+    // console.log(levelArray);
+    // console.log(count)
     // console.log(`Level ${level}`);
     // console.log(`You need ${needToNewLevelMinusHaveOfThisLevel} experience to reach level ${level + 1}.`);
 }
@@ -121,7 +117,7 @@ class Experience extends React.Component {
 
         return (
             <div className="rpgTop">
-                <div>23, Requirements Engineer</div>
+                <div>23, Product Manager</div>
                 <ul>
                     <li><span>7</span>Inteligence</li>
                     <li><span>6</span>Charisma</li>

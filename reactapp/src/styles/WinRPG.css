@@ -1,16 +1,16 @@
 .rpgWindow {
     background: rgb(90, 192, 206);;
     overflow-y: auto;
-    top: 18%;
+    top: 15%;
     left: 24%;
-    width: 50%;
-    height: 70%;
+    width: 52%;
+    height: 75%;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
 }
 
 .rpgWindow .controls {
-  width: 50%;
+  width: 52%;
 }
 
 .rpgWindow .header {
