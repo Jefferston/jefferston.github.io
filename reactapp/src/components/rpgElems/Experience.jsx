@@ -117,7 +117,7 @@ class Experience extends React.Component {
 
         return (
             <div className="rpgTop">
-                <div>23, Product Manager</div>
+                <div>24, Product Manager</div>
                 <ul>
                     <li><span>7</span>Inteligence</li>
                     <li><span>6</span>Charisma</li>
