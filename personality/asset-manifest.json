@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f36bde42.css",
-    "main.js": "./static/js/main.d7126866.js",
+    "main.js": "./static/js/main.a78b819b.js",
     "static/media/kotor.jpg": "./static/media/kotor.1e87ad42d72330ca680e.jpg",
     "static/media/brussels.jpg": "./static/media/brussels.cdacc77feaf169492c41.jpg",
     "static/media/millennium1.jpeg": "./static/media/millennium1.e3c52f75a112775103ad.jpeg",
@@ -50,10 +50,10 @@
     "static/media/whoru.svg": "./static/media/whoru.2f70596e888bd224c5df.svg",
     "index.html": "./index.html",
     "main.f36bde42.css.map": "./static/css/main.f36bde42.css.map",
-    "main.d7126866.js.map": "./static/js/main.d7126866.js.map"
+    "main.a78b819b.js.map": "./static/js/main.a78b819b.js.map"
   },
   "entrypoints": [
     "static/css/main.f36bde42.css",
-    "static/js/main.d7126866.js"
+    "static/js/main.a78b819b.js"
   ]
 }
