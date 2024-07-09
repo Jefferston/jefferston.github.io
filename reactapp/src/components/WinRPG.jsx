@@ -36,19 +36,19 @@ const WinRPG = () => {
 
                   <StandartBlock name="Languages" type="Languages">
                     <StandartBlockItem name="English" value="10000"></StandartBlockItem>
-                    <StandartBlockItem name="Deutsch" value="3800"></StandartBlockItem>
+                    <StandartBlockItem name="Deutsch" value="4000"></StandartBlockItem>
                     <StandartBlockItem name="French" value="400"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Job experience" type="JobExp">
-                    <StandartBlockItem name="Data analyst" value="400"></StandartBlockItem>
-                    <StandartBlockItem name="Project / Product Manager" value="1900"></StandartBlockItem>
+                    <StandartBlockItem name="Data analyst" value="300"></StandartBlockItem>
+                    <StandartBlockItem name="Project / Product Manager" value="2100"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Other skills" type="Other">
                     <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>
-                    <StandartBlockItem name="Driving" value="1000"></StandartBlockItem>
-                    <StandartBlockItem name="World comprehension" value="5100"></StandartBlockItem>
+                    <StandartBlockItem name="Driving" value="2000"></StandartBlockItem>
+                    <StandartBlockItem name="World comprehension" value="5200"></StandartBlockItem>
                     <StandartBlockItem name="Fencing / Swords" value="0"></StandartBlockItem>
                   </StandartBlock>
 
@@ -59,7 +59,7 @@ const WinRPG = () => {
                       <CountBlock name="Fluency* in 2 foreign languages" value="10000"></CountBlock>
                       <CountBlock name="Perfect storm 2020" value="2000"></CountBlock>
                       <CountBlock name="Developed a blog" value="500"></CountBlock>
-                      <CountBlock name="Money earned" value="600"></CountBlock>
+                      <CountBlock name="Money earned" value="800"></CountBlock>
                       <CountBlock name="Career block" value="0"></CountBlock>
                     </div>
                   </StandartBlock>
@@ -86,6 +86,8 @@ const WinRPG = () => {
                       <CountBlockCountries name="Liechtenstein"></CountBlockCountries>
                       <CountBlockCountries name="Luxembourg"></CountBlockCountries>
                       <CountBlockCountries name="Turkey"></CountBlockCountries>
+                      <CountBlockCountries name="Britain"></CountBlockCountries>
+                      <CountBlockCountries name="Italy"></CountBlockCountries>
                     </div>
                   </StandartBlock>
                   
