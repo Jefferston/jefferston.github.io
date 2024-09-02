@@ -30,8 +30,8 @@ const WinRPG = () => {
 
                   <StandartBlock name="Knowledge" type="Knowledge">
                     <StandartBlockItem name="Engineering" value="1000"></StandartBlockItem>
-                    <StandartBlockItem name="Programming" value="1200"></StandartBlockItem>
-                    <StandartBlockItem name="Economics" value="1200"></StandartBlockItem>
+                    <StandartBlockItem name="Programming" value="1000"></StandartBlockItem>
+                    <StandartBlockItem name="Economics" value="1500"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Languages" type="Languages">
@@ -41,14 +41,14 @@ const WinRPG = () => {
                   </StandartBlock>
 
                   <StandartBlock name="Job experience" type="JobExp">
-                    <StandartBlockItem name="Data analyst" value="300"></StandartBlockItem>
-                    <StandartBlockItem name="Project / Product Manager" value="2100"></StandartBlockItem>
+                    <StandartBlockItem name="Analyst" value="1300"></StandartBlockItem>
+                    <StandartBlockItem name="Manager" value="1100"></StandartBlockItem>
                   </StandartBlock>
 
                   <StandartBlock name="Other skills" type="Other">
-                    <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>
-                    <StandartBlockItem name="Driving" value="2000"></StandartBlockItem>
-                    <StandartBlockItem name="World comprehension" value="5200"></StandartBlockItem>
+                    <StandartBlockItem name="World comprehension" value="5400"></StandartBlockItem>
+                    <StandartBlockItem name="Driving" value="3500"></StandartBlockItem>
+                    <StandartBlockItem name="Cybersport" value="2500"></StandartBlockItem>                    
                     <StandartBlockItem name="Fencing / Swords" value="0"></StandartBlockItem>
                   </StandartBlock>
 
@@ -59,14 +59,16 @@ const WinRPG = () => {
                       <CountBlock name="Fluency* in 2 foreign languages" value="10000"></CountBlock>
                       <CountBlock name="Perfect storm 2020" value="2000"></CountBlock>
                       <CountBlock name="Developed a blog" value="500"></CountBlock>
-                      <CountBlock name="Money earned" value="800"></CountBlock>
+                      <CountBlock name="Money earned" value="900"></CountBlock>
+                      <CountBlock name="Mountain peaks reached" value="2000"></CountBlock>
                       <CountBlock name="Career block" value="0"></CountBlock>
                     </div>
                   </StandartBlock>
 
                   <StandartBlock name="Art" type="Art">
                     <div className="countBlockContainer">
-                      <CountBlock name="Written books" value="1800"></CountBlock>
+                      <CountBlock name="Monster" value="1600"></CountBlock>
+                      <CountBlock name="Dancing in the fire" value="800"></CountBlock>
                       <CountBlock name="Personal site" value="100"></CountBlock>
                     </div>
                   </StandartBlock>
