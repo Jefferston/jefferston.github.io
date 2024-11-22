@@ -1,0 +1,327 @@
+.rpgWindow {
+    background: rgb(90, 192, 206);;
+    overflow-y: auto;
+    top: 15%;
+    left: 24%;
+    width: 52%;
+    height: 75%;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+.rpgWindow .controls {
+  width: 52%;
+}
+
+.rpgWindow .header {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;  
+}
+
+.rpgHead {
+  width: 100%;
+}
+
+.rpgHead .rpgTop{
+  margin-top: 30px;
+}
+
+.rpgTop ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.rpgTop ul li {
+  list-style-type: none;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.rpgTop ul li span {
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.rpgTop div:first-child {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.rpgTop div:nth-child(3) {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.rpgTop div {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.windowContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rpgBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+  
+.glass {
+  background: white;
+  width: 92%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(95, 214, 230, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+
+  border-radius: 1rem;
+  backdrop-filter: blur(2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
+  margin: 10px 20px;
+  padding-bottom: 16px;
+}
+
+.glass h1 {
+  font-family: 'MuseoModerno';
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: none;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 14px;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+  background: rgba(93, 219, 238, 0.9);
+  font-size: 30px;
+  position: relative;
+}
+
+.item, .countItem {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(240, 240, 240, 1),
+    rgba(240, 240, 240, 0.5)
+  );
+  width: 94%;
+  border-radius: 0.5rem;
+  margin-top: 12px;
+  box-shadow: 16px 16px 20px rgba(122, 122, 122, 0.212);
+  align-items: center; 
+  flex-direction: column;
+  font-family: 'MuseoModerno', cursive;
+  padding: 4px 0;
+}
+
+.countItem {
+  width: auto;
+  display: flex;
+  flex-direction: row !important;
+  align-self: start;
+  justify-content: start;
+  margin-left: 16px;
+  flex-wrap: wrap;
+}
+
+.item .itemHead, .countItem .itemHead {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.countItem .itemHead {
+  width: auto;
+}
+
+.countItem .itemHead span:last-child {
+  font-family: 'MuseoModerno', cursive;
+}
+
+.itemHead .country {
+  padding: 4px;
+}
+
+.countBlockContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  flex-wrap: wrap;
+}
+
+.countBlockContainer .itemName span:first-child {
+  padding: 8px;
+}
+
+.countBlockContainer .itemName span:last-child {
+  background: rgb(105, 218, 105);
+  height: 100%;
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  padding: 4px;
+  align-self: end;
+}
+
+.item .itemHead .itemButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26px;
+}
+
+.item .itemHead .itemButtons .buttonGreen {
+  background: rgb(105, 218, 105);
+}
+
+.item .itemHead .itemButtons .buttonRed {
+  background: red;
+}
+
+.item .itemHead .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.item .prog {
+  /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+  /* background: linear-gradient(to right top, #65dfc9, #1CB0F6); */
+  background: rgb(217, 212, 212);
+  width: 90%;
+  height: 16px;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .prog span {
+  z-index: 2;
+}
+
+.item .ress {
+  height: 100%;
+  background: linear-gradient(to right top, #65dfc9, #1CB0F6);
+  position: absolute;
+  left: 0%;
+}
+
+/* .add {
+  font-weight: bold;
+  margin-top: 14px;
+  font-size: 1.3em;
+  font-family: 'Roboto';
+  width: 99.7%;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(62, 212, 231, 0.8);
+  border-radius: 0 0 0.5rem 0.5rem;
+} */
+
+.lvlProg {
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: relative;
+}
+
+.lvlProg span {
+  color: white;
+  position: absolute;
+  top: 22%;
+  left: 43%;
+}
+
+.lvlRess {
+  background: #000;
+  height: 100%;
+  background: #7AC70C;
+}
+
+.traits {
+  height: 50px;
+  background: rgb(174, 71, 71);
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+  .rpgWindow {
+      visibility: visible;
+      display: block;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+  }
+
+  .rpgWindow .controls {
+    display: none;
+  }
+
+  .rpgBody {
+      margin-bottom: 60px;
+  }
+
+  .glass {
+    background: rgb(9, 152, 171);
+  }
+
+  .glass h1 {
+    background: rgba(70, 175, 192, 0.9);
+  }
+
+  .traits {
+    display: none;
+  }
+
+  .mobileSwitch {
+      display: flex !important;
+      justify-content: space-around;
+  }
+
+  .mobilePrev, .mobileNext {
+      font-size: 16px !important;
+  }
+}
+
+
+
+.mobileSwitch {
+  display: none;
+}

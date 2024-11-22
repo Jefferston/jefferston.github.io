@@ -1,0 +1,9 @@
+@media screen and (max-width: 770px) {
+    .window {
+        visibility: hidden;
+    }
+
+    .desk {
+        visibility: hidden;
+    }
+}

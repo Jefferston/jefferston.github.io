@@ -1,0 +1,96 @@
+.portfolio {
+    top: 6%;
+    left: 28%;
+    height: 80%;
+    width: 45%;
+    background: white;
+    overflow-y: scroll;
+}
+
+.portfolio .controls {
+    width: 45%;
+}
+
+/* .portfolio .windowContent {
+    height: 540px;
+    width: 100%;
+} */
+
+.portfolio .AboutMeMain {
+    width: 100%;
+}
+
+.portfolio .partOne {
+    background: #EBE2D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partOne .MePresentation {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80%;
+}
+
+.MePresentation .MeOnePhoto {
+    /* background: #000; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 100%;
+    height: 320px;
+    width: 300px;
+    margin-left: -20px;
+}
+
+/* ADD RED EYES */
+
+.MePresentation .MeOneName {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.MePresentation .MeOneName_Main {
+    font-size: 32px;
+    font-weight: 800;
+    color: #3F4537;
+    text-align: left;
+}
+
+.MePresentation .MeOneName_Pathos {
+    text-align: left;
+    font-size: 20px;
+    color: #E26445;
+    margin-top: -4px;
+}
+
+.portfolio .partTwo {
+    background: #FBF7EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partTwo .MeStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.MeStory .MeTwoPhoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+/* ADD THE ROTATION ANIMATION */
+
+.MeStory .MeTwoText {
+    text-align: left;
+    width: 600px;
+}

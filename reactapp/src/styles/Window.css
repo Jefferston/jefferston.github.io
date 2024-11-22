@@ -1,0 +1,27 @@
+.window {
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    width: 940px;
+    height: 500px;
+    display: none;
+    border-bottom: 4px solid black;
+    z-index: 5;
+}
+
+.window .controls {
+    background: black;
+    height: 14px;
+    position: fixed;
+    width: 940px;
+    z-index: 3;
+    /* top: 18%;
+    left: 22%;*/
+}
+
+.window .controls .closeBtn {
+    background: red;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}

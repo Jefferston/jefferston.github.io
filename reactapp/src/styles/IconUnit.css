@@ -1,0 +1,48 @@
+.iconUnit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+    width: 120px;
+    /* border: 1px solid black; */
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+.icon_text {
+    font-family: 'Koulen', cursive !important;
+    user-select: none;
+}
+
+.iconMe {
+    background-image: url('../img/icons/face.svg');
+}
+
+.iconBooks {
+    background-image: url('../img/icons/books.svg');
+}
+
+.iconAch {
+    background-image: url('../img/icons/anaesterizer.svg');
+}
+
+.iconGal {
+    background-image: url('../img/icons/whoru.svg');
+}
+
+.iconRPG {
+    background-image: url('../img/icons/drummer.svg');
+}
+
+.selected .icon, .selected .icon_text{
+    box-shadow: 0px 0px 0px 6px blue;
+    background-color: blue;
+    color: white;
+  }

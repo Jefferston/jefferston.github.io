@@ -1,0 +1,235 @@
+.libWindow {
+    /* background: linear-gradient(to right top, #08A5C4, #6cdbeb); */
+    background: #52a9d4;
+    top: 10%;
+    left: 16%;
+    width: 60%;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.libWindow .controls {
+    width: 60%
+}
+
+.library {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.library h1 {
+    font-size: 34px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.library .topics {
+    padding: 10px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-self: flex-start;
+}
+
+.library .topics p {
+    border: 3px solid black;
+    background: #1CB0F6;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    user-select: none;
+}
+
+.library .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 50px;
+    width: 95%;
+}
+
+.library .switcher {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-self: start;
+    margin-left: 10px;
+}
+
+.library .switcher p {
+    border: 3px solid black;
+    background: #1CB0F6;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    user-select: none;
+}
+
+.book {
+    width: 180px;
+    height: 250px;
+    background: #000;
+    margin: 36px 42px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.books_title {
+    position: relative;
+    bottom: -104%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.genre-selected {
+    border: 3px solid #d80056d7 !important;
+}
+
+.library .princip_economics {
+    background-image: url('../img/books/princip_economics.jpg');
+    background-position-x: 50%;
+}
+
+.library .macroeconomics {
+    background-image: url('../img/books/macroeconomics.jpg');
+    background-position-x: 70%;
+}
+
+.library .valuation {
+    background-image: url('../img/books/valuation.jpg');
+    background-position-y: 34%;
+}
+
+.library .why_nations_fail {
+    background-image: url('../img/books/why_fail.jpg');
+}
+
+.library .eloquent_js {
+    background-image: url('../img/books/js.png');
+    background-position-x: 50%;
+}
+
+.library .learn_sql {
+    background-image: url('../img/books/learn_sql.jpg');
+}
+
+.library .math_world {
+    background-image: url('../img/books/math.jpg');
+}
+
+.library .lean_management {
+    background-image: url('../img/books/lean_management.jpg');
+    background-size: 100%;
+    background-position-y: 70%;
+}
+
+.library .out_crisis {
+    background-image: url('../img/books/out_crisis.jpg');
+}
+
+.library .data_statistics {
+    background-image: url('../img/books/statistics_data.jpg');
+    background-position: 50%;
+}
+
+.library .leading_change {
+    background-image: url('../img/books/leading_change.jpg');
+    background-position-y: 70%;
+}
+
+.library .AddLater {
+    background: #000;
+    background-image: url('../img/books/leading_change.jpg');
+    background-position-y: 70%;
+}
+
+.library .economy_populism {
+    background-image: url('../img/books/populism.png');
+    background-size: 120%;
+    background-position: 40%;
+}
+
+
+
+/* .library .hell {
+    background-image: url('../img/covers/hell.jpg');
+} */
+
+/* .library .container .mockin {
+    background-image: url('../img/covers/mockin.jpg');
+}
+
+.library .galaxy {
+    background-image: url('../img/covers/galaxy.jpg');
+}
+
+.library .innsmut {
+    background-image: url('../img/covers/innsmut.jpg');
+}
+
+.library .legend {
+    background-image: url('../img/covers/legend.webp');
+    background-position-y: 50%;
+}
+
+.library .choke {
+    background-image: url('../img/covers/choke.webp');
+    background-position-y: 20%;
+}
+
+.library .atlant {
+    background-image: url('../img/covers/atlant.jpg');
+}
+
+.library .atlant2 {
+    background-image: url('../img/covers/atlant2.jpg');
+}
+
+.library .niggers {
+    background-image: url('../img/covers/niggers.jpg');
+}
+
+.library .oruel {
+    background-image: url('../img/covers/1984.jpg');
+}
+
+.library .millennium1 {
+    background-image: url('../img/covers/millennium1.jpeg');
+}
+
+.library .millennium2 {
+    background-image: url('../img/covers/millennium2.jpg');
+}
+
+.library .millennium3 {
+    background-image: url('../img/covers/millennium3.webp');
+}
+
+.library .geralt {
+    background-image: url('../img/covers/geralt.jpeg');
+    background-position-y: 20%;
+}
+
+.library .ciri {
+    background-image: url('../img/covers/ciri.jpg');
+    background-position-y: 20%;
+}
+
+.library .world {
+    background-image: url('../img/covers/world.jpg');
+} */
