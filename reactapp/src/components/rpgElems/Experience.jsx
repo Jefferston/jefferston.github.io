@@ -6,7 +6,7 @@ import '../../styles/WinRPG.css'
 const getExperience = (el) => {
     let count = 0;
 
-    let Age = 25;
+    let Age = 26;
     count += (Age - 12) * 1000;
 
     let numberOfBooks = 16;
@@ -117,7 +117,7 @@ class Experience extends React.Component {
 
         return (
             <div className="rpgTop">
-                <div>25, Battle mage</div>
+                <div>26, Battle mage</div>
                 <ul>
                     <li><span>7</span>Inteligence</li>
                     <li><span>7</span>Charisma</li>
