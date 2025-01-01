@@ -38,24 +38,27 @@ const WinRPG = () => {
 
                   <StandartBlock name="Languages" type="Languages">
                     <StandartBlockItem name="English" value="10000"></StandartBlockItem>
-                    <StandartBlockItem name="Deutsch" value="6200"></StandartBlockItem>
-                    <StandartBlockItem name="French" value="500"></StandartBlockItem>
+                    <StandartBlockItem name="Deutsch" value="6300"></StandartBlockItem>
+                    <StandartBlockItem name="French" value="800"></StandartBlockItem>
                   </StandartBlock>
 
 
                   <StandartBlock name="Other skills" type="Other">
                     <StandartBlockItem name="World comprehension" value="5600"></StandartBlockItem>
                     <StandartBlockItem name="Driving" value="4000"></StandartBlockItem>
-                    <StandartBlockItem name="Company slave" value="3100"></StandartBlockItem>                   
+                    <StandartBlockItem name="Company slave" value="3200"></StandartBlockItem>                   
                     {/* <StandartBlockItem name="Fencing / Swords" value="0"></StandartBlockItem> */}
+                    {/* <StandartBlockItem name="Mask making / Swords" value="0"></StandartBlockItem> */}
                   </StandartBlock>
 
                   <StandartBlock name="Achievements">
                     <div className="countBlockContainer">
                       <CountBlock name="Bachelor's degree" value="10000"></CountBlock>
+                      <CountBlock name="Degree in technical field" value="2000"></CountBlock>
                       <CountBlock name="Living abroad" value="5000"></CountBlock>
+                      {/* <CountBlock name="Permanent obtained" value="5000"></CountBlock> */}
                       <CountBlock name="Fluency* in 2 foreign languages" value="10000"></CountBlock>
-                      <CountBlock name="Perfect storm 2020" value="2000"></CountBlock>
+                      <CountBlock name="Perfect storm 2020" value="1000"></CountBlock>
                       <CountBlock name="Developed a blog" value="500"></CountBlock>
                       <CountBlock name="Money earned" value="1000"></CountBlock>
                       <CountBlock name="Mountain peaks reached" value="2000"></CountBlock>
